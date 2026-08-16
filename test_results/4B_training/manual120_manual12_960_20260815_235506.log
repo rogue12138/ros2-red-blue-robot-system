@@ -1,0 +1,12 @@
+Ultralytics 8.4.120 🚀 Python-3.10.12 torch-2.13.0+cpu CPU (Intel Core Ultra 5 125H)
+YOLO11n summary (fused): 101 layers, 2,582,542 parameters, 0 gradients, 6.4 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 6732.5±2200.2 MB/s, size: 211.8 KB)
+[K[34m[1mval: [0mScanning /home/ros/robot_ws/datasets/color_cubes_training/synthetic200_manual120_20260815_223327/labels/test... 12 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 12/12 2.9Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /home/ros/robot_ws/datasets/color_cubes_training/synthetic200_manual120_20260815_223327/labels/test.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 16% ━━────────── 1/6 1.3it/s 0.2s<3.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 2/6 2.4it/s 0.4s<1.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 3/6 3.1it/s 0.7s<1.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 66% ━━━━━━━━──── 4/6 3.7it/s 0.8s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 83% ━━━━━━━━━━── 5/6 3.3it/s 1.3s<0.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 6/6 3.4it/s 1.8s
+                   all         12         40       0.99      0.793      0.923      0.611
+              red_cube         11         18      0.987      0.722        0.9      0.631
+             blue_cube          8         22      0.993      0.864      0.945       0.59
+Speed: 2.0ms preprocess, 128.1ms inference, 0.0ms loss, 2.0ms postprocess per image
+Results saved to [1m/home/ros/robot_ws/validation_runs/manual120_manual12_960_20260815_235506[0m
+💡 Learn more at https://docs.ultralytics.com/modes/val

@@ -1,0 +1,31 @@
+{
+  "test_environment": "random_scene_simulation",
+  "required_trials_per_class": 10,
+  "minimum_required_rate": 0.95,
+  "minimum_iou": 0.5,
+  "edge_tolerance_pixels": 10,
+  "classes": {
+    "red_cube": {
+      "trials": 10,
+      "detection_successes": 10,
+      "detection_rate": 1.0,
+      "edge_successes": 10,
+      "edge_rate": 1.0,
+      "mean_edge_error_pixels": 2.15,
+      "maximum_edge_error_pixels": 9,
+      "pass": true
+    },
+    "blue_cube": {
+      "trials": 10,
+      "detection_successes": 10,
+      "detection_rate": 1.0,
+      "edge_successes": 10,
+      "edge_rate": 1.0,
+      "mean_edge_error_pixels": 1.85,
+      "maximum_edge_error_pixels": 9,
+      "pass": true
+    }
+  },
+  "overall_result": "PASS",
+  "note": "该结果来自模拟随机场景，正式比赛场景接入后必须重新验收。"
+}

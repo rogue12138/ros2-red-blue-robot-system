@@ -1,0 +1,7 @@
+path: /home/ros/robot_ws/datasets/color_cubes_training/yolo_200_v1
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: red_cube
+  1: blue_cube

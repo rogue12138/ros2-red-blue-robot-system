@@ -1,0 +1,495 @@
+{
+  "pool_root": "/home/ros/robot_ws/datasets/user_cube_dataset/active_pool_590_20260815_221618",
+  "prediction_directory": "/home/ros/robot_ws/datasets/user_cube_dataset/active_pool_590_20260815_221618/predictions/active_pool_predictions_960_20260815_221808",
+  "selected_image_count": 60,
+  "selection_reason_counts": {
+    "no_detection": 20,
+    "low_confidence": 20,
+    "small_object": 15,
+    "diversity_control": 5
+  },
+  "hardlink_count": 60,
+  "copy_count": 0,
+  "entries": [
+    {
+      "review_image": "active_001_manual_0517_b2fab463.jpg",
+      "source_image": "manual_0517_b2fab463.jpg",
+      "reason": "no_detection",
+      "prediction_count": 0,
+      "minimum_confidence": null,
+      "minimum_area": null
+    },
+    {
+      "review_image": "active_002_manual_0527_6a2cd818.jpg",
+      "source_image": "manual_0527_6a2cd818.jpg",
+      "reason": "no_detection",
+      "prediction_count": 0,
+      "minimum_confidence": null,
+      "minimum_area": null
+    },
+    {
+      "review_image": "active_003_manual_0530_4ba5feb0.jpg",
+      "source_image": "manual_0530_4ba5feb0.jpg",
+      "reason": "no_detection",
+      "prediction_count": 0,
+      "minimum_confidence": null,
+      "minimum_area": null
+    },
+    {
+      "review_image": "active_004_manual_0536_c39d6b95.jpg",
+      "source_image": "manual_0536_c39d6b95.jpg",
+      "reason": "no_detection",
+      "prediction_count": 0,
+      "minimum_confidence": null,
+      "minimum_area": null
+    },
+    {
+      "review_image": "active_005_manual_0539_e5f0ec76.jpg",
+      "source_image": "manual_0539_e5f0ec76.jpg",
+      "reason": "no_detection",
+      "prediction_count": 0,
+      "minimum_confidence": null,
+      "minimum_area": null
+    },
+    {
+      "review_image": "active_006_manual_0564_efdc772b.jpg",
+      "source_image": "manual_0564_efdc772b.jpg",
+      "reason": "no_detection",
+      "prediction_count": 0,
+      "minimum_confidence": null,
+      "minimum_area": null
+    },
+    {
+      "review_image": "active_007_manual_0566_bfbd28b7.jpg",
+      "source_image": "manual_0566_bfbd28b7.jpg",
+      "reason": "no_detection",
+      "prediction_count": 0,
+      "minimum_confidence": null,
+      "minimum_area": null
+    },
+    {
+      "review_image": "active_008_manual_0569_2a42b920.jpg",
+      "source_image": "manual_0569_2a42b920.jpg",
+      "reason": "no_detection",
+      "prediction_count": 0,
+      "minimum_confidence": null,
+      "minimum_area": null
+    },
+    {
+      "review_image": "active_009_manual_0572_aeefea7e.jpg",
+      "source_image": "manual_0572_aeefea7e.jpg",
+      "reason": "no_detection",
+      "prediction_count": 0,
+      "minimum_confidence": null,
+      "minimum_area": null
+    },
+    {
+      "review_image": "active_010_manual_0576_a8b08033.jpg",
+      "source_image": "manual_0576_a8b08033.jpg",
+      "reason": "no_detection",
+      "prediction_count": 0,
+      "minimum_confidence": null,
+      "minimum_area": null
+    },
+    {
+      "review_image": "active_011_manual_0578_c8bf28bf.jpg",
+      "source_image": "manual_0578_c8bf28bf.jpg",
+      "reason": "no_detection",
+      "prediction_count": 0,
+      "minimum_confidence": null,
+      "minimum_area": null
+    },
+    {
+      "review_image": "active_012_manual_0581_b526bb04.jpg",
+      "source_image": "manual_0581_b526bb04.jpg",
+      "reason": "no_detection",
+      "prediction_count": 0,
+      "minimum_confidence": null,
+      "minimum_area": null
+    },
+    {
+      "review_image": "active_013_manual_0585_1cea6fd4.jpg",
+      "source_image": "manual_0585_1cea6fd4.jpg",
+      "reason": "no_detection",
+      "prediction_count": 0,
+      "minimum_confidence": null,
+      "minimum_area": null
+    },
+    {
+      "review_image": "active_014_manual_0605_e81dc2f0.jpg",
+      "source_image": "manual_0605_e81dc2f0.jpg",
+      "reason": "no_detection",
+      "prediction_count": 0,
+      "minimum_confidence": null,
+      "minimum_area": null
+    },
+    {
+      "review_image": "active_015_manual_0608_8e874ca2.jpg",
+      "source_image": "manual_0608_8e874ca2.jpg",
+      "reason": "no_detection",
+      "prediction_count": 0,
+      "minimum_confidence": null,
+      "minimum_area": null
+    },
+    {
+      "review_image": "active_016_manual_0611_dc6d7a0a.jpg",
+      "source_image": "manual_0611_dc6d7a0a.jpg",
+      "reason": "no_detection",
+      "prediction_count": 0,
+      "minimum_confidence": null,
+      "minimum_area": null
+    },
+    {
+      "review_image": "active_017_manual_0614_feb88457.jpg",
+      "source_image": "manual_0614_feb88457.jpg",
+      "reason": "no_detection",
+      "prediction_count": 0,
+      "minimum_confidence": null,
+      "minimum_area": null
+    },
+    {
+      "review_image": "active_018_manual_0644_0ac65bf9.jpg",
+      "source_image": "manual_0644_0ac65bf9.jpg",
+      "reason": "no_detection",
+      "prediction_count": 0,
+      "minimum_confidence": null,
+      "minimum_area": null
+    },
+    {
+      "review_image": "active_019_manual_0646_f38984ab.jpg",
+      "source_image": "manual_0646_f38984ab.jpg",
+      "reason": "no_detection",
+      "prediction_count": 0,
+      "minimum_confidence": null,
+      "minimum_area": null
+    },
+    {
+      "review_image": "active_020_manual_0649_c8e7df05.jpg",
+      "source_image": "manual_0649_c8e7df05.jpg",
+      "reason": "no_detection",
+      "prediction_count": 0,
+      "minimum_confidence": null,
+      "minimum_area": null
+    },
+    {
+      "review_image": "active_021_manual_0051_39c4cc07.jpg",
+      "source_image": "manual_0051_39c4cc07.jpg",
+      "reason": "low_confidence",
+      "prediction_count": 2,
+      "minimum_confidence": 0.051981,
+      "minimum_area": 9.314197763600001e-05
+    },
+    {
+      "review_image": "active_022_manual_0052_0077ce14.jpg",
+      "source_image": "manual_0052_0077ce14.jpg",
+      "reason": "low_confidence",
+      "prediction_count": 2,
+      "minimum_confidence": 0.051981,
+      "minimum_area": 9.314197763600001e-05
+    },
+    {
+      "review_image": "active_023_manual_0053_39eaae72.jpg",
+      "source_image": "manual_0053_39eaae72.jpg",
+      "reason": "low_confidence",
+      "prediction_count": 2,
+      "minimum_confidence": 0.051981,
+      "minimum_area": 9.314197763600001e-05
+    },
+    {
+      "review_image": "active_024_manual_0503_ca3805e3.jpg",
+      "source_image": "manual_0503_ca3805e3.jpg",
+      "reason": "low_confidence",
+      "prediction_count": 8,
+      "minimum_confidence": 0.0545606,
+      "minimum_area": 4.9645100892e-05
+    },
+    {
+      "review_image": "active_025_manual_0504_40aba587.jpg",
+      "source_image": "manual_0504_40aba587.jpg",
+      "reason": "low_confidence",
+      "prediction_count": 8,
+      "minimum_confidence": 0.0545606,
+      "minimum_area": 4.9645100892e-05
+    },
+    {
+      "review_image": "active_026_manual_0505_59378d69.jpg",
+      "source_image": "manual_0505_59378d69.jpg",
+      "reason": "low_confidence",
+      "prediction_count": 8,
+      "minimum_confidence": 0.0545606,
+      "minimum_area": 4.9645100892e-05
+    },
+    {
+      "review_image": "active_027_manual_0311_6517a78d.jpg",
+      "source_image": "manual_0311_6517a78d.jpg",
+      "reason": "low_confidence",
+      "prediction_count": 5,
+      "minimum_confidence": 0.0562913,
+      "minimum_area": 9.458450586000001e-05
+    },
+    {
+      "review_image": "active_028_manual_0032_4995afb0.jpg",
+      "source_image": "manual_0032_4995afb0.jpg",
+      "reason": "low_confidence",
+      "prediction_count": 6,
+      "minimum_confidence": 0.0596893,
+      "minimum_area": 5.0077533241999996e-05
+    },
+    {
+      "review_image": "active_029_manual_0033_7956a886.jpg",
+      "source_image": "manual_0033_7956a886.jpg",
+      "reason": "low_confidence",
+      "prediction_count": 6,
+      "minimum_confidence": 0.0596893,
+      "minimum_area": 5.0077533241999996e-05
+    },
+    {
+      "review_image": "active_030_manual_0227_67494e44.jpg",
+      "source_image": "manual_0227_67494e44.jpg",
+      "reason": "low_confidence",
+      "prediction_count": 6,
+      "minimum_confidence": 0.0621939,
+      "minimum_area": 0.00015508344345
+    },
+    {
+      "review_image": "active_031_manual_0228_5f385a3a.jpg",
+      "source_image": "manual_0228_5f385a3a.jpg",
+      "reason": "low_confidence",
+      "prediction_count": 6,
+      "minimum_confidence": 0.0621939,
+      "minimum_area": 0.00015508344345
+    },
+    {
+      "review_image": "active_032_manual_0229_6e680430.jpg",
+      "source_image": "manual_0229_6e680430.jpg",
+      "reason": "low_confidence",
+      "prediction_count": 6,
+      "minimum_confidence": 0.0621939,
+      "minimum_area": 0.00015508344345
+    },
+    {
+      "review_image": "active_033_manual_0230_9c2b37d2.jpg",
+      "source_image": "manual_0230_9c2b37d2.jpg",
+      "reason": "low_confidence",
+      "prediction_count": 6,
+      "minimum_confidence": 0.0621939,
+      "minimum_area": 0.00015508344345
+    },
+    {
+      "review_image": "active_034_manual_0035_6332c461.jpg",
+      "source_image": "manual_0035_6332c461.jpg",
+      "reason": "low_confidence",
+      "prediction_count": 6,
+      "minimum_confidence": 0.0635711,
+      "minimum_area": 4.85389311093e-05
+    },
+    {
+      "review_image": "active_035_manual_0036_113ecd22.jpg",
+      "source_image": "manual_0036_113ecd22.jpg",
+      "reason": "low_confidence",
+      "prediction_count": 6,
+      "minimum_confidence": 0.0635711,
+      "minimum_area": 4.85389311093e-05
+    },
+    {
+      "review_image": "active_036_manual_0037_70d2241c.jpg",
+      "source_image": "manual_0037_70d2241c.jpg",
+      "reason": "low_confidence",
+      "prediction_count": 6,
+      "minimum_confidence": 0.0635711,
+      "minimum_area": 4.85389311093e-05
+    },
+    {
+      "review_image": "active_037_manual_0181_fe0a265d.jpg",
+      "source_image": "manual_0181_fe0a265d.jpg",
+      "reason": "low_confidence",
+      "prediction_count": 5,
+      "minimum_confidence": 0.063653,
+      "minimum_area": 6.275165754e-05
+    },
+    {
+      "review_image": "active_038_manual_0506_16806a44.jpg",
+      "source_image": "manual_0506_16806a44.jpg",
+      "reason": "low_confidence",
+      "prediction_count": 8,
+      "minimum_confidence": 0.0640618,
+      "minimum_area": 5.104202536300001e-05
+    },
+    {
+      "review_image": "active_039_manual_0182_16d81cad.jpg",
+      "source_image": "manual_0182_16d81cad.jpg",
+      "reason": "low_confidence",
+      "prediction_count": 5,
+      "minimum_confidence": 0.0641691,
+      "minimum_area": 6.3354961488e-05
+    },
+    {
+      "review_image": "active_040_manual_0183_c48b7587.jpg",
+      "source_image": "manual_0183_c48b7587.jpg",
+      "reason": "low_confidence",
+      "prediction_count": 5,
+      "minimum_confidence": 0.0641691,
+      "minimum_area": 6.3354961488e-05
+    },
+    {
+      "review_image": "active_041_manual_0031_719cb8d3.jpg",
+      "source_image": "manual_0031_719cb8d3.jpg",
+      "reason": "small_object",
+      "prediction_count": 5,
+      "minimum_confidence": 0.190231,
+      "minimum_area": 4.65920995337e-05
+    },
+    {
+      "review_image": "active_042_manual_0499_3473ff25.jpg",
+      "source_image": "manual_0499_3473ff25.jpg",
+      "reason": "small_object",
+      "prediction_count": 5,
+      "minimum_confidence": 0.122024,
+      "minimum_area": 4.8410670481e-05
+    },
+    {
+      "review_image": "active_043_manual_0500_2cc134ab.jpg",
+      "source_image": "manual_0500_2cc134ab.jpg",
+      "reason": "small_object",
+      "prediction_count": 5,
+      "minimum_confidence": 0.122024,
+      "minimum_area": 4.8410670481e-05
+    },
+    {
+      "review_image": "active_044_manual_0038_de0fa583.jpg",
+      "source_image": "manual_0038_de0fa583.jpg",
+      "reason": "small_object",
+      "prediction_count": 6,
+      "minimum_confidence": 0.127948,
+      "minimum_area": 4.9423913028000004e-05
+    },
+    {
+      "review_image": "active_045_manual_0039_01953f0c.jpg",
+      "source_image": "manual_0039_01953f0c.jpg",
+      "reason": "small_object",
+      "prediction_count": 6,
+      "minimum_confidence": 0.127948,
+      "minimum_area": 4.9423913028000004e-05
+    },
+    {
+      "review_image": "active_046_manual_0040_9d365b78.jpg",
+      "source_image": "manual_0040_9d365b78.jpg",
+      "reason": "small_object",
+      "prediction_count": 6,
+      "minimum_confidence": 0.127948,
+      "minimum_area": 4.9423913028000004e-05
+    },
+    {
+      "review_image": "active_047_manual_0197_52f7abc2.jpg",
+      "source_image": "manual_0197_52f7abc2.jpg",
+      "reason": "small_object",
+      "prediction_count": 3,
+      "minimum_confidence": 0.158968,
+      "minimum_area": 5.17275912448e-05
+    },
+    {
+      "review_image": "active_048_manual_0198_3e942b66.jpg",
+      "source_image": "manual_0198_3e942b66.jpg",
+      "reason": "small_object",
+      "prediction_count": 3,
+      "minimum_confidence": 0.158968,
+      "minimum_area": 5.17275912448e-05
+    },
+    {
+      "review_image": "active_049_manual_0200_f975e49d.jpg",
+      "source_image": "manual_0200_f975e49d.jpg",
+      "reason": "small_object",
+      "prediction_count": 3,
+      "minimum_confidence": 0.158968,
+      "minimum_area": 5.17275912448e-05
+    },
+    {
+      "review_image": "active_050_manual_0194_103d9332.jpg",
+      "source_image": "manual_0194_103d9332.jpg",
+      "reason": "small_object",
+      "prediction_count": 3,
+      "minimum_confidence": 0.18535,
+      "minimum_area": 5.344431182999999e-05
+    },
+    {
+      "review_image": "active_051_manual_0195_523d7de7.jpg",
+      "source_image": "manual_0195_523d7de7.jpg",
+      "reason": "small_object",
+      "prediction_count": 3,
+      "minimum_confidence": 0.18535,
+      "minimum_area": 5.344431182999999e-05
+    },
+    {
+      "review_image": "active_052_manual_0196_23b2b9cf.jpg",
+      "source_image": "manual_0196_23b2b9cf.jpg",
+      "reason": "small_object",
+      "prediction_count": 3,
+      "minimum_confidence": 0.18535,
+      "minimum_area": 5.344431182999999e-05
+    },
+    {
+      "review_image": "active_053_manual_0497_a7b96e08.jpg",
+      "source_image": "manual_0497_a7b96e08.jpg",
+      "reason": "small_object",
+      "prediction_count": 5,
+      "minimum_confidence": 0.185695,
+      "minimum_area": 5.3986976976199994e-05
+    },
+    {
+      "review_image": "active_054_manual_0498_daf6988e.jpg",
+      "source_image": "manual_0498_daf6988e.jpg",
+      "reason": "small_object",
+      "prediction_count": 5,
+      "minimum_confidence": 0.185695,
+      "minimum_area": 5.3986976976199994e-05
+    },
+    {
+      "review_image": "active_055_manual_0640_49ae2b67.jpg",
+      "source_image": "manual_0640_49ae2b67.jpg",
+      "reason": "small_object",
+      "prediction_count": 2,
+      "minimum_confidence": 0.348026,
+      "minimum_area": 6.0635750931e-05
+    },
+    {
+      "review_image": "active_056_manual_0002_59ff0d1e.jpg",
+      "source_image": "manual_0002_59ff0d1e.jpg",
+      "reason": "diversity_control",
+      "prediction_count": 4,
+      "minimum_confidence": 0.641138,
+      "minimum_area": 0.00023362485196
+    },
+    {
+      "review_image": "active_057_manual_0162_7e2b1f29.jpg",
+      "source_image": "manual_0162_7e2b1f29.jpg",
+      "reason": "diversity_control",
+      "prediction_count": 4,
+      "minimum_confidence": 0.459757,
+      "minimum_area": 0.00011837943729200001
+    },
+    {
+      "review_image": "active_058_manual_0324_281aec01.jpg",
+      "source_image": "manual_0324_281aec01.jpg",
+      "reason": "diversity_control",
+      "prediction_count": 4,
+      "minimum_confidence": 0.194409,
+      "minimum_area": 0.000118497862404
+    },
+    {
+      "review_image": "active_059_manual_0470_8c6ec0d4.jpg",
+      "source_image": "manual_0470_8c6ec0d4.jpg",
+      "reason": "diversity_control",
+      "prediction_count": 1,
+      "minimum_confidence": 0.96454,
+      "minimum_area": 0.0053738003886
+    },
+    {
+      "review_image": "active_060_manual_0648_0d6c85d7.jpg",
+      "source_image": "manual_0648_0d6c85d7.jpg",
+      "reason": "diversity_control",
+      "prediction_count": 0,
+      "minimum_confidence": null,
+      "minimum_area": null
+    }
+  ]
+}

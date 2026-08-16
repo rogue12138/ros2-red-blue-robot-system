@@ -1,0 +1,77 @@
+header:
+  stamp:
+    sec: 1786877693
+    nanosec: 779757252
+  frame_id: task_plan_manager
+state: PARSING
+detail: 任务计划校验成功，共1个步骤，总计1个物块
+current_iteration: 0
+total_iterations: 1
+success: false
+---
+header:
+  stamp:
+    sec: 1786877693
+    nanosec: 780906298
+  frame_id: task_plan_manager
+state: LOCATING_OBJECT
+detail: 开始执行第1/1步：寻找red物块，目标区域A，数量1
+current_iteration: 0
+total_iterations: 1
+success: false
+---
+header:
+  stamp:
+    sec: 1786877694
+    nanosec: 490403346
+  frame_id: task_plan_manager
+state: NAVIGATING_TO_OBJECT
+detail: 已找到red物块，模拟导航到目标
+current_iteration: 0
+total_iterations: 1
+success: false
+---
+header:
+  stamp:
+    sec: 1786877695
+    nanosec: 491036523
+  frame_id: task_plan_manager
+state: GRASPING
+detail: 模拟导航完成，正在抓取red物块
+current_iteration: 0
+total_iterations: 1
+success: false
+---
+header:
+  stamp:
+    sec: 1786877696
+    nanosec: 489903250
+  frame_id: task_plan_manager
+state: NAVIGATING_TO_ZONE
+detail: 模拟抓取成功，前往A区
+current_iteration: 0
+total_iterations: 1
+success: false
+---
+header:
+  stamp:
+    sec: 1786877697
+    nanosec: 498960713
+  frame_id: task_plan_manager
+state: PLACING
+detail: 已到达A区，正在放置
+current_iteration: 0
+total_iterations: 1
+success: false
+---
+header:
+  stamp:
+    sec: 1786877698
+    nanosec: 500142754
+  frame_id: task_plan_manager
+state: FINISHED
+detail: 全部任务步骤执行完成，共完成1个物块
+current_iteration: 1
+total_iterations: 1
+success: true
+---

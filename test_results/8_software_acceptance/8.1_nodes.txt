@@ -1,0 +1,7 @@
+/color_detector_node
+/deepseek_command_node
+/mock_camera_node
+/mock_laser_node
+/mock_navigation_node
+/safety_filter_node
+/task_manager_node

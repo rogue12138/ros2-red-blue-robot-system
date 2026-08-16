@@ -1,0 +1,14 @@
+/yolo_detector_node:
+  ros__parameters:
+    confidence_threshold: 0.1
+    debug_image_topic: /vision/yolo_debug_image
+    detections_topic: /vision/yolo_detections
+    device: cpu
+    image_size: 960
+    input_topic: /camera/image_raw
+    log_every_n_frames: 20
+    maximum_detections: 100
+    model_path: /home/ros/robot_ws/models/final/red_blue_yolo11n_manual180_960_best.pt
+    nms_iou_threshold: 0.5
+    use_sim_time: false
+

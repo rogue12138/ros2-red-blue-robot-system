@@ -1,0 +1,126 @@
+header:
+  stamp:
+    sec: 1786877693
+    nanosec: 780070940
+  frame_id: task_plan_manager
+task_id: 6731d4264f6a
+state: PARSING
+detail: 任务计划校验成功，共1个步骤，总计1个物块
+current_step: 1
+total_steps: 1
+current_color: ''
+current_destination: ''
+step_completed: 0
+step_total: 0
+total_completed: 0
+total_target: 1
+success: false
+---
+header:
+  stamp:
+    sec: 1786877693
+    nanosec: 781098318
+  frame_id: task_plan_manager
+task_id: 6731d4264f6a
+state: LOCATING_OBJECT
+detail: 开始执行第1/1步：寻找red物块，目标区域A，数量1
+current_step: 1
+total_steps: 1
+current_color: red
+current_destination: A
+step_completed: 0
+step_total: 1
+total_completed: 0
+total_target: 1
+success: false
+---
+header:
+  stamp:
+    sec: 1786877694
+    nanosec: 490733213
+  frame_id: task_plan_manager
+task_id: 6731d4264f6a
+state: NAVIGATING_TO_OBJECT
+detail: 已找到red物块，模拟导航到目标
+current_step: 1
+total_steps: 1
+current_color: red
+current_destination: A
+step_completed: 0
+step_total: 1
+total_completed: 0
+total_target: 1
+success: false
+---
+header:
+  stamp:
+    sec: 1786877695
+    nanosec: 491508188
+  frame_id: task_plan_manager
+task_id: 6731d4264f6a
+state: GRASPING
+detail: 模拟导航完成，正在抓取red物块
+current_step: 1
+total_steps: 1
+current_color: red
+current_destination: A
+step_completed: 0
+step_total: 1
+total_completed: 0
+total_target: 1
+success: false
+---
+header:
+  stamp:
+    sec: 1786877696
+    nanosec: 490293289
+  frame_id: task_plan_manager
+task_id: 6731d4264f6a
+state: NAVIGATING_TO_ZONE
+detail: 模拟抓取成功，前往A区
+current_step: 1
+total_steps: 1
+current_color: red
+current_destination: A
+step_completed: 0
+step_total: 1
+total_completed: 0
+total_target: 1
+success: false
+---
+header:
+  stamp:
+    sec: 1786877697
+    nanosec: 499326908
+  frame_id: task_plan_manager
+task_id: 6731d4264f6a
+state: PLACING
+detail: 已到达A区，正在放置
+current_step: 1
+total_steps: 1
+current_color: red
+current_destination: A
+step_completed: 0
+step_total: 1
+total_completed: 0
+total_target: 1
+success: false
+---
+header:
+  stamp:
+    sec: 1786877698
+    nanosec: 500624613
+  frame_id: task_plan_manager
+task_id: 6731d4264f6a
+state: FINISHED
+detail: 全部任务步骤执行完成，共完成1个物块
+current_step: 1
+total_steps: 1
+current_color: red
+current_destination: A
+step_completed: 1
+step_total: 1
+total_completed: 1
+total_target: 1
+success: true
+---

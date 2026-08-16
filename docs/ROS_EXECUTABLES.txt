@@ -1,0 +1,34 @@
+ROS_PACKAGE_EXECUTABLES
+
+[robot_interfaces]
+
+[vision_detector]
+vision_detector color_detector_node
+vision_detector dataset_capture_node
+vision_detector detection_fusion_node
+vision_detector homography_localizer_node
+vision_detector mock_camera_node
+vision_detector mock_depth_camera_node
+vision_detector position_stability_acceptance_node
+vision_detector random_scene_camera_node
+vision_detector red_blue_detector_node
+vision_detector vision_acceptance_node
+vision_detector vision_localizer_node
+vision_detector vision_marker_node
+vision_detector yolo_detector_node
+
+[deepseek_bridge]
+deepseek_bridge deepseek_command_node
+deepseek_bridge deepseek_task_plan_node
+
+[task_manager]
+task_manager mock_navigation_node
+task_manager task_manager_node
+task_manager task_plan_manager_node
+
+[safety_controller]
+safety_controller mock_laser_node
+safety_controller safety_filter_node
+
+[robot_bringup]
+

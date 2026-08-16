@@ -1,0 +1,6 @@
+/home/ros/robot_ws/datasets/user_cube_dataset/red_hard_seed_60_20260816_000519/review/redhard_009.jpg
+/home/ros/robot_ws/datasets/user_cube_dataset/red_hard_seed_60_20260816_000519/review/redhard_028.jpg
+/home/ros/robot_ws/datasets/user_cube_dataset/red_hard_seed_60_20260816_000519/review/redhard_053.jpg
+/home/ros/robot_ws/datasets/user_cube_dataset/red_hard_seed_60_20260816_000519/review/redhard_020.jpg
+/home/ros/robot_ws/datasets/user_cube_dataset/red_hard_seed_60_20260816_000519/review/redhard_050.jpg
+/home/ros/robot_ws/datasets/user_cube_dataset/red_hard_seed_60_20260816_000519/review/redhard_033.jpg

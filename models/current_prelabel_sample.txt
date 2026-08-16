@@ -1,0 +1,1 @@
+/home/ros/robot_ws/datasets/user_cube_dataset/manual_sample_20260815_144928

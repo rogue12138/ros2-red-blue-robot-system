@@ -1,0 +1,1 @@
+/home/ros/robot_ws/models/final/red_blue_yolo11n_manual180_960_best.pt

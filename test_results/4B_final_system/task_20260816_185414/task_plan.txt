@@ -1,0 +1,15 @@
+header:
+  stamp:
+    sec: 1786877693
+    nanosec: 778196000
+  frame_id: ''
+task_id: 6731d4264f6a
+original_text: 把红色物块搬到A区一次
+action: execute
+steps:
+- color: red
+  destination: A
+  count: 1
+total_count: 1
+reason: ''
+---

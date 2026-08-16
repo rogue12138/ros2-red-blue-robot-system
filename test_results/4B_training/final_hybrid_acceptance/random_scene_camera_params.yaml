@@ -1,0 +1,18 @@
+/random_scene_camera_node:
+  ros__parameters:
+    fixed_blue_count: -1
+    fixed_obstacle_count: -1
+    fixed_red_count: -1
+    fps: 5.0
+    image_height: 480
+    image_width: 640
+    maximum_cube_size: 82
+    maximum_obstacles: 2
+    maximum_total_cubes: 8
+    minimum_cube_size: 36
+    minimum_total_cubes: 1
+    overlap_probability: 0.0
+    random_seed: 42
+    scene_change_interval_sec: 2.0
+    use_sim_time: false
+

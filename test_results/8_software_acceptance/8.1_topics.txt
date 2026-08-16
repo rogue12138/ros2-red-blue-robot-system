@@ -1,0 +1,12 @@
+/camera/image_raw
+/cmd_vel
+/cmd_vel_raw
+/llm/feedback
+/llm/task_command
+/parameter_events
+/rosout
+/scan
+/task/status
+/user/text_command
+/vision/debug_image
+/vision/detections

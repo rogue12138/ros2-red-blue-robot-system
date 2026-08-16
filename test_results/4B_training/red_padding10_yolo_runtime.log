@@ -1,0 +1,47 @@
+/home/ros/robot_ws/venvs/yolo_cpu/lib/python3.10/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+[INFO] [1786867069.501394641] [yolo_detector_node]: 正在加载YOLO模型：/home/ros/robot_ws/models/final/red_blue_yolo11n_manual180_960_best.pt
+[INFO] [1786867069.592187677] [yolo_detector_node]: YOLO检测节点已启动：input=/camera/image_raw，output=/vision/yolo_detections，imgsz=960，conf=0.2，device=cpu
+[INFO] [1786867101.086553634] [yolo_detector_node]: YOLO检测结果：red_cube=2，blue_cube=1，inference=123.0ms
+[INFO] [1786867128.101241291] [yolo_detector_node]: YOLO检测结果：red_cube=3，blue_cube=2，inference=136.4ms
+[INFO] [1786867152.112589756] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=5，inference=146.0ms
+[INFO] [1786867176.487695867] [yolo_detector_node]: YOLO检测结果：red_cube=7，blue_cube=1，inference=115.3ms
+[INFO] [1786867199.679245347] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=1，inference=117.8ms
+[INFO] [1786867220.897181487] [yolo_detector_node]: YOLO检测结果：red_cube=3，blue_cube=4，inference=125.2ms
+[INFO] [1786867246.671712585] [yolo_detector_node]: YOLO检测结果：red_cube=6，blue_cube=2，inference=106.9ms
+[INFO] [1786867273.883594733] [yolo_detector_node]: YOLO检测结果：red_cube=7，blue_cube=0，inference=314.6ms
+[INFO] [1786867293.265070304] [yolo_detector_node]: YOLO检测结果：red_cube=3，blue_cube=2，inference=97.9ms
+[INFO] [1786867316.627987506] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=0，inference=236.6ms
+[INFO] [1786867344.005013352] [yolo_detector_node]: YOLO检测结果：red_cube=3，blue_cube=4，inference=236.8ms
+[INFO] [1786867374.469625652] [yolo_detector_node]: YOLO检测结果：red_cube=6，blue_cube=0，inference=105.5ms
+[INFO] [1786867404.472619554] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=1，inference=110.6ms
+[INFO] [1786867428.968772742] [yolo_detector_node]: YOLO检测结果：red_cube=2，blue_cube=1，inference=204.9ms
+[INFO] [1786867459.960844291] [yolo_detector_node]: YOLO检测结果：red_cube=6，blue_cube=0，inference=196.0ms
+[INFO] [1786867482.891803171] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=4，inference=126.7ms
+[INFO] [1786867507.689550594] [yolo_detector_node]: YOLO检测结果：red_cube=3，blue_cube=4，inference=113.6ms
+[INFO] [1786867532.079508117] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=1，inference=107.8ms
+[INFO] [1786867550.079379889] [yolo_detector_node]: YOLO检测结果：red_cube=4，blue_cube=1，inference=103.9ms
+[INFO] [1786867576.562478832] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=3，inference=191.3ms
+[INFO] [1786867609.074305974] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=8，inference=107.8ms
+[INFO] [1786867629.477540773] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=1，inference=106.0ms
+[INFO] [1786867663.269517888] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=8，inference=107.1ms
+[INFO] [1786867696.163286908] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=6，inference=156.6ms
+[INFO] [1786867729.327157868] [yolo_detector_node]: YOLO检测结果：red_cube=2，blue_cube=2，inference=162.8ms
+[FATAL] [1786867753.614545947] [yolo_detector_node]: YOLO节点异常：
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+Traceback (most recent call last):
+  File "/home/ros/robot_ws/install/vision_detector/lib/vision_detector/yolo_detector_node", line 33, in <module>
+    sys.exit(load_entry_point('vision-detector', 'console_scripts', 'yolo_detector_node')())
+  File "/home/ros/robot_ws/build/vision_detector/vision_detector/yolo_detector_node.py", line 894, in main
+    rclpy.spin(node)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+    executor.spin_once()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 681, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException

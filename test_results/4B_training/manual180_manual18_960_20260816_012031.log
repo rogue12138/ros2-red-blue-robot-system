@@ -1,0 +1,12 @@
+Ultralytics 8.4.120 🚀 Python-3.10.12 torch-2.13.0+cpu CPU (Intel Core Ultra 5 125H)
+YOLO11n summary (fused): 101 layers, 2,582,542 parameters, 0 gradients, 6.4 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 5164.7±1821.2 MB/s, size: 205.3 KB)
+[K[34m[1mval: [0mScanning /home/ros/robot_ws/datasets/color_cubes_training/synthetic200_manual180_20260816_001809/labels/test... 18 images, 1 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 18/18 1.6Kit/s 0.0s
+[34m[1mval: [0mNew cache created: /home/ros/robot_ws/datasets/color_cubes_training/synthetic200_manual180_20260816_001809/labels/test.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 11% ━─────────── 1/9 1.3it/s 0.2s<6.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 22% ━━╸───────── 2/9 2.4it/s 0.4s<2.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 3/9 3.0it/s 0.7s<2.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 44% ━━━━━─────── 4/9 3.7it/s 0.8s<1.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 55% ━━━━━━╸───── 5/9 4.5it/s 1.0s<0.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 66% ━━━━━━━━──── 6/9 5.1it/s 1.2s<0.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 77% ━━━━━━━━━─── 7/9 5.4it/s 1.3s<0.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 88% ━━━━━━━━━━╸─ 8/9 5.7it/s 1.5s<0.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 9/9 5.5it/s 1.6s
+                   all         18         75      0.879      0.852      0.918      0.661
+              red_cube         17         37      0.867      0.757      0.867      0.674
+             blue_cube         12         38      0.891      0.947      0.968      0.649
+Speed: 1.2ms preprocess, 79.2ms inference, 0.0ms loss, 0.4ms postprocess per image
+Results saved to [1m/home/ros/robot_ws/validation_runs/manual180_manual18_960_20260816_012031[0m
+💡 Learn more at https://docs.ultralytics.com/modes/val

@@ -1,0 +1,187 @@
+header:
+  stamp:
+    sec: 1786765725
+    nanosec: 952031897
+  frame_id: task_plan_manager
+state: PARSING
+detail: 任务计划校验成功，共1个步骤，总计5个物块
+current_iteration: 0
+total_iterations: 5
+success: false
+---
+header:
+  stamp:
+    sec: 1786765725
+    nanosec: 957796385
+  frame_id: task_plan_manager
+state: LOCATING_OBJECT
+detail: 开始执行第1/1步：寻找red物块，目标区域A，数量5
+current_iteration: 0
+total_iterations: 5
+success: false
+---
+header:
+  stamp:
+    sec: 1786765726
+    nanosec: 837850481
+  frame_id: task_plan_manager
+state: NAVIGATING_TO_OBJECT
+detail: 已找到red物块，模拟导航到目标
+current_iteration: 0
+total_iterations: 5
+success: false
+---
+header:
+  stamp:
+    sec: 1786765727
+    nanosec: 830277096
+  frame_id: task_plan_manager
+state: GRASPING
+detail: 模拟导航完成，正在抓取red物块
+current_iteration: 0
+total_iterations: 5
+success: false
+---
+header:
+  stamp:
+    sec: 1786765728
+    nanosec: 819865083
+  frame_id: task_plan_manager
+state: NAVIGATING_TO_ZONE
+detail: 模拟抓取成功，前往A区
+current_iteration: 0
+total_iterations: 5
+success: false
+---
+header:
+  stamp:
+    sec: 1786765729
+    nanosec: 817802392
+  frame_id: task_plan_manager
+state: PLACING
+detail: 已到达A区，正在放置
+current_iteration: 0
+total_iterations: 5
+success: false
+---
+header:
+  stamp:
+    sec: 1786765730
+    nanosec: 818991582
+  frame_id: task_plan_manager
+state: LOCATING_OBJECT
+detail: 第1步已完成1/5，开始寻找下一个red物块
+current_iteration: 1
+total_iterations: 5
+success: false
+---
+header:
+  stamp:
+    sec: 1786765731
+    nanosec: 817436115
+  frame_id: task_plan_manager
+state: NAVIGATING_TO_OBJECT
+detail: 已找到red物块，模拟导航到目标
+current_iteration: 1
+total_iterations: 5
+success: false
+---
+header:
+  stamp:
+    sec: 1786765732
+    nanosec: 817900717
+  frame_id: task_plan_manager
+state: GRASPING
+detail: 模拟导航完成，正在抓取red物块
+current_iteration: 1
+total_iterations: 5
+success: false
+---
+header:
+  stamp:
+    sec: 1786765733
+    nanosec: 818039238
+  frame_id: task_plan_manager
+state: NAVIGATING_TO_ZONE
+detail: 模拟抓取成功，前往A区
+current_iteration: 1
+total_iterations: 5
+success: false
+---
+header:
+  stamp:
+    sec: 1786765734
+    nanosec: 818046052
+  frame_id: task_plan_manager
+state: PLACING
+detail: 已到达A区，正在放置
+current_iteration: 1
+total_iterations: 5
+success: false
+---
+header:
+  stamp:
+    sec: 1786765735
+    nanosec: 817398879
+  frame_id: task_plan_manager
+state: LOCATING_OBJECT
+detail: 第1步已完成2/5，开始寻找下一个red物块
+current_iteration: 2
+total_iterations: 5
+success: false
+---
+header:
+  stamp:
+    sec: 1786765736
+    nanosec: 821185950
+  frame_id: task_plan_manager
+state: NAVIGATING_TO_OBJECT
+detail: 已找到red物块，模拟导航到目标
+current_iteration: 2
+total_iterations: 5
+success: false
+---
+header:
+  stamp:
+    sec: 1786765737
+    nanosec: 827653896
+  frame_id: task_plan_manager
+state: GRASPING
+detail: 模拟导航完成，正在抓取red物块
+current_iteration: 2
+total_iterations: 5
+success: false
+---
+header:
+  stamp:
+    sec: 1786765738
+    nanosec: 820665826
+  frame_id: task_plan_manager
+state: NAVIGATING_TO_ZONE
+detail: 模拟抓取成功，前往A区
+current_iteration: 2
+total_iterations: 5
+success: false
+---
+header:
+  stamp:
+    sec: 1786765739
+    nanosec: 825108581
+  frame_id: task_plan_manager
+state: PLACING
+detail: 已到达A区，正在放置
+current_iteration: 2
+total_iterations: 5
+success: false
+---
+header:
+  stamp:
+    sec: 1786765740
+    nanosec: 659215285
+  frame_id: task_plan_manager
+state: EMERGENCY_STOP
+detail: 用户要求立即停止当前任务
+current_iteration: 2
+total_iterations: 5
+success: false
+---

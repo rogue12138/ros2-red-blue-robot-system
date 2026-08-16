@@ -1,0 +1,16 @@
+mock_laser_node:
+  ros__parameters:
+    obstacle_distance: 3.0
+    scan_rate_hz: 10.0
+
+safety_filter_node:
+  ros__parameters:
+    stop_distance: 0.60
+    slow_distance: 1.20
+    scan_timeout: 0.50
+    max_linear_speed: 0.30
+    max_angular_speed: 0.80
+
+mock_navigation_node:
+  ros__parameters:
+    navigation_speed: 0.20

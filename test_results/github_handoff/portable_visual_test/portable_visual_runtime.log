@@ -1,0 +1,157 @@
+[INFO] [launch]: All log files can be found below /home/ros/.ros/log/2026-08-16-19-37-43-340429-ros-VirtualBox-3517
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [random_scene_camera_node-1]: process started with pid [3519]
+[INFO] [red_blue_detector_node-2]: process started with pid [3521]
+[INFO] [yolo_detector_node-3]: process started with pid [3523]
+[INFO] [detection_fusion_node-4]: process started with pid [3525]
+[INFO] [homography_localizer_node-5]: process started with pid [3527]
+[INFO] [vision_marker_node-6]: process started with pid [3529]
+[detection_fusion_node-4] [INFO] [1786880264.127161748] [detection_fusion_node]: HSV+YOLO检测融合节点已启动：HSV=/vision/detections，YOLO=/vision/yolo_detections，输出=/vision/fused_detections，保留未匹配YOLO框=True
+[homography_localizer_node-5] [INFO] [1786880264.135576831] [homography_localizer_node]: 无深度单应性定位节点已启动，output_frame=base_link，table_height=0.000m，filter_window=5
+[vision_marker_node-6] [INFO] [1786880264.245919444] [vision_marker_node]: 视觉MarkerArray节点已启动
+[random_scene_camera_node-1] [INFO] [1786880266.574757820] [random_scene_camera_node]: 生成随机场景：scene=1，red=0，blue=2，obstacles=2
+[random_scene_camera_node-1] [INFO] [1786880266.575261754] [random_scene_camera_node]: 随机红蓝仿真摄像头已启动
+[red_blue_detector_node-2] [INFO] [1786880266.582012700] [red_blue_detector_node]: 正式红蓝立方体检测节点已启动
+[yolo_detector_node-3] /home/ros/robot_ws/venvs/yolo_cpu/lib/python3.10/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+[yolo_detector_node-3]   warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+[yolo_detector_node-3] [INFO] [1786880268.584337335] [yolo_detector_node]: 正在加载YOLO模型：/home/ros/robot_ws/models/final/red_blue_yolo11n_manual180_960_best.pt
+[yolo_detector_node-3] [INFO] [1786880268.755456323] [yolo_detector_node]: YOLO检测节点已启动：input=/camera/image_raw，output=/vision/yolo_detections，imgsz=960，conf=0.1，device=cpu
+[red_blue_detector_node-2] [INFO] [1786880272.781261997] [red_blue_detector_node]: 当前检测结果：red_cube=0，blue_cube=2
+[red_blue_detector_node-2] [INFO] [1786880278.779815760] [red_blue_detector_node]: 当前检测结果：red_cube=0，blue_cube=2
+[red_blue_detector_node-2] [INFO] [1786880284.766938123] [red_blue_detector_node]: 当前检测结果：red_cube=0，blue_cube=2
+[detection_fusion_node-4] [INFO] [1786880288.854697650] [detection_fusion_node]: 融合检测结果：HSV=2，YOLO=2，匹配=2，融合后=2，red_cube=0，blue_cube=2
+[red_blue_detector_node-2] [INFO] [1786880290.771257385] [red_blue_detector_node]: 当前检测结果：red_cube=0，blue_cube=2
+[random_scene_camera_node-1] [INFO] [1786880296.557953690] [random_scene_camera_node]: 生成随机场景：scene=2，red=1，blue=1，obstacles=0
+[red_blue_detector_node-2] [INFO] [1786880296.775427147] [red_blue_detector_node]: 当前检测结果：red_cube=1，blue_cube=1
+[red_blue_detector_node-2] [INFO] [1786880302.761697643] [red_blue_detector_node]: 当前检测结果：red_cube=1，blue_cube=1
+[yolo_detector_node-3] [INFO] [1786880303.081918291] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=1，inference=123.1ms
+[detection_fusion_node-4] [INFO] [1786880303.082545133] [detection_fusion_node]: 融合检测结果：HSV=2，YOLO=2，匹配=2，融合后=2，red_cube=1，blue_cube=1
+[red_blue_detector_node-2] [INFO] [1786880308.776724944] [red_blue_detector_node]: 当前检测结果：red_cube=1，blue_cube=1
+[red_blue_detector_node-2] [INFO] [1786880314.791631819] [red_blue_detector_node]: 当前检测结果：red_cube=1，blue_cube=1
+[detection_fusion_node-4] [INFO] [1786880317.872972387] [detection_fusion_node]: 融合检测结果：HSV=2，YOLO=2，匹配=2，融合后=2，red_cube=1，blue_cube=1
+[homography_localizer_node-5] [INFO] [1786880317.874755213] [homography_localizer_node]: 单应性五帧中值定位：2/2个目标具有稳定位置，活动跟踪数量=2，frame_id=base_link
+[vision_marker_node-6] [INFO] [1786880317.877461063] [vision_marker_node]: MarkerArray发布结果：目标数量=2，Marker数量=5，活动ID数量=2，frame_id=base_link
+[red_blue_detector_node-2] [INFO] [1786880321.018893381] [red_blue_detector_node]: 当前检测结果：red_cube=1，blue_cube=1
+[random_scene_camera_node-1] [INFO] [1786880326.595861328] [random_scene_camera_node]: 生成随机场景：scene=3，red=0，blue=5，obstacles=0
+[red_blue_detector_node-2] [INFO] [1786880327.208648445] [red_blue_detector_node]: 当前检测结果：red_cube=0，blue_cube=5
+[red_blue_detector_node-2] [INFO] [1786880333.160993356] [red_blue_detector_node]: 当前检测结果：red_cube=0，blue_cube=5
+[yolo_detector_node-3] [INFO] [1786880333.879986644] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=5，inference=105.6ms
+[detection_fusion_node-4] [INFO] [1786880333.882660054] [detection_fusion_node]: 融合检测结果：HSV=5，YOLO=5，匹配=5，融合后=5，red_cube=0，blue_cube=5
+[red_blue_detector_node-2] [INFO] [1786880339.204106188] [red_blue_detector_node]: 当前检测结果：red_cube=0，blue_cube=5
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[ERROR] [vision_marker_node-6]: process[vision_marker_node-6] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[ERROR] [homography_localizer_node-5]: process[homography_localizer_node-5] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[ERROR] [detection_fusion_node-4]: process[detection_fusion_node-4] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[ERROR] [yolo_detector_node-3]: process[yolo_detector_node-3] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[ERROR] [red_blue_detector_node-2]: process[red_blue_detector_node-2] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[ERROR] [random_scene_camera_node-1]: process[random_scene_camera_node-1] failed to terminate '5' seconds after receiving 'SIGINT', escalating to 'SIGTERM'
+[INFO] [vision_marker_node-6]: sending signal 'SIGTERM' to process[vision_marker_node-6]
+[INFO] [homography_localizer_node-5]: sending signal 'SIGTERM' to process[homography_localizer_node-5]
+[INFO] [detection_fusion_node-4]: sending signal 'SIGTERM' to process[detection_fusion_node-4]
+[INFO] [yolo_detector_node-3]: sending signal 'SIGTERM' to process[yolo_detector_node-3]
+[INFO] [red_blue_detector_node-2]: sending signal 'SIGTERM' to process[red_blue_detector_node-2]
+[INFO] [random_scene_camera_node-1]: sending signal 'SIGTERM' to process[random_scene_camera_node-1]
+[yolo_detector_node-3] [FATAL] [1786880344.886352633] [yolo_detector_node]: YOLO节点异常：
+[yolo_detector_node-3] Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[vision_marker_node-6] Traceback (most recent call last):
+[vision_marker_node-6]   File "/home/ros/robot_ws/install/vision_detector/lib/vision_detector/vision_marker_node", line 33, in <module>
+[vision_marker_node-6]     sys.exit(load_entry_point('vision-detector', 'console_scripts', 'vision_marker_node')())
+[vision_marker_node-6]   File "/home/ros/robot_ws/build/vision_detector/vision_detector/vision_marker_node.py", line 515, in main
+[vision_marker_node-6]     rclpy.spin(node)
+[vision_marker_node-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[vision_marker_node-6]     executor.spin_once()
+[vision_marker_node-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+[vision_marker_node-6]     self._spin_once_impl(timeout_sec)
+[vision_marker_node-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+[vision_marker_node-6]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[vision_marker_node-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+[vision_marker_node-6]     return next(self._cb_iter)
+[vision_marker_node-6]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 681, in _wait_for_ready_callbacks
+[vision_marker_node-6]     raise ExternalShutdownException()
+[vision_marker_node-6] rclpy.executors.ExternalShutdownException
+[yolo_detector_node-3] Traceback (most recent call last):
+[yolo_detector_node-3]   File "/home/ros/robot_ws/install/vision_detector/lib/vision_detector/yolo_detector_node", line 33, in <module>
+[yolo_detector_node-3]     sys.exit(load_entry_point('vision-detector', 'console_scripts', 'yolo_detector_node')())
+[yolo_detector_node-3]   File "/home/ros/robot_ws/build/vision_detector/vision_detector/yolo_detector_node.py", line 894, in main
+[yolo_detector_node-3]     rclpy.spin(node)
+[yolo_detector_node-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[yolo_detector_node-3]     executor.spin_once()
+[yolo_detector_node-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+[yolo_detector_node-3]     self._spin_once_impl(timeout_sec)
+[yolo_detector_node-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+[yolo_detector_node-3]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[yolo_detector_node-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+[yolo_detector_node-3]     return next(self._cb_iter)
+[yolo_detector_node-3]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 681, in _wait_for_ready_callbacks
+[yolo_detector_node-3]     raise ExternalShutdownException()
+[yolo_detector_node-3] rclpy.executors.ExternalShutdownException
+[homography_localizer_node-5] Traceback (most recent call last):
+[homography_localizer_node-5]   File "/home/ros/robot_ws/install/vision_detector/lib/vision_detector/homography_localizer_node", line 33, in <module>
+[homography_localizer_node-5]     sys.exit(load_entry_point('vision-detector', 'console_scripts', 'homography_localizer_node')())
+[homography_localizer_node-5]   File "/home/ros/robot_ws/build/vision_detector/vision_detector/homography_localizer_node.py", line 549, in main
+[homography_localizer_node-5]     rclpy.spin(node)
+[homography_localizer_node-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[homography_localizer_node-5]     executor.spin_once()
+[homography_localizer_node-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+[homography_localizer_node-5]     self._spin_once_impl(timeout_sec)
+[homography_localizer_node-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+[homography_localizer_node-5]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[homography_localizer_node-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+[homography_localizer_node-5]     return next(self._cb_iter)
+[homography_localizer_node-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 681, in _wait_for_ready_callbacks
+[homography_localizer_node-5]     raise ExternalShutdownException()
+[homography_localizer_node-5] rclpy.executors.ExternalShutdownException
+[red_blue_detector_node-2] Traceback (most recent call last):
+[red_blue_detector_node-2]   File "/home/ros/robot_ws/install/vision_detector/lib/vision_detector/red_blue_detector_node", line 33, in <module>
+[red_blue_detector_node-2]     sys.exit(load_entry_point('vision-detector', 'console_scripts', 'red_blue_detector_node')())
+[red_blue_detector_node-2]   File "/home/ros/robot_ws/build/vision_detector/vision_detector/red_blue_detector_node.py", line 534, in main
+[red_blue_detector_node-2]     rclpy.spin(node)
+[red_blue_detector_node-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[red_blue_detector_node-2]     executor.spin_once()
+[red_blue_detector_node-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+[red_blue_detector_node-2]     self._spin_once_impl(timeout_sec)
+[red_blue_detector_node-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+[red_blue_detector_node-2]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[red_blue_detector_node-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+[red_blue_detector_node-2]     return next(self._cb_iter)
+[red_blue_detector_node-2]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 681, in _wait_for_ready_callbacks
+[red_blue_detector_node-2]     raise ExternalShutdownException()
+[red_blue_detector_node-2] rclpy.executors.ExternalShutdownException
+[detection_fusion_node-4] Traceback (most recent call last):
+[detection_fusion_node-4]   File "/home/ros/robot_ws/install/vision_detector/lib/vision_detector/detection_fusion_node", line 33, in <module>
+[detection_fusion_node-4]     sys.exit(load_entry_point('vision-detector', 'console_scripts', 'detection_fusion_node')())
+[detection_fusion_node-4]   File "/home/ros/robot_ws/build/vision_detector/vision_detector/detection_fusion_node.py", line 662, in main
+[detection_fusion_node-4]     rclpy.spin(node)
+[detection_fusion_node-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[detection_fusion_node-4]     executor.spin_once()
+[detection_fusion_node-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+[detection_fusion_node-4]     self._spin_once_impl(timeout_sec)
+[detection_fusion_node-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+[detection_fusion_node-4]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[detection_fusion_node-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+[detection_fusion_node-4]     return next(self._cb_iter)
+[detection_fusion_node-4]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 681, in _wait_for_ready_callbacks
+[detection_fusion_node-4]     raise ExternalShutdownException()
+[detection_fusion_node-4] rclpy.executors.ExternalShutdownException
+[random_scene_camera_node-1] Traceback (most recent call last):
+[random_scene_camera_node-1]   File "/home/ros/robot_ws/install/vision_detector/lib/vision_detector/random_scene_camera_node", line 33, in <module>
+[random_scene_camera_node-1]     sys.exit(load_entry_point('vision-detector', 'console_scripts', 'random_scene_camera_node')())
+[random_scene_camera_node-1]   File "/home/ros/robot_ws/build/vision_detector/vision_detector/random_scene_camera_node.py", line 983, in main
+[random_scene_camera_node-1]     rclpy.spin(node)
+[random_scene_camera_node-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[random_scene_camera_node-1]     executor.spin_once()
+[random_scene_camera_node-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+[random_scene_camera_node-1]     self._spin_once_impl(timeout_sec)
+[random_scene_camera_node-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+[random_scene_camera_node-1]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[random_scene_camera_node-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+[random_scene_camera_node-1]     return next(self._cb_iter)
+[random_scene_camera_node-1]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 681, in _wait_for_ready_callbacks
+[random_scene_camera_node-1]     raise ExternalShutdownException()
+[random_scene_camera_node-1] rclpy.executors.ExternalShutdownException
+[ERROR] [homography_localizer_node-5]: process has died [pid 3527, exit code 1, cmd '/home/ros/robot_ws/install/vision_detector/lib/vision_detector/homography_localizer_node --ros-args -r __node:=homography_localizer_node --params-file /home/ros/robot_ws/install/robot_bringup/share/robot_bringup/config/hybrid_homography_params.yaml'].
+[ERROR] [vision_marker_node-6]: process has died [pid 3529, exit code 1, cmd '/home/ros/robot_ws/install/vision_detector/lib/vision_detector/vision_marker_node --ros-args -r __node:=vision_marker_node'].
+[ERROR] [detection_fusion_node-4]: process has died [pid 3525, exit code 1, cmd '/home/ros/robot_ws/install/vision_detector/lib/vision_detector/detection_fusion_node --ros-args -r __node:=detection_fusion_node --params-file /home/ros/robot_ws/install/robot_bringup/share/robot_bringup/config/hybrid_vision_params.yaml'].
+[ERROR] [red_blue_detector_node-2]: process has died [pid 3521, exit code 1, cmd '/home/ros/robot_ws/install/vision_detector/lib/vision_detector/red_blue_detector_node --ros-args -r __node:=red_blue_detector_node --params-file /home/ros/robot_ws/install/robot_bringup/share/robot_bringup/config/vision_params.yaml'].
+[ERROR] [random_scene_camera_node-1]: process has died [pid 3519, exit code 1, cmd '/home/ros/robot_ws/install/vision_detector/lib/vision_detector/random_scene_camera_node --ros-args -r __node:=random_scene_camera_node --params-file /home/ros/robot_ws/install/robot_bringup/share/robot_bringup/config/hybrid_vision_params.yaml'].
+[ERROR] [yolo_detector_node-3]: process has died [pid 3523, exit code 1, cmd '/home/ros/robot_ws/install/vision_detector/lib/vision_detector/yolo_detector_node --ros-args -r __node:=yolo_detector_node --params-file /home/ros/robot_ws/install/robot_bringup/share/robot_bringup/config/hybrid_vision_params.yaml'].

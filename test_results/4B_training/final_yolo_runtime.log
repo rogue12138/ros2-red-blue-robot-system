@@ -1,0 +1,80 @@
+/home/ros/robot_ws/venvs/yolo_cpu/lib/python3.10/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+[INFO] [1786866106.471058470] [yolo_detector_node]: 正在加载YOLO模型：/home/ros/robot_ws/models/final/red_blue_yolo11n_manual180_960_best.pt
+[INFO] [1786866106.561854576] [yolo_detector_node]: YOLO检测节点已启动：input=/camera/image_raw，output=/vision/yolo_detections，imgsz=960，conf=0.05，device=cpu
+[INFO] [1786866116.714827264] [yolo_detector_node]: YOLO检测结果：red_cube=4，blue_cube=2，inference=147.5ms
+[INFO] [1786866123.914071833] [yolo_detector_node]: YOLO检测结果：red_cube=4，blue_cube=2，inference=110.4ms
+[INFO] [1786866130.266632729] [yolo_detector_node]: YOLO检测结果：red_cube=8，blue_cube=0，inference=104.4ms
+[INFO] [1786866139.281121588] [yolo_detector_node]: YOLO检测结果：red_cube=2，blue_cube=4，inference=114.7ms
+[INFO] [1786866145.479515425] [yolo_detector_node]: YOLO检测结果：red_cube=3，blue_cube=0，inference=111.1ms
+[INFO] [1786866161.263934440] [yolo_detector_node]: YOLO检测结果：red_cube=2，blue_cube=2，inference=102.4ms
+[INFO] [1786866169.669871217] [yolo_detector_node]: YOLO检测结果：red_cube=7，blue_cube=1，inference=104.3ms
+[INFO] [1786866176.264316331] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=1，inference=101.3ms
+[INFO] [1786866184.307521301] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=6，inference=111.6ms
+[INFO] [1786866197.487501723] [yolo_detector_node]: YOLO检测结果：red_cube=4，blue_cube=0，inference=120.4ms
+[INFO] [1786866205.488231331] [yolo_detector_node]: YOLO检测结果：red_cube=5，blue_cube=0，inference=120.2ms
+[INFO] [1786866215.870143547] [yolo_detector_node]: YOLO检测结果：red_cube=4，blue_cube=4，inference=101.9ms
+[INFO] [1786866226.124203006] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=2，inference=160.4ms
+[INFO] [1786866237.190679633] [yolo_detector_node]: YOLO检测结果：red_cube=2，blue_cube=2，inference=227.5ms
+[INFO] [1786866248.592577416] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=7，inference=222.0ms
+[INFO] [1786866262.362814035] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=1，inference=197.0ms
+[INFO] [1786866276.277356218] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=4，inference=215.3ms
+[INFO] [1786866286.469816861] [yolo_detector_node]: YOLO检测结果：red_cube=2，blue_cube=0，inference=106.4ms
+[INFO] [1786866296.084474806] [yolo_detector_node]: YOLO检测结果：red_cube=6，blue_cube=1，inference=113.5ms
+[INFO] [1786866305.906623397] [yolo_detector_node]: YOLO检测结果：red_cube=4，blue_cube=4，inference=133.5ms
+[INFO] [1786866318.115211971] [yolo_detector_node]: YOLO检测结果：red_cube=3，blue_cube=2，inference=151.3ms
+[INFO] [1786866327.357833911] [yolo_detector_node]: YOLO检测结果：red_cube=2，blue_cube=4，inference=159.8ms
+[INFO] [1786866335.311969752] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=8，inference=116.2ms
+[INFO] [1786866342.500115692] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=2，inference=130.3ms
+[INFO] [1786866350.089618763] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=2，inference=126.8ms
+[INFO] [1786866356.898914618] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=3，inference=137.8ms
+[INFO] [1786866364.746626276] [yolo_detector_node]: YOLO检测结果：red_cube=6，blue_cube=1，inference=179.2ms
+[INFO] [1786866370.686857450] [yolo_detector_node]: YOLO检测结果：red_cube=2，blue_cube=2，inference=119.5ms
+[INFO] [1786866378.538355418] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=5，inference=147.7ms
+[INFO] [1786866388.885757331] [yolo_detector_node]: YOLO检测结果：red_cube=8，blue_cube=0，inference=120.9ms
+[INFO] [1786866398.275097370] [yolo_detector_node]: YOLO检测结果：red_cube=2，blue_cube=0，inference=113.1ms
+[INFO] [1786866405.719106049] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=0，inference=146.0ms
+[INFO] [1786866416.277795665] [yolo_detector_node]: YOLO检测结果：red_cube=3，blue_cube=0，inference=114.6ms
+[INFO] [1786866424.690523222] [yolo_detector_node]: YOLO检测结果：red_cube=3，blue_cube=2，inference=117.0ms
+[INFO] [1786866434.131855966] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=3，inference=167.6ms
+[INFO] [1786866442.325352372] [yolo_detector_node]: YOLO检测结果：red_cube=5，blue_cube=1，inference=160.8ms
+[INFO] [1786866455.314463228] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=5，inference=127.4ms
+[INFO] [1786866469.900624784] [yolo_detector_node]: YOLO检测结果：red_cube=8，blue_cube=0，inference=128.7ms
+[INFO] [1786866498.678861692] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=5，inference=103.7ms
+[INFO] [1786866532.267610738] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=1，inference=104.1ms
+[INFO] [1786866563.873161603] [yolo_detector_node]: YOLO检测结果：red_cube=3，blue_cube=1，inference=103.0ms
+[INFO] [1786866586.071502481] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=8，inference=103.4ms
+[INFO] [1786866609.610999849] [yolo_detector_node]: YOLO检测结果：red_cube=8，blue_cube=0，inference=170.7ms
+[INFO] [1786866628.107801962] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=6，inference=138.9ms
+[INFO] [1786866658.110782085] [yolo_detector_node]: YOLO检测结果：red_cube=5，blue_cube=1，inference=147.6ms
+[INFO] [1786866698.324346473] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=3，inference=158.5ms
+[INFO] [1786866724.387430741] [yolo_detector_node]: YOLO检测结果：red_cube=3，blue_cube=1，inference=222.9ms
+[INFO] [1786866757.269042003] [yolo_detector_node]: YOLO检测结果：red_cube=3，blue_cube=2，inference=104.7ms
+[INFO] [1786866788.890547068] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=2，inference=126.9ms
+[INFO] [1786866812.127406140] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=2，inference=155.2ms
+[INFO] [1786866835.084852309] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=6，inference=120.4ms
+[INFO] [1786866865.558908269] [yolo_detector_node]: YOLO检测结果：red_cube=5，blue_cube=0，inference=185.6ms
+[INFO] [1786866884.530410886] [yolo_detector_node]: YOLO检测结果：red_cube=6，blue_cube=1，inference=153.0ms
+[INFO] [1786866914.293484147] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=0，inference=128.6ms
+[INFO] [1786866945.316087139] [yolo_detector_node]: YOLO检测结果：red_cube=2，blue_cube=3，inference=133.6ms
+[INFO] [1786866988.281859554] [yolo_detector_node]: YOLO检测结果：red_cube=4，blue_cube=3，inference=111.3ms
+[INFO] [1786867021.799045821] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=2，inference=231.8ms
+[INFO] [1786867058.900919936] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=4，inference=133.5ms
+[FATAL] [1786867064.722869653] [yolo_detector_node]: YOLO节点异常：
+Failed to publish log message to rosout: publisher's context is invalid, at ./src/rcl/publisher.c:389
+Traceback (most recent call last):
+  File "/home/ros/robot_ws/install/vision_detector/lib/vision_detector/yolo_detector_node", line 33, in <module>
+    sys.exit(load_entry_point('vision-detector', 'console_scripts', 'yolo_detector_node')())
+  File "/home/ros/robot_ws/build/vision_detector/vision_detector/yolo_detector_node.py", line 894, in main
+    rclpy.spin(node)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+    executor.spin_once()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 681, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException

@@ -1,0 +1,68 @@
+[INFO] [1786864683.915051643] [yolo_refined_acceptance_node]: 二维视觉自动验收节点已启动：每类测试10个场景，边缘容差=10px，最低IoU=0.50
+[INFO] [1786864685.078583603] [yolo_refined_acceptance_node]: red_cube验收[1/10]：真实数量=2，检测数量=2，检测=PASS，最大边缘误差=14px
+[INFO] [1786864685.078876048] [yolo_refined_acceptance_node]: blue_cube验收[1/10]：真实数量=4，检测数量=4，检测=PASS，最大边缘误差=16px
+[INFO] [1786864687.670903363] [yolo_refined_acceptance_node]: red_cube验收[2/10]：真实数量=5，检测数量=5，检测=PASS，最大边缘误差=16px
+[INFO] [1786864687.671150996] [yolo_refined_acceptance_node]: blue_cube验收[2/10]：真实数量=1，检测数量=1，检测=PASS，最大边缘误差=15px
+[INFO] [1786864688.069487433] [yolo_refined_acceptance_node]: red_cube验收[3/10]：真实数量=4，检测数量=4，检测=PASS，最大边缘误差=14px
+[INFO] [1786864688.069752370] [yolo_refined_acceptance_node]: blue_cube验收[3/10]：真实数量=3，检测数量=3，检测=PASS，最大边缘误差=15px
+[INFO] [1786864689.866877040] [yolo_refined_acceptance_node]: red_cube验收[4/10]：真实数量=3，检测数量=3，检测=PASS，最大边缘误差=14px
+[INFO] [1786864692.687346921] [yolo_refined_acceptance_node]: red_cube验收[5/10]：真实数量=5，检测数量=5，检测=PASS，最大边缘误差=17px
+[INFO] [1786864692.687602208] [yolo_refined_acceptance_node]: blue_cube验收[4/10]：真实数量=1，检测数量=1，检测=FAIL，最大边缘误差=19px
+[INFO] [1786864694.663504707] [yolo_refined_acceptance_node]: blue_cube验收[5/10]：真实数量=6，检测数量=6，检测=PASS，最大边缘误差=14px
+[INFO] [1786864697.090472801] [yolo_refined_acceptance_node]: blue_cube验收[6/10]：真实数量=3，检测数量=3，检测=PASS，最大边缘误差=17px
+[INFO] [1786864703.075927738] [yolo_refined_acceptance_node]: red_cube验收[6/10]：真实数量=3，检测数量=3，检测=PASS，最大边缘误差=17px
+[INFO] [1786864703.076371943] [yolo_refined_acceptance_node]: blue_cube验收[7/10]：真实数量=3，检测数量=3，检测=PASS，最大边缘误差=16px
+[INFO] [1786864704.886195049] [yolo_refined_acceptance_node]: red_cube验收[7/10]：真实数量=3，检测数量=3，检测=PASS，最大边缘误差=17px
+[INFO] [1786864704.886616941] [yolo_refined_acceptance_node]: blue_cube验收[8/10]：真实数量=3，检测数量=3，检测=PASS，最大边缘误差=17px
+[INFO] [1786864706.671424535] [yolo_refined_acceptance_node]: blue_cube验收[9/10]：真实数量=4，检测数量=4，检测=PASS，最大边缘误差=15px
+[INFO] [1786864708.055679516] [yolo_refined_acceptance_node]: red_cube验收[8/10]：真实数量=7，检测数量=6，检测=FAIL，最大边缘误差=516px
+[INFO] [1786864708.055951903] [yolo_refined_acceptance_node]: blue_cube验收[10/10]：真实数量=1，检测数量=1，检测=PASS，最大边缘误差=16px
+[INFO] [1786864714.270540274] [yolo_refined_acceptance_node]: red_cube验收[9/10]：真实数量=4，检测数量=4，检测=PASS，最大边缘误差=16px
+[INFO] [1786864716.270233018] [yolo_refined_acceptance_node]: red_cube验收[10/10]：真实数量=5，检测数量=5，检测=PASS，最大边缘误差=12px
+[INFO] [1786864716.270681456] [yolo_refined_acceptance_node]: 视觉自动验收完成：
+{
+  "required_trials_per_class": 10,
+  "minimum_required_rate": 0.95,
+  "minimum_iou": 0.5,
+  "edge_tolerance_pixels": 10,
+  "classes": {
+    "red_cube": {
+      "trials": 10,
+      "detection_successes": 9,
+      "detection_rate": 0.9,
+      "edge_successes": 0,
+      "edge_rate": 0.0,
+      "mean_edge_error_pixels": 14.35,
+      "maximum_edge_error_pixels": 516,
+      "pass": false
+    },
+    "blue_cube": {
+      "trials": 10,
+      "detection_successes": 9,
+      "detection_rate": 0.9,
+      "edge_successes": 0,
+      "edge_rate": 0.0,
+      "mean_edge_error_pixels": 6.810344827586207,
+      "maximum_edge_error_pixels": 19,
+      "pass": false
+    }
+  },
+  "overall_result": "FAIL"
+}
+Traceback (most recent call last):
+  File "/home/ros/robot_ws/install/vision_detector/lib/vision_detector/vision_acceptance_node", line 33, in <module>
+    sys.exit(load_entry_point('vision-detector', 'console_scripts', 'vision_acceptance_node')())
+  File "/home/ros/robot_ws/build/vision_detector/vision_detector/vision_acceptance_node.py", line 610, in main
+    rclpy.spin(node)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+    executor.spin_once()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 681, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException
+[ros2run]: Process exited with failure 1

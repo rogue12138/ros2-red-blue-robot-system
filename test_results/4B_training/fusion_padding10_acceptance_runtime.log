@@ -1,0 +1,67 @@
+[INFO] [1786867171.843457620] [fusion_padding10_acceptance_node]: 二维视觉自动验收节点已启动：每类测试10个场景，边缘容差=10px，最低IoU=0.50
+[INFO] [1786867172.462697652] [fusion_padding10_acceptance_node]: blue_cube验收[1/10]：真实数量=2，检测数量=2，检测=PASS，最大边缘误差=9px
+[INFO] [1786867174.470186167] [fusion_padding10_acceptance_node]: red_cube验收[1/10]：真实数量=3，检测数量=3，检测=PASS，最大边缘误差=9px
+[INFO] [1786867174.470455153] [fusion_padding10_acceptance_node]: blue_cube验收[2/10]：真实数量=2，检测数量=2，检测=PASS，最大边缘误差=9px
+[INFO] [1786867176.495118634] [fusion_padding10_acceptance_node]: red_cube验收[2/10]：真实数量=7，检测数量=7，检测=PASS，最大边缘误差=9px
+[INFO] [1786867176.495376170] [fusion_padding10_acceptance_node]: blue_cube验收[3/10]：真实数量=1，检测数量=1，检测=PASS，最大边缘误差=9px
+[INFO] [1786867178.682731707] [fusion_padding10_acceptance_node]: red_cube验收[3/10]：真实数量=4，检测数量=4，检测=PASS，最大边缘误差=9px
+[INFO] [1786867178.682990828] [fusion_padding10_acceptance_node]: blue_cube验收[4/10]：真实数量=3，检测数量=3，检测=PASS，最大边缘误差=9px
+[INFO] [1786867180.079861296] [fusion_padding10_acceptance_node]: red_cube验收[4/10]：真实数量=2，检测数量=2，检测=PASS，最大边缘误差=9px
+[INFO] [1786867180.080152692] [fusion_padding10_acceptance_node]: blue_cube验收[5/10]：真实数量=5，检测数量=5，检测=PASS，最大边缘误差=9px
+[INFO] [1786867181.944661713] [fusion_padding10_acceptance_node]: red_cube验收[5/10]：真实数量=1，检测数量=1，检测=PASS，最大边缘误差=9px
+[INFO] [1786867181.944947524] [fusion_padding10_acceptance_node]: blue_cube验收[6/10]：真实数量=3，检测数量=3，检测=PASS，最大边缘误差=9px
+[INFO] [1786867184.475988730] [fusion_padding10_acceptance_node]: red_cube验收[6/10]：真实数量=6，检测数量=6，检测=PASS，最大边缘误差=9px
+[INFO] [1786867184.476244801] [fusion_padding10_acceptance_node]: blue_cube验收[7/10]：真实数量=1，检测数量=1，检测=PASS，最大边缘误差=9px
+[INFO] [1786867185.868529671] [fusion_padding10_acceptance_node]: red_cube验收[7/10]：真实数量=3，检测数量=3，检测=PASS，最大边缘误差=9px
+[INFO] [1786867191.084414871] [fusion_padding10_acceptance_node]: red_cube验收[8/10]：真实数量=2，检测数量=2，检测=PASS，最大边缘误差=9px
+[INFO] [1786867191.084690797] [fusion_padding10_acceptance_node]: blue_cube验收[8/10]：真实数量=5，检测数量=4，检测=FAIL，最大边缘误差=32px
+[INFO] [1786867192.474804608] [fusion_padding10_acceptance_node]: red_cube验收[9/10]：真实数量=1，检测数量=1，检测=PASS，最大边缘误差=9px
+[INFO] [1786867192.475149768] [fusion_padding10_acceptance_node]: blue_cube验收[9/10]：真实数量=5，检测数量=5，检测=PASS，最大边缘误差=9px
+[INFO] [1786867194.681132785] [fusion_padding10_acceptance_node]: red_cube验收[10/10]：真实数量=3，检测数量=3，检测=PASS，最大边缘误差=9px
+[INFO] [1786867194.681461263] [fusion_padding10_acceptance_node]: blue_cube验收[10/10]：真实数量=5，检测数量=5，检测=PASS，最大边缘误差=9px
+[INFO] [1786867194.681884156] [fusion_padding10_acceptance_node]: 视觉自动验收完成：
+{
+  "required_trials_per_class": 10,
+  "minimum_required_rate": 0.95,
+  "minimum_iou": 0.5,
+  "edge_tolerance_pixels": 10,
+  "classes": {
+    "red_cube": {
+      "trials": 10,
+      "detection_successes": 10,
+      "detection_rate": 1.0,
+      "edge_successes": 10,
+      "edge_rate": 1.0,
+      "mean_edge_error_pixels": 5.59375,
+      "maximum_edge_error_pixels": 9,
+      "pass": true
+    },
+    "blue_cube": {
+      "trials": 10,
+      "detection_successes": 9,
+      "detection_rate": 0.9,
+      "edge_successes": 9,
+      "edge_rate": 0.9,
+      "mean_edge_error_pixels": 6.0,
+      "maximum_edge_error_pixels": 32,
+      "pass": false
+    }
+  },
+  "overall_result": "FAIL"
+}
+Traceback (most recent call last):
+  File "/home/ros/robot_ws/install/vision_detector/lib/vision_detector/vision_acceptance_node", line 33, in <module>
+    sys.exit(load_entry_point('vision-detector', 'console_scripts', 'vision_acceptance_node')())
+  File "/home/ros/robot_ws/build/vision_detector/vision_detector/vision_acceptance_node.py", line 610, in main
+    rclpy.spin(node)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+    executor.spin_once()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 808, in spin_once
+    self._spin_once_impl(timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 797, in _spin_once_impl
+    handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 780, in wait_for_ready_callbacks
+    return next(self._cb_iter)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 681, in _wait_for_ready_callbacks
+    raise ExternalShutdownException()
+rclpy.executors.ExternalShutdownException

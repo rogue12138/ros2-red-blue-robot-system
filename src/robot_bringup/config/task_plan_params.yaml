@@ -1,0 +1,6 @@
+task_plan_manager_node:
+  ros__parameters:
+    maximum_locate_attempts: 5
+    max_step_count: 8
+    max_total_count: 10
+    enable_legacy_command: false

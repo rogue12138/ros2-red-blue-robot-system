@@ -1,0 +1,14 @@
+TRAINED_MODEL
+
+Status: trained and ready
+Training required after clone: no
+Architecture: YOLO11n
+Classes: red_cube, blue_cube
+Repository path: models/final/red_blue_yolo11n_manual180_960_best.pt
+Runtime path: ~/robot_ws/models/final/red_blue_yolo11n_manual180_960_best.pt
+Size bytes: 5503514
+SHA256: fbb67587228a1ca5cf8617422792f07a20de8c4ba3369e96a4300d1cec4024b6
+Input size: 960
+Runtime device: CPU
+DeepSeek API required for YOLO inference: no
+DeepSeek API purpose: Chinese task-plan parsing only

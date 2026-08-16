@@ -1,0 +1,29 @@
+{
+  "required_trials_per_class": 10,
+  "minimum_required_rate": 0.95,
+  "minimum_iou": 0.5,
+  "edge_tolerance_pixels": 10,
+  "classes": {
+    "red_cube": {
+      "trials": 10,
+      "detection_successes": 9,
+      "detection_rate": 0.9,
+      "edge_successes": 0,
+      "edge_rate": 0.0,
+      "mean_edge_error_pixels": 14.35,
+      "maximum_edge_error_pixels": 516,
+      "pass": false
+    },
+    "blue_cube": {
+      "trials": 10,
+      "detection_successes": 9,
+      "detection_rate": 0.9,
+      "edge_successes": 0,
+      "edge_rate": 0.0,
+      "mean_edge_error_pixels": 6.810344827586207,
+      "maximum_edge_error_pixels": 19,
+      "pass": false
+    }
+  },
+  "overall_result": "FAIL"
+}

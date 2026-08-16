@@ -1,0 +1,15 @@
+Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+Traceback (most recent call last):
+  File "/home/ros/robot_ws/venvs/labelimg/lib/python3.10/site-packages/libs/canvas.py", line 526, in paintEvent
+    p.drawRect(left_top.x(), left_top.y(), rect_width, rect_height)
+TypeError: arguments did not match any overloaded call:
+  drawRect(self, rect: QRectF): argument 1 has unexpected type 'float'
+  drawRect(self, x: int, y: int, w: int, h: int): argument 1 has unexpected type 'float'
+  drawRect(self, r: QRect): argument 1 has unexpected type 'float'
+Fatal Python error: Aborted
+
+Current thread 0x000079e71201a000 (most recent call first):
+  File "/home/ros/robot_ws/venvs/labelimg/lib/python3.10/site-packages/labelImg/labelImg.py", line 1635 in main
+  File "/home/ros/robot_ws/venvs/labelimg/bin/labelImg", line 6 in <module>
+
+Extension modules: PyQt5.QtCore, PyQt5.QtGui, PyQt5.QtWidgets, lxml._elementpath, lxml.etree (total: 5)

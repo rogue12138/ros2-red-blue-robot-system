@@ -1,0 +1,8 @@
+path: /home/ros/robot_ws/datasets/color_cubes_training/synthetic200_manual180_20260816_001809
+train: images/train
+val: images/val
+test: /home/ros/robot_ws/datasets/color_cubes_training/synthetic200_manual180_20260816_001809/manual_test_v3_images.txt
+
+names:
+  0: red_cube
+  1: blue_cube

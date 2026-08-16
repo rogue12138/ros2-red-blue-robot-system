@@ -1,0 +1,13 @@
+/home/ros/robot_ws/venvs/yolo_cpu/lib/python3.10/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+[INFO] [1786865376.293349113] [yolo_detector_node]: 正在加载YOLO模型：/home/ros/robot_ws/models/final/red_blue_yolo11n_manual180_960_best.pt
+[INFO] [1786865376.377542349] [yolo_detector_node]: YOLO检测节点已启动：input=/camera/image_raw，output=/vision/yolo_detections，imgsz=960，conf=0.05，device=cpu
+[INFO] [1786865392.863840198] [yolo_detector_node]: YOLO检测结果：red_cube=3，blue_cube=0，inference=102.9ms
+[INFO] [1786865403.684673488] [yolo_detector_node]: YOLO检测结果：red_cube=2，blue_cube=0，inference=118.8ms
+[INFO] [1786865413.883018703] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=2，inference=121.1ms
+[INFO] [1786865424.081327950] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=3，inference=110.6ms
+[INFO] [1786865446.360118326] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=5，inference=372.9ms
+[INFO] [1786865460.864566901] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=2，inference=300.0ms
+[INFO] [1786865471.680878093] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=1，inference=113.2ms
+[INFO] [1786865481.887437160] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=6，inference=109.8ms
+[INFO] [1786865488.681356704] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=1，inference=119.5ms

@@ -1,0 +1,363 @@
+[INFO] [launch]: All log files can be found below /home/ros/.ros/log/2026-08-16-18-49-35-549028-ros-VirtualBox-4585
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [random_scene_camera_node-1]: process started with pid [4586]
+[INFO] [red_blue_detector_node-2]: process started with pid [4588]
+[INFO] [yolo_detector_node-3]: process started with pid [4590]
+[INFO] [detection_fusion_node-4]: process started with pid [4592]
+[INFO] [homography_localizer_node-5]: process started with pid [4594]
+[INFO] [vision_marker_node-6]: process started with pid [4596]
+[INFO] [deepseek_task_plan_node-7]: process started with pid [4598]
+[INFO] [task_plan_manager_node-8]: process started with pid [4600]
+[INFO] [mock_navigation_node-9]: process started with pid [4605]
+[INFO] [mock_laser_node-10]: process started with pid [4616]
+[INFO] [safety_filter_node-11]: process started with pid [4619]
+[homography_localizer_node-5] [INFO] [1786877376.199965074] [homography_localizer_node]: 无深度单应性定位节点已启动，output_frame=base_link，table_height=0.000m，filter_window=5
+[detection_fusion_node-4] [INFO] [1786877376.213211878] [detection_fusion_node]: HSV+YOLO检测融合节点已启动：HSV=/vision/detections，YOLO=/vision/yolo_detections，输出=/vision/fused_detections，保留未匹配YOLO框=True
+[mock_laser_node-10] [INFO] [1786877376.356363411] [mock_laser_node]: 模拟激光雷达已启动
+[mock_laser_node-10] [INFO] [1786877376.473287678] [mock_laser_node]: 前方模拟障碍距离：3.00米
+[task_plan_manager_node-8] [INFO] [1786877376.512806552] [task_plan_manager_node]: [IDLE] 多步骤任务管理器已启动，等待任务
+[task_plan_manager_node-8] [INFO] [1786877376.543349126] [task_plan_manager_node]: 多步骤模拟任务状态机已启动
+[mock_navigation_node-9] [INFO] [1786877376.661780668] [mock_navigation_node]: 模拟导航速度节点已启动
+[vision_marker_node-6] [INFO] [1786877376.669464908] [vision_marker_node]: 视觉MarkerArray节点已启动
+[safety_filter_node-11] [INFO] [1786877376.766454310] [safety_filter_node]: 速度安全过滤器已启动
+[red_blue_detector_node-2] [INFO] [1786877376.832815554] [red_blue_detector_node]: 正式红蓝立方体检测节点已启动
+[safety_filter_node-11] [INFO] [1786877376.838949986] [safety_filter_node]: [CLEAR] 前方距离3.00米，允许通行
+[random_scene_camera_node-1] [INFO] [1786877376.886705218] [random_scene_camera_node]: 生成随机场景：scene=1，red=0，blue=2，obstacles=2
+[random_scene_camera_node-1] [INFO] [1786877376.887196248] [random_scene_camera_node]: 随机红蓝仿真摄像头已启动
+[deepseek_task_plan_node-7] [INFO] [1786877376.980627174] [deepseek_task_plan_node]: 已加载任务提示词：/home/ros/robot_ws/install/deepseek_bridge/share/deepseek_bridge/config/task_plan_prompt.txt
+[deepseek_task_plan_node-7] [INFO] [1786877376.990389422] [deepseek_task_plan_node]: DeepSeek多步骤任务解析节点已启动
+[deepseek_task_plan_node-7] [INFO] [1786877376.990682884] [deepseek_task_plan_node]: DeepSeek API密钥已从环境变量加载
+[yolo_detector_node-3] /home/ros/robot_ws/venvs/yolo_cpu/lib/python3.10/site-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+[yolo_detector_node-3]   warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+[yolo_detector_node-3] [INFO] [1786877378.251048411] [yolo_detector_node]: 正在加载YOLO模型：/home/ros/robot_ws/models/final/red_blue_yolo11n_manual180_960_best.pt
+[yolo_detector_node-3] [INFO] [1786877378.343002704] [yolo_detector_node]: YOLO检测节点已启动：input=/camera/image_raw，output=/vision/yolo_detections，imgsz=960，conf=0.1，device=cpu
+[safety_filter_node-11] [WARN] [1786877379.652117225] [safety_filter_node]: [NO_SCAN] 雷达数据超时，速度强制为零
+[safety_filter_node-11] [INFO] [1786877379.739913731] [safety_filter_node]: [CLEAR] 前方距离3.00米，允许通行
+[red_blue_detector_node-2] [INFO] [1786877383.284369186] [red_blue_detector_node]: 当前检测结果：red_cube=0，blue_cube=2
+[red_blue_detector_node-2] [INFO] [1786877389.281247383] [red_blue_detector_node]: 当前检测结果：red_cube=0，blue_cube=2
+[detection_fusion_node-4] [INFO] [1786877391.752011070] [detection_fusion_node]: 融合检测结果：HSV=2，YOLO=2，匹配=2，融合后=2，red_cube=0，blue_cube=2
+[red_blue_detector_node-2] [INFO] [1786877395.269816074] [red_blue_detector_node]: 当前检测结果：red_cube=0，blue_cube=2
+[yolo_detector_node-3] [INFO] [1786877396.973872624] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=2，inference=94.8ms
+[detection_fusion_node-4] [INFO] [1786877396.976340947] [detection_fusion_node]: 融合检测结果：HSV=2，YOLO=2，匹配=2，融合后=2，red_cube=0，blue_cube=2
+[detection_fusion_node-4] [INFO] [1786877399.357796488] [detection_fusion_node]: 融合检测结果：HSV=2，YOLO=2，匹配=2，融合后=2，red_cube=0，blue_cube=2
+[homography_localizer_node-5] [INFO] [1786877399.359244446] [homography_localizer_node]: 单应性五帧中值定位：2/2个目标具有稳定位置，活动跟踪数量=2，frame_id=base_link
+[vision_marker_node-6] [INFO] [1786877399.362875042] [vision_marker_node]: MarkerArray发布结果：目标数量=2，Marker数量=5，活动ID数量=2，frame_id=base_link
+[red_blue_detector_node-2] [INFO] [1786877401.286216773] [red_blue_detector_node]: 当前检测结果：red_cube=0，blue_cube=2
+[random_scene_camera_node-1] [INFO] [1786877406.866426351] [random_scene_camera_node]: 生成随机场景：scene=2，red=1，blue=1，obstacles=0
+[red_blue_detector_node-2] [INFO] [1786877407.289116974] [red_blue_detector_node]: 当前检测结果：red_cube=1，blue_cube=1
+[yolo_detector_node-3] [INFO] [1786877407.577158416] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=1，inference=105.5ms
+[detection_fusion_node-4] [INFO] [1786877407.577986228] [detection_fusion_node]: 融合检测结果：HSV=2，YOLO=2，匹配=2，融合后=2，red_cube=1，blue_cube=1
+[red_blue_detector_node-2] [INFO] [1786877413.313272047] [red_blue_detector_node]: 当前检测结果：red_cube=1，blue_cube=1
+[red_blue_detector_node-2] [INFO] [1786877419.274352020] [red_blue_detector_node]: 当前检测结果：red_cube=1，blue_cube=1
+[detection_fusion_node-4] [INFO] [1786877421.372812669] [detection_fusion_node]: 融合检测结果：HSV=2，YOLO=2，匹配=2，融合后=2，red_cube=1，blue_cube=1
+[red_blue_detector_node-2] [INFO] [1786877425.288150905] [red_blue_detector_node]: 当前检测结果：red_cube=1，blue_cube=1
+[red_blue_detector_node-2] [INFO] [1786877431.286477854] [red_blue_detector_node]: 当前检测结果：red_cube=1，blue_cube=1
+[random_scene_camera_node-1] [INFO] [1786877436.868447204] [random_scene_camera_node]: 生成随机场景：scene=3，red=0，blue=5，obstacles=0
+[red_blue_detector_node-2] [INFO] [1786877437.284682270] [red_blue_detector_node]: 当前检测结果：red_cube=0，blue_cube=5
+[yolo_detector_node-3] [INFO] [1786877440.357217641] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=5，inference=87.1ms
+[detection_fusion_node-4] [INFO] [1786877440.368348536] [detection_fusion_node]: 融合检测结果：HSV=5，YOLO=5，匹配=5，融合后=5，red_cube=0，blue_cube=5
+[homography_localizer_node-5] [INFO] [1786877440.370875999] [homography_localizer_node]: 单应性五帧中值定位：0/5个目标具有稳定位置，活动跟踪数量=7，frame_id=base_link
+[vision_marker_node-6] [INFO] [1786877440.371939540] [vision_marker_node]: MarkerArray发布结果：目标数量=0，Marker数量=1，活动ID数量=2，frame_id=base_link
+[red_blue_detector_node-2] [INFO] [1786877443.285005356] [red_blue_detector_node]: 当前检测结果：red_cube=0，blue_cube=5
+[detection_fusion_node-4] [INFO] [1786877447.565731559] [detection_fusion_node]: 融合检测结果：HSV=5，YOLO=5，匹配=5，融合后=5，red_cube=0，blue_cube=5
+[red_blue_detector_node-2] [INFO] [1786877449.281513153] [red_blue_detector_node]: 当前检测结果：red_cube=0，blue_cube=5
+[red_blue_detector_node-2] [INFO] [1786877455.281789372] [red_blue_detector_node]: 当前检测结果：red_cube=0，blue_cube=5
+[red_blue_detector_node-2] [INFO] [1786877461.295952448] [red_blue_detector_node]: 当前检测结果：red_cube=0，blue_cube=5
+[yolo_detector_node-3] [INFO] [1786877463.178423329] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=5，inference=108.6ms
+[detection_fusion_node-4] [INFO] [1786877463.180701417] [detection_fusion_node]: 融合检测结果：HSV=5，YOLO=5，匹配=5，融合后=5，red_cube=0，blue_cube=5
+[random_scene_camera_node-1] [INFO] [1786877466.873218694] [random_scene_camera_node]: 生成随机场景：scene=4，red=3，blue=0，obstacles=0
+[red_blue_detector_node-2] [INFO] [1786877467.286341652] [red_blue_detector_node]: 当前检测结果：red_cube=3，blue_cube=0
+[red_blue_detector_node-2] [INFO] [1786877473.287399282] [red_blue_detector_node]: 当前检测结果：red_cube=3，blue_cube=0
+[red_blue_detector_node-2] [INFO] [1786877479.286102774] [red_blue_detector_node]: 当前检测结果：red_cube=3，blue_cube=0
+[red_blue_detector_node-2] [INFO] [1786877485.282038453] [red_blue_detector_node]: 当前检测结果：red_cube=3，blue_cube=0
+[detection_fusion_node-4] [INFO] [1786877491.161842197] [detection_fusion_node]: 融合检测结果：HSV=3，YOLO=3，匹配=3，融合后=3，red_cube=3，blue_cube=0
+[homography_localizer_node-5] [INFO] [1786877491.164283431] [homography_localizer_node]: 单应性五帧中值定位：3/3个目标具有稳定位置，活动跟踪数量=8，frame_id=base_link
+[vision_marker_node-6] [INFO] [1786877491.165995211] [vision_marker_node]: MarkerArray发布结果：目标数量=3，Marker数量=7，活动ID数量=8，frame_id=base_link
+[red_blue_detector_node-2] [INFO] [1786877491.282840989] [red_blue_detector_node]: 当前检测结果：red_cube=3，blue_cube=0
+[random_scene_camera_node-1] [INFO] [1786877496.878123357] [random_scene_camera_node]: 生成随机场景：scene=5，red=1，blue=3，obstacles=1
+[red_blue_detector_node-2] [INFO] [1786877497.285263495] [red_blue_detector_node]: 当前检测结果：red_cube=1，blue_cube=3
+[red_blue_detector_node-2] [INFO] [1786877503.284469815] [red_blue_detector_node]: 当前检测结果：red_cube=1，blue_cube=3
+[red_blue_detector_node-2] [INFO] [1786877509.280745255] [red_blue_detector_node]: 当前检测结果：red_cube=1，blue_cube=3
+[red_blue_detector_node-2] [INFO] [1786877515.281870008] [red_blue_detector_node]: 当前检测结果：red_cube=1，blue_cube=3
+[detection_fusion_node-4] [INFO] [1786877520.176763643] [detection_fusion_node]: 融合检测结果：HSV=4，YOLO=4，匹配=4，融合后=4，red_cube=1，blue_cube=3
+[yolo_detector_node-3] [INFO] [1786877520.179517041] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=3，inference=103.0ms
+[red_blue_detector_node-2] [INFO] [1786877521.285589571] [red_blue_detector_node]: 当前检测结果：red_cube=1，blue_cube=3
+[random_scene_camera_node-1] [INFO] [1786877526.866075445] [random_scene_camera_node]: 生成随机场景：scene=6，red=4，blue=0，obstacles=0
+[red_blue_detector_node-2] [INFO] [1786877527.285384590] [red_blue_detector_node]: 当前检测结果：red_cube=4，blue_cube=0
+[red_blue_detector_node-2] [INFO] [1786877533.288709547] [red_blue_detector_node]: 当前检测结果：red_cube=4，blue_cube=0
+[detection_fusion_node-4] [INFO] [1786877535.580871430] [detection_fusion_node]: 融合检测结果：HSV=4，YOLO=4，匹配=4，融合后=4，red_cube=4，blue_cube=0
+[red_blue_detector_node-2] [INFO] [1786877539.281337619] [red_blue_detector_node]: 当前检测结果：red_cube=4，blue_cube=0
+[red_blue_detector_node-2] [INFO] [1786877545.283297189] [red_blue_detector_node]: 当前检测结果：red_cube=4，blue_cube=0
+[yolo_detector_node-3] [INFO] [1786877549.979002000] [yolo_detector_node]: YOLO检测结果：red_cube=4，blue_cube=0，inference=107.9ms
+[detection_fusion_node-4] [INFO] [1786877549.980852564] [detection_fusion_node]: 融合检测结果：HSV=4，YOLO=4，匹配=4，融合后=4，red_cube=4，blue_cube=0
+[homography_localizer_node-5] [INFO] [1786877549.982648135] [homography_localizer_node]: 单应性五帧中值定位：4/4个目标具有稳定位置，活动跟踪数量=4，frame_id=base_link
+[vision_marker_node-6] [INFO] [1786877549.984859016] [vision_marker_node]: MarkerArray发布结果：目标数量=4，Marker数量=9，活动ID数量=4，frame_id=base_link
+[red_blue_detector_node-2] [INFO] [1786877551.284268996] [red_blue_detector_node]: 当前检测结果：red_cube=4，blue_cube=0
+[random_scene_camera_node-1] [INFO] [1786877556.876103311] [random_scene_camera_node]: 生成随机场景：scene=7，red=3，blue=5，obstacles=0
+[red_blue_detector_node-2] [INFO] [1786877557.291394292] [red_blue_detector_node]: 当前检测结果：red_cube=3，blue_cube=5
+[detection_fusion_node-4] [INFO] [1786877562.581215173] [detection_fusion_node]: 融合检测结果：HSV=8，YOLO=8，匹配=8，融合后=8，red_cube=3，blue_cube=5
+[red_blue_detector_node-2] [INFO] [1786877563.287365052] [red_blue_detector_node]: 当前检测结果：red_cube=3，blue_cube=5
+[yolo_detector_node-3] [INFO] [1786877568.878709013] [yolo_detector_node]: YOLO检测结果：red_cube=3，blue_cube=5，inference=197.6ms
+[detection_fusion_node-4] [INFO] [1786877568.883896777] [detection_fusion_node]: 融合检测结果：HSV=8，YOLO=8，匹配=8，融合后=8，red_cube=3，blue_cube=5
+[red_blue_detector_node-2] [INFO] [1786877569.290417587] [red_blue_detector_node]: 当前检测结果：red_cube=3，blue_cube=5
+[red_blue_detector_node-2] [INFO] [1786877575.294110378] [red_blue_detector_node]: 当前检测结果：red_cube=3，blue_cube=5
+[detection_fusion_node-4] [INFO] [1786877577.607118978] [detection_fusion_node]: 融合检测结果：HSV=8，YOLO=8，匹配=8，融合后=8，red_cube=3，blue_cube=5
+[homography_localizer_node-5] [INFO] [1786877577.609820384] [homography_localizer_node]: 单应性五帧中值定位：8/8个目标具有稳定位置，活动跟踪数量=8，frame_id=base_link
+[vision_marker_node-6] [INFO] [1786877577.613026922] [vision_marker_node]: MarkerArray发布结果：目标数量=8，Marker数量=17，活动ID数量=8，frame_id=base_link
+[red_blue_detector_node-2] [INFO] [1786877581.289475571] [red_blue_detector_node]: 当前检测结果：red_cube=3，blue_cube=5
+[random_scene_camera_node-1] [INFO] [1786877586.869699595] [random_scene_camera_node]: 生成随机场景：scene=8，red=4，blue=0，obstacles=1
+[red_blue_detector_node-2] [INFO] [1786877587.290748367] [red_blue_detector_node]: 当前检测结果：red_cube=4，blue_cube=0
+[red_blue_detector_node-2] [INFO] [1786877593.304879159] [red_blue_detector_node]: 当前检测结果：red_cube=4，blue_cube=0
+[red_blue_detector_node-2] [INFO] [1786877599.285313806] [red_blue_detector_node]: 当前检测结果：red_cube=4，blue_cube=0
+[red_blue_detector_node-2] [INFO] [1786877605.290309535] [red_blue_detector_node]: 当前检测结果：red_cube=4，blue_cube=0
+[yolo_detector_node-3] [INFO] [1786877605.890411518] [yolo_detector_node]: YOLO检测结果：red_cube=4，blue_cube=0，inference=205.0ms
+[detection_fusion_node-4] [INFO] [1786877605.897978468] [detection_fusion_node]: 融合检测结果：HSV=4，YOLO=4，匹配=4，融合后=4，red_cube=4，blue_cube=0
+[red_blue_detector_node-2] [INFO] [1786877611.282549636] [red_blue_detector_node]: 当前检测结果：red_cube=4，blue_cube=0
+[random_scene_camera_node-1] [INFO] [1786877616.875236224] [random_scene_camera_node]: 生成随机场景：scene=9，red=0，blue=1，obstacles=0
+[red_blue_detector_node-2] [INFO] [1786877617.288555157] [red_blue_detector_node]: 当前检测结果：red_cube=0，blue_cube=1
+[red_blue_detector_node-2] [INFO] [1786877623.291708281] [red_blue_detector_node]: 当前检测结果：red_cube=0，blue_cube=1
+[red_blue_detector_node-2] [INFO] [1786877629.285053899] [red_blue_detector_node]: 当前检测结果：red_cube=0，blue_cube=1
+[red_blue_detector_node-2] [INFO] [1786877635.300178551] [red_blue_detector_node]: 当前检测结果：red_cube=0，blue_cube=1
+[detection_fusion_node-4] [INFO] [1786877639.225989390] [detection_fusion_node]: 融合检测结果：HSV=1，YOLO=1，匹配=1，融合后=1，red_cube=0，blue_cube=1
+[red_blue_detector_node-2] [INFO] [1786877641.285045990] [red_blue_detector_node]: 当前检测结果：red_cube=0，blue_cube=1
+[random_scene_camera_node-1] [INFO] [1786877646.867246066] [random_scene_camera_node]: 生成随机场景：scene=10，red=1，blue=1，obstacles=2
+[red_blue_detector_node-2] [INFO] [1786877647.281434943] [red_blue_detector_node]: 当前检测结果：red_cube=1，blue_cube=1
+[yolo_detector_node-3] [INFO] [1786877651.405051771] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=1，inference=136.6ms
+[detection_fusion_node-4] [INFO] [1786877651.406550944] [detection_fusion_node]: 融合检测结果：HSV=2，YOLO=2，匹配=2，融合后=2，red_cube=1，blue_cube=1
+[homography_localizer_node-5] [INFO] [1786877651.408593715] [homography_localizer_node]: 单应性五帧中值定位：2/2个目标具有稳定位置，活动跟踪数量=3，frame_id=base_link
+[vision_marker_node-6] [INFO] [1786877651.410652927] [vision_marker_node]: MarkerArray发布结果：目标数量=2，Marker数量=5，活动ID数量=3，frame_id=base_link
+[red_blue_detector_node-2] [INFO] [1786877653.281092170] [red_blue_detector_node]: 当前检测结果：red_cube=1，blue_cube=1
+[red_blue_detector_node-2] [INFO] [1786877659.289186121] [red_blue_detector_node]: 当前检测结果：red_cube=1，blue_cube=1
+[red_blue_detector_node-2] [INFO] [1786877665.283212346] [red_blue_detector_node]: 当前检测结果：red_cube=1，blue_cube=1
+[detection_fusion_node-4] [INFO] [1786877665.584524240] [detection_fusion_node]: 融合检测结果：HSV=2，YOLO=2，匹配=2，融合后=2，red_cube=1，blue_cube=1
+[red_blue_detector_node-2] [INFO] [1786877671.288079385] [red_blue_detector_node]: 当前检测结果：red_cube=1，blue_cube=1
+[random_scene_camera_node-1] [INFO] [1786877676.869062404] [random_scene_camera_node]: 生成随机场景：scene=11，red=1，blue=3，obstacles=0
+[red_blue_detector_node-2] [INFO] [1786877677.294373739] [red_blue_detector_node]: 当前检测结果：red_cube=1，blue_cube=3
+[yolo_detector_node-3] [INFO] [1786877677.380556706] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=3，inference=107.5ms
+[detection_fusion_node-4] [INFO] [1786877677.381450636] [detection_fusion_node]: 融合检测结果：HSV=4，YOLO=4，匹配=4，融合后=4，red_cube=1，blue_cube=3
+[red_blue_detector_node-2] [INFO] [1786877683.287381502] [red_blue_detector_node]: 当前检测结果：red_cube=1，blue_cube=3
+[red_blue_detector_node-2] [INFO] [1786877689.298965439] [red_blue_detector_node]: 当前检测结果：red_cube=1，blue_cube=3
+[detection_fusion_node-4] [INFO] [1786877692.024531114] [detection_fusion_node]: 融合检测结果：HSV=4，YOLO=4，匹配=4，融合后=4，red_cube=1，blue_cube=3
+[homography_localizer_node-5] [INFO] [1786877692.026284603] [homography_localizer_node]: 单应性五帧中值定位：4/4个目标具有稳定位置，活动跟踪数量=4，frame_id=base_link
+[vision_marker_node-6] [INFO] [1786877692.028945975] [vision_marker_node]: MarkerArray发布结果：目标数量=4，Marker数量=9，活动ID数量=4，frame_id=base_link
+[deepseek_task_plan_node-7] [INFO] [1786877692.904265725] [deepseek_task_plan_node]: 正在解析用户指令：把红色物块搬到A区一次
+[deepseek_task_plan_node-7] [INFO] [1786877693.777892080] [deepseek_task_plan_node]: 解析成功：{"action": "execute", "steps": [{"color": "red", "destination": "A", "count": 1}], "reason": ""}
+[deepseek_task_plan_node-7] [INFO] [1786877693.779395538] [deepseek_task_plan_node]: 已发布任务计划：task_id=6731d4264f6a, action=execute, steps=1, total_count=1
+[task_plan_manager_node-8] [INFO] [1786877693.780754376] [task_plan_manager_node]: [PARSING] 任务计划校验成功，共1个步骤，总计1个物块
+[task_plan_manager_node-8] [INFO] [1786877693.781499030] [task_plan_manager_node]: [LOCATING_OBJECT] 开始执行第1/1步：寻找red物块，目标区域A，数量1
+[mock_navigation_node-9] [INFO] [1786877693.782051007] [mock_navigation_node]: 收到任务状态：PARSING
+[mock_navigation_node-9] [INFO] [1786877693.782757056] [mock_navigation_node]: 收到任务状态：LOCATING_OBJECT
+[task_plan_manager_node-8] [INFO] [1786877694.491413332] [task_plan_manager_node]: [NAVIGATING_TO_OBJECT] 已找到red物块，模拟导航到目标
+[mock_navigation_node-9] [INFO] [1786877694.491723803] [mock_navigation_node]: 收到任务状态：NAVIGATING_TO_OBJECT
+[red_blue_detector_node-2] [INFO] [1786877695.282342770] [red_blue_detector_node]: 当前检测结果：red_cube=1，blue_cube=3
+[mock_navigation_node-9] [INFO] [1786877695.492632792] [mock_navigation_node]: 收到任务状态：GRASPING
+[task_plan_manager_node-8] [INFO] [1786877695.496294418] [task_plan_manager_node]: [GRASPING] 模拟导航完成，正在抓取red物块
+[task_plan_manager_node-8] [INFO] [1786877696.490701793] [task_plan_manager_node]: [NAVIGATING_TO_ZONE] 模拟抓取成功，前往A区
+[mock_navigation_node-9] [INFO] [1786877696.491485911] [mock_navigation_node]: 收到任务状态：NAVIGATING_TO_ZONE
+[task_plan_manager_node-8] [INFO] [1786877697.499793175] [task_plan_manager_node]: [PLACING] 已到达A区，正在放置
+[mock_navigation_node-9] [INFO] [1786877697.501850103] [mock_navigation_node]: 收到任务状态：PLACING
+[task_plan_manager_node-8] [INFO] [1786877698.501262959] [task_plan_manager_node]: [FINISHED] 全部任务步骤执行完成，共完成1个物块
+[mock_navigation_node-9] [INFO] [1786877698.509639590] [mock_navigation_node]: 收到任务状态：FINISHED
+[red_blue_detector_node-2] [INFO] [1786877701.277109126] [red_blue_detector_node]: 当前检测结果：red_cube=1，blue_cube=3
+[yolo_detector_node-3] [INFO] [1786877701.375123938] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=3，inference=101.3ms
+[detection_fusion_node-4] [INFO] [1786877701.376041743] [detection_fusion_node]: 融合检测结果：HSV=4，YOLO=4，匹配=4，融合后=4，red_cube=1，blue_cube=3
+[random_scene_camera_node-1] [INFO] [1786877706.874134508] [random_scene_camera_node]: 生成随机场景：scene=12，red=2，blue=2，obstacles=1
+[red_blue_detector_node-2] [INFO] [1786877707.281956027] [red_blue_detector_node]: 当前检测结果：red_cube=2，blue_cube=2
+[red_blue_detector_node-2] [INFO] [1786877713.292098633] [red_blue_detector_node]: 当前检测结果：red_cube=2，blue_cube=2
+[detection_fusion_node-4] [INFO] [1786877718.771976723] [detection_fusion_node]: 融合检测结果：HSV=4，YOLO=4，匹配=4，融合后=4，red_cube=2，blue_cube=2
+[red_blue_detector_node-2] [INFO] [1786877719.286169235] [red_blue_detector_node]: 当前检测结果：red_cube=2，blue_cube=2
+[red_blue_detector_node-2] [INFO] [1786877725.271280830] [red_blue_detector_node]: 当前检测结果：red_cube=2，blue_cube=2
+[red_blue_detector_node-2] [INFO] [1786877731.271329542] [red_blue_detector_node]: 当前检测结果：red_cube=2，blue_cube=2
+[yolo_detector_node-3] [INFO] [1786877731.376893106] [yolo_detector_node]: YOLO检测结果：red_cube=2，blue_cube=2，inference=107.9ms
+[detection_fusion_node-4] [INFO] [1786877731.381008009] [detection_fusion_node]: 融合检测结果：HSV=4，YOLO=4，匹配=4，融合后=4，red_cube=2，blue_cube=2
+[homography_localizer_node-5] [INFO] [1786877731.382546604] [homography_localizer_node]: 单应性五帧中值定位：4/4个目标具有稳定位置，活动跟踪数量=4，frame_id=base_link
+[vision_marker_node-6] [INFO] [1786877731.383893962] [vision_marker_node]: MarkerArray发布结果：目标数量=4，Marker数量=9，活动ID数量=4，frame_id=base_link
+[random_scene_camera_node-1] [INFO] [1786877736.876802933] [random_scene_camera_node]: 生成随机场景：scene=13，red=7，blue=0，obstacles=1
+[red_blue_detector_node-2] [INFO] [1786877737.291865578] [red_blue_detector_node]: 当前检测结果：red_cube=7，blue_cube=0
+[detection_fusion_node-4] [INFO] [1786877740.787220329] [detection_fusion_node]: 融合检测结果：HSV=7，YOLO=7，匹配=7，融合后=7，red_cube=7，blue_cube=0
+[red_blue_detector_node-2] [INFO] [1786877743.290196547] [red_blue_detector_node]: 当前检测结果：red_cube=7，blue_cube=0
+[yolo_detector_node-3] [INFO] [1786877744.589151603] [yolo_detector_node]: YOLO检测结果：red_cube=7，blue_cube=0，inference=118.1ms
+[detection_fusion_node-4] [INFO] [1786877744.590257586] [detection_fusion_node]: 融合检测结果：HSV=7，YOLO=7，匹配=7，融合后=7，red_cube=7，blue_cube=0
+[red_blue_detector_node-2] [INFO] [1786877749.287543347] [red_blue_detector_node]: 当前检测结果：red_cube=7，blue_cube=0
+[red_blue_detector_node-2] [INFO] [1786877755.272967830] [red_blue_detector_node]: 当前检测结果：red_cube=7，blue_cube=0
+[detection_fusion_node-4] [INFO] [1786877760.991777613] [detection_fusion_node]: 融合检测结果：HSV=7，YOLO=7，匹配=7，融合后=7，red_cube=7，blue_cube=0
+[homography_localizer_node-5] [INFO] [1786877760.994067949] [homography_localizer_node]: 单应性五帧中值定位：7/7个目标具有稳定位置，活动跟踪数量=7，frame_id=base_link
+[vision_marker_node-6] [INFO] [1786877760.996746489] [vision_marker_node]: MarkerArray发布结果：目标数量=7，Marker数量=15，活动ID数量=7，frame_id=base_link
+[red_blue_detector_node-2] [INFO] [1786877761.286954937] [red_blue_detector_node]: 当前检测结果：red_cube=7，blue_cube=0
+[random_scene_camera_node-1] [INFO] [1786877766.909138866] [random_scene_camera_node]: 生成随机场景：scene=14，red=2，blue=5，obstacles=1
+[red_blue_detector_node-2] [INFO] [1786877767.349638386] [red_blue_detector_node]: 当前检测结果：red_cube=2，blue_cube=5
+[red_blue_detector_node-2] [INFO] [1786877773.287530633] [red_blue_detector_node]: 当前检测结果：red_cube=2，blue_cube=5
+[red_blue_detector_node-2] [INFO] [1786877779.289680589] [red_blue_detector_node]: 当前检测结果：red_cube=2，blue_cube=5
+[detection_fusion_node-4] [INFO] [1786877779.780962786] [detection_fusion_node]: 融合检测结果：HSV=7，YOLO=7，匹配=7，融合后=7，red_cube=2，blue_cube=5
+[yolo_detector_node-3] [INFO] [1786877779.782333822] [yolo_detector_node]: YOLO检测结果：red_cube=2，blue_cube=5，inference=106.5ms
+[red_blue_detector_node-2] [INFO] [1786877785.290786273] [red_blue_detector_node]: 当前检测结果：red_cube=2，blue_cube=5
+[detection_fusion_node-4] [INFO] [1786877788.207916436] [detection_fusion_node]: 融合检测结果：HSV=7，YOLO=7，匹配=7，融合后=7，red_cube=2，blue_cube=5
+[red_blue_detector_node-2] [INFO] [1786877791.282883263] [red_blue_detector_node]: 当前检测结果：red_cube=2，blue_cube=5
+[random_scene_camera_node-1] [INFO] [1786877796.872162154] [random_scene_camera_node]: 生成随机场景：scene=15，red=5，blue=2，obstacles=0
+[yolo_detector_node-3] [INFO] [1786877797.067522232] [yolo_detector_node]: YOLO检测结果：red_cube=2，blue_cube=5，inference=189.6ms
+[detection_fusion_node-4] [INFO] [1786877797.070340581] [detection_fusion_node]: 融合检测结果：HSV=7，YOLO=7，匹配=7，融合后=7，red_cube=2，blue_cube=5
+[homography_localizer_node-5] [INFO] [1786877797.078375439] [homography_localizer_node]: 单应性五帧中值定位：7/7个目标具有稳定位置，活动跟踪数量=7，frame_id=base_link
+[vision_marker_node-6] [INFO] [1786877797.083211717] [vision_marker_node]: MarkerArray发布结果：目标数量=7，Marker数量=15，活动ID数量=7，frame_id=base_link
+[red_blue_detector_node-2] [INFO] [1786877797.272764885] [red_blue_detector_node]: 当前检测结果：red_cube=5，blue_cube=2
+[red_blue_detector_node-2] [INFO] [1786877803.301421735] [red_blue_detector_node]: 当前检测结果：red_cube=5，blue_cube=2
+[red_blue_detector_node-2] [INFO] [1786877809.271902009] [red_blue_detector_node]: 当前检测结果：red_cube=5，blue_cube=2
+[detection_fusion_node-4] [INFO] [1786877810.967918363] [detection_fusion_node]: 融合检测结果：HSV=7，YOLO=7，匹配=7，融合后=7，red_cube=5，blue_cube=2
+[red_blue_detector_node-2] [INFO] [1786877815.287407617] [red_blue_detector_node]: 当前检测结果：red_cube=5，blue_cube=2
+[red_blue_detector_node-2] [INFO] [1786877821.283227338] [red_blue_detector_node]: 当前检测结果：red_cube=5，blue_cube=2
+[yolo_detector_node-3] [INFO] [1786877824.267237615] [yolo_detector_node]: YOLO检测结果：red_cube=5，blue_cube=2，inference=180.8ms
+[detection_fusion_node-4] [INFO] [1786877824.271595294] [detection_fusion_node]: 融合检测结果：HSV=7，YOLO=7，匹配=7，融合后=7，red_cube=5，blue_cube=2
+[random_scene_camera_node-1] [INFO] [1786877826.866719659] [random_scene_camera_node]: 生成随机场景：scene=16，red=0，blue=1，obstacles=1
+[red_blue_detector_node-2] [INFO] [1786877827.298078955] [red_blue_detector_node]: 当前检测结果：red_cube=0，blue_cube=1
+[red_blue_detector_node-2] [INFO] [1786877833.284707717] [red_blue_detector_node]: 当前检测结果：red_cube=0，blue_cube=1
+[safety_filter_node-11] [WARN] [1786877885.780466698] [safety_filter_node]: [NO_SCAN] 雷达数据超时，速度强制为零
+[random_scene_camera_node-1] [INFO] [1786877885.797643620] [random_scene_camera_node]: 生成随机场景：scene=17，red=3，blue=2，obstacles=0
+[safety_filter_node-11] [INFO] [1786877886.043293813] [safety_filter_node]: [CLEAR] 前方距离3.00米，允许通行
+[random_scene_camera_node-1] [INFO] [1786877886.870684878] [random_scene_camera_node]: 生成随机场景：scene=18，red=2，blue=4，obstacles=1
+[yolo_detector_node-3] [INFO] [1786877894.309512207] [yolo_detector_node]: YOLO检测结果：red_cube=2，blue_cube=4，inference=229.6ms
+[yolo_detector_node-3] [INFO] [1786877901.287422929] [yolo_detector_node]: YOLO检测结果：red_cube=2，blue_cube=4，inference=208.4ms
+[yolo_detector_node-3] [INFO] [1786877912.287879855] [yolo_detector_node]: YOLO检测结果：red_cube=2，blue_cube=4，inference=207.0ms
+[random_scene_camera_node-1] [INFO] [1786877916.878849330] [random_scene_camera_node]: 生成随机场景：scene=19，red=4，blue=1，obstacles=2
+[yolo_detector_node-3] [INFO] [1786877924.264125130] [yolo_detector_node]: YOLO检测结果：red_cube=4，blue_cube=1，inference=193.1ms
+[yolo_detector_node-3] [INFO] [1786877931.213443583] [yolo_detector_node]: YOLO检测结果：red_cube=4，blue_cube=1，inference=139.5ms
+[yolo_detector_node-3] [INFO] [1786877944.874531537] [yolo_detector_node]: YOLO检测结果：red_cube=4，blue_cube=1，inference=202.4ms
+[random_scene_camera_node-1] [INFO] [1786877946.867312538] [random_scene_camera_node]: 生成随机场景：scene=20，red=1，blue=7，obstacles=0
+[yolo_detector_node-3] [INFO] [1786877961.393096773] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=7，inference=122.1ms
+[yolo_detector_node-3] [INFO] [1786877970.033420437] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=7，inference=134.3ms
+[random_scene_camera_node-1] [INFO] [1786877976.868137611] [random_scene_camera_node]: 生成随机场景：scene=21，red=2，blue=5，obstacles=1
+[yolo_detector_node-3] [INFO] [1786877981.377493815] [yolo_detector_node]: YOLO检测结果：red_cube=2，blue_cube=5，inference=105.7ms
+[yolo_detector_node-3] [INFO] [1786877989.772572755] [yolo_detector_node]: YOLO检测结果：red_cube=2，blue_cube=5，inference=100.5ms
+[yolo_detector_node-3] [INFO] [1786877997.573617202] [yolo_detector_node]: YOLO检测结果：red_cube=2，blue_cube=5，inference=101.7ms
+[random_scene_camera_node-1] [INFO] [1786878006.896162196] [random_scene_camera_node]: 生成随机场景：scene=22，red=3，blue=3，obstacles=2
+[yolo_detector_node-3] [INFO] [1786878008.773741840] [yolo_detector_node]: YOLO检测结果：red_cube=3，blue_cube=3，inference=104.8ms
+[deepseek_task_plan_node-7] [INFO] [1786878015.517942027] [deepseek_task_plan_node]: 正在解析用户指令：把红色物块搬到A区三次
+[deepseek_task_plan_node-7] [INFO] [1786878016.240198555] [deepseek_task_plan_node]: 解析成功：{"action": "execute", "steps": [{"color": "red", "destination": "A", "count": 3}], "reason": ""}
+[deepseek_task_plan_node-7] [INFO] [1786878016.241203111] [deepseek_task_plan_node]: 已发布任务计划：task_id=07d76408a5bd, action=execute, steps=1, total_count=3
+[task_plan_manager_node-8] [INFO] [1786878016.242877451] [task_plan_manager_node]: [PARSING] 任务计划校验成功，共1个步骤，总计3个物块
+[task_plan_manager_node-8] [INFO] [1786878016.243343744] [task_plan_manager_node]: [LOCATING_OBJECT] 开始执行第1/1步：寻找red物块，目标区域A，数量3
+[task_plan_manager_node-8] [INFO] [1786878016.494720779] [task_plan_manager_node]: [LOCATING_OBJECT] 正在寻找red物块，第1次
+[task_plan_manager_node-8] [INFO] [1786878017.494132454] [task_plan_manager_node]: [LOCATING_OBJECT] 正在寻找red物块，第2次
+[task_plan_manager_node-8] [INFO] [1786878018.491409777] [task_plan_manager_node]: [LOCATING_OBJECT] 正在寻找red物块，第3次
+[task_plan_manager_node-8] [INFO] [1786878019.496549647] [task_plan_manager_node]: [LOCATING_OBJECT] 正在寻找red物块，第4次
+[task_plan_manager_node-8] [INFO] [1786878020.491574644] [task_plan_manager_node]: [FAILED] 未找到第1步所需的red物块
+[yolo_detector_node-3] [INFO] [1786878020.973202794] [yolo_detector_node]: YOLO检测结果：red_cube=3，blue_cube=3，inference=99.1ms
+[yolo_detector_node-3] [INFO] [1786878031.777424565] [yolo_detector_node]: YOLO检测结果：red_cube=3，blue_cube=3，inference=98.3ms
+[random_scene_camera_node-1] [INFO] [1786878036.868876552] [random_scene_camera_node]: 生成随机场景：scene=23，red=1，blue=0，obstacles=0
+[yolo_detector_node-3] [INFO] [1786878037.170634272] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=0，inference=99.9ms
+[yolo_detector_node-3] [INFO] [1786878044.568268841] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=0，inference=100.0ms
+[yolo_detector_node-3] [INFO] [1786878053.970973068] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=0，inference=101.5ms
+[yolo_detector_node-3] [INFO] [1786878060.765271749] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=0，inference=97.8ms
+[random_scene_camera_node-1] [INFO] [1786878066.869351567] [random_scene_camera_node]: 生成随机场景：scene=24，red=3，blue=1，obstacles=1
+[yolo_detector_node-3] [INFO] [1786878069.449865731] [yolo_detector_node]: YOLO检测结果：red_cube=3，blue_cube=1，inference=175.1ms
+[safety_filter_node-11] [WARN] [1786878072.553772202] [safety_filter_node]: [EMERGENCY_STOP] 急停已触发，速度强制为零
+[deepseek_task_plan_node-7] [INFO] [1786878075.389824568] [deepseek_task_plan_node]: 正在解析用户指令：停止
+[deepseek_task_plan_node-7] [INFO] [1786878075.391593343] [deepseek_task_plan_node]: 解析成功：{"action": "stop", "steps": [], "reason": "用户要求立即停止当前任务"}
+[deepseek_task_plan_node-7] [INFO] [1786878075.392543379] [deepseek_task_plan_node]: 已发布任务计划：task_id=7574fc73a8e0, action=stop, steps=0, total_count=0
+[task_plan_manager_node-8] [INFO] [1786878075.394284341] [task_plan_manager_node]: [EMERGENCY_STOP] 用户要求立即停止当前任务
+[task_plan_manager_node-8] [WARN] [1786878075.394691691] [task_plan_manager_node]: 任务已紧急停止，人工解除安全锁定后也不会自动恢复
+[yolo_detector_node-3] [INFO] [1786878077.995750329] [yolo_detector_node]: YOLO检测结果：red_cube=3，blue_cube=1，inference=127.3ms
+[safety_filter_node-11] [INFO] [1786878078.543182065] [safety_filter_node]: [CLEAR] 前方距离3.00米，允许通行
+[yolo_detector_node-3] [INFO] [1786878087.967358691] [yolo_detector_node]: YOLO检测结果：red_cube=3，blue_cube=1，inference=99.3ms
+[random_scene_camera_node-1] [INFO] [1786878096.871097650] [random_scene_camera_node]: 生成随机场景：scene=25，red=4，blue=0，obstacles=2
+[yolo_detector_node-3] [INFO] [1786878103.880091950] [yolo_detector_node]: YOLO检测结果：red_cube=4，blue_cube=0，inference=205.5ms
+[yolo_detector_node-3] [INFO] [1786878121.417748327] [yolo_detector_node]: YOLO检测结果：red_cube=4，blue_cube=0，inference=145.1ms
+[random_scene_camera_node-1] [INFO] [1786878126.868035116] [random_scene_camera_node]: 生成随机场景：scene=26，red=6，blue=0，obstacles=2
+[yolo_detector_node-3] [INFO] [1786878129.202753828] [yolo_detector_node]: YOLO检测结果：red_cube=6，blue_cube=0，inference=132.6ms
+[yolo_detector_node-3] [INFO] [1786878139.260505814] [yolo_detector_node]: YOLO检测结果：red_cube=6，blue_cube=0，inference=187.2ms
+[yolo_detector_node-3] [INFO] [1786878149.398728983] [yolo_detector_node]: YOLO检测结果：red_cube=6，blue_cube=0，inference=129.9ms
+[random_scene_camera_node-1] [INFO] [1786878156.867751324] [random_scene_camera_node]: 生成随机场景：scene=27，red=1，blue=0，obstacles=2
+[yolo_detector_node-3] [INFO] [1786878164.219234473] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=0，inference=149.7ms
+[yolo_detector_node-3] [INFO] [1786878182.634270071] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=0，inference=162.4ms
+[random_scene_camera_node-1] [INFO] [1786878186.878239022] [random_scene_camera_node]: 生成随机场景：scene=28，red=5，blue=1，obstacles=2
+[yolo_detector_node-3] [INFO] [1786878197.385265190] [yolo_detector_node]: YOLO检测结果：red_cube=5，blue_cube=1，inference=112.4ms
+[yolo_detector_node-3] [INFO] [1786878207.503175174] [yolo_detector_node]: YOLO检测结果：red_cube=5，blue_cube=1，inference=202.7ms
+[random_scene_camera_node-1] [INFO] [1786878216.874559494] [random_scene_camera_node]: 生成随机场景：scene=29，red=1，blue=5，obstacles=2
+[yolo_detector_node-3] [INFO] [1786878219.471475924] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=5，inference=201.9ms
+[yolo_detector_node-3] [INFO] [1786878232.847276487] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=5，inference=175.4ms
+[yolo_detector_node-3] [INFO] [1786878245.592201985] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=5，inference=121.6ms
+[random_scene_camera_node-1] [INFO] [1786878246.866461272] [random_scene_camera_node]: 生成随机场景：scene=30，red=5，blue=2，obstacles=0
+[yolo_detector_node-3] [INFO] [1786878255.586942180] [yolo_detector_node]: YOLO检测结果：red_cube=5，blue_cube=2，inference=108.0ms
+[yolo_detector_node-3] [INFO] [1786878262.273021486] [yolo_detector_node]: YOLO检测结果：red_cube=5，blue_cube=2，inference=195.1ms
+[random_scene_camera_node-1] [INFO] [1786878276.874132884] [random_scene_camera_node]: 生成随机场景：scene=31，red=5，blue=1，obstacles=1
+[yolo_detector_node-3] [INFO] [1786878279.459162626] [yolo_detector_node]: YOLO检测结果：red_cube=5，blue_cube=1，inference=186.9ms
+[yolo_detector_node-3] [INFO] [1786878290.268764210] [yolo_detector_node]: YOLO检测结果：red_cube=5，blue_cube=1，inference=198.7ms
+[yolo_detector_node-3] [INFO] [1786878300.842787141] [yolo_detector_node]: YOLO检测结果：red_cube=5，blue_cube=1，inference=171.9ms
+[random_scene_camera_node-1] [INFO] [1786878306.869905398] [random_scene_camera_node]: 生成随机场景：scene=32，red=6，blue=0，obstacles=2
+[yolo_detector_node-3] [INFO] [1786878310.425610374] [yolo_detector_node]: YOLO检测结果：red_cube=6，blue_cube=0，inference=154.6ms
+[yolo_detector_node-3] [INFO] [1786878331.599165499] [yolo_detector_node]: YOLO检测结果：red_cube=6，blue_cube=0，inference=129.9ms
+[random_scene_camera_node-1] [INFO] [1786878336.869610236] [random_scene_camera_node]: 生成随机场景：scene=33，red=4，blue=4，obstacles=2
+[yolo_detector_node-3] [INFO] [1786878341.020470928] [yolo_detector_node]: YOLO检测结果：red_cube=4，blue_cube=4，inference=149.9ms
+[yolo_detector_node-3] [INFO] [1786878350.629768778] [yolo_detector_node]: YOLO检测结果：red_cube=4，blue_cube=4，inference=151.3ms
+[yolo_detector_node-3] [INFO] [1786878363.466506895] [yolo_detector_node]: YOLO检测结果：red_cube=4，blue_cube=4，inference=188.6ms
+[random_scene_camera_node-1] [INFO] [1786878366.867971484] [random_scene_camera_node]: 生成随机场景：scene=34，red=1，blue=4，obstacles=1
+[yolo_detector_node-3] [INFO] [1786878383.271428059] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=4，inference=190.2ms
+[yolo_detector_node-3] [INFO] [1786878393.258578430] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=4，inference=178.5ms
+[random_scene_camera_node-1] [INFO] [1786878396.867266020] [random_scene_camera_node]: 生成随机场景：scene=35，red=4，blue=0，obstacles=2
+[yolo_detector_node-3] [INFO] [1786878409.639530447] [yolo_detector_node]: YOLO检测结果：red_cube=4，blue_cube=0，inference=153.3ms
+[yolo_detector_node-3] [INFO] [1786878421.421056904] [yolo_detector_node]: YOLO检测结果：red_cube=4，blue_cube=0，inference=149.9ms
+[random_scene_camera_node-1] [INFO] [1786878426.873014464] [random_scene_camera_node]: 生成随机场景：scene=36，red=1，blue=0，obstacles=1
+[yolo_detector_node-3] [INFO] [1786878429.623035885] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=0，inference=152.8ms
+[yolo_detector_node-3] [INFO] [1786878440.212414167] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=0，inference=143.5ms
+[yolo_detector_node-3] [INFO] [1786878449.214212140] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=0，inference=145.2ms
+[random_scene_camera_node-1] [INFO] [1786878456.869871295] [random_scene_camera_node]: 生成随机场景：scene=37，red=5，blue=0，obstacles=0
+[yolo_detector_node-3] [INFO] [1786878459.833507581] [yolo_detector_node]: YOLO检测结果：red_cube=5，blue_cube=0，inference=161.1ms
+[yolo_detector_node-3] [INFO] [1786878470.788989296] [yolo_detector_node]: YOLO检测结果：red_cube=5，blue_cube=0，inference=119.2ms
+[yolo_detector_node-3] [INFO] [1786878477.986613135] [yolo_detector_node]: YOLO检测结果：red_cube=5，blue_cube=0，inference=119.4ms
+[random_scene_camera_node-1] [INFO] [1786878486.869525419] [random_scene_camera_node]: 生成随机场景：scene=38，red=1，blue=0，obstacles=1
+[yolo_detector_node-3] [INFO] [1786878488.822394061] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=0，inference=154.1ms
+[yolo_detector_node-3] [INFO] [1786878505.404853582] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=0，inference=135.4ms
+[yolo_detector_node-3] [INFO] [1786878515.474686401] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=0，inference=200.6ms
+[random_scene_camera_node-1] [INFO] [1786878516.871944729] [random_scene_camera_node]: 生成随机场景：scene=39，red=7，blue=0，obstacles=1
+[yolo_detector_node-3] [INFO] [1786878526.812198616] [yolo_detector_node]: YOLO检测结果：red_cube=7，blue_cube=0，inference=133.8ms
+[yolo_detector_node-3] [INFO] [1786878539.402482795] [yolo_detector_node]: YOLO检测结果：red_cube=7，blue_cube=0，inference=126.1ms
+[random_scene_camera_node-1] [INFO] [1786878546.869387963] [random_scene_camera_node]: 生成随机场景：scene=40，red=1，blue=3，obstacles=2
+[yolo_detector_node-3] [INFO] [1786878550.089876668] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=3，inference=194.3ms
+[yolo_detector_node-3] [INFO] [1786878563.803442003] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=3，inference=132.8ms
+[yolo_detector_node-3] [INFO] [1786878574.803244849] [yolo_detector_node]: YOLO检测结果：red_cube=1，blue_cube=3，inference=134.8ms
+[random_scene_camera_node-1] [INFO] [1786878576.878598559] [random_scene_camera_node]: 生成随机场景：scene=41，red=7，blue=1，obstacles=1
+[yolo_detector_node-3] [INFO] [1786878586.587128076] [yolo_detector_node]: YOLO检测结果：red_cube=7，blue_cube=1，inference=114.4ms
+[yolo_detector_node-3] [INFO] [1786878599.447452803] [yolo_detector_node]: YOLO检测结果：red_cube=7，blue_cube=1，inference=173.5ms
+[random_scene_camera_node-1] [INFO] [1786878606.873745594] [random_scene_camera_node]: 生成随机场景：scene=42，red=0，blue=1，obstacles=1
+[yolo_detector_node-3] [INFO] [1786878612.817513429] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=1，inference=148.9ms
+[yolo_detector_node-3] [INFO] [1786878623.632366366] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=1，inference=161.8ms
+[random_scene_camera_node-1] [INFO] [1786878636.873565279] [random_scene_camera_node]: 生成随机场景：scene=43，red=2，blue=0，obstacles=2
+[yolo_detector_node-3] [INFO] [1786878638.649993978] [yolo_detector_node]: YOLO检测结果：red_cube=2，blue_cube=0，inference=170.9ms
+[safety_filter_node-11] [WARN] [1786878644.433911836] [safety_filter_node]: [NO_SCAN] 雷达数据超时，速度强制为零
+[safety_filter_node-11] [INFO] [1786878644.437522491] [safety_filter_node]: [CLEAR] 前方距离3.00米，允许通行
+[yolo_detector_node-3] [INFO] [1786878647.252092108] [yolo_detector_node]: YOLO检测结果：red_cube=2，blue_cube=0，inference=185.1ms
+[yolo_detector_node-3] [INFO] [1786878660.038916908] [yolo_detector_node]: YOLO检测结果：red_cube=2，blue_cube=0，inference=171.2ms
+[random_scene_camera_node-1] [INFO] [1786878666.869830657] [random_scene_camera_node]: 生成随机场景：scene=44，red=3，blue=0，obstacles=2
+[yolo_detector_node-3] [INFO] [1786878669.188583684] [yolo_detector_node]: YOLO检测结果：red_cube=3，blue_cube=0，inference=119.7ms
+[yolo_detector_node-3] [INFO] [1786878677.633562051] [yolo_detector_node]: YOLO检测结果：red_cube=3，blue_cube=0，inference=162.2ms
+[yolo_detector_node-3] [INFO] [1786878689.878178535] [yolo_detector_node]: YOLO检测结果：red_cube=3，blue_cube=0，inference=207.3ms
+[random_scene_camera_node-1] [INFO] [1786878696.873340941] [random_scene_camera_node]: 生成随机场景：scene=45，red=3，blue=2，obstacles=0
+[yolo_detector_node-3] [INFO] [1786878700.021605630] [yolo_detector_node]: YOLO检测结果：red_cube=3，blue_cube=2，inference=146.6ms
+[yolo_detector_node-3] [INFO] [1786878709.806143005] [yolo_detector_node]: YOLO检测结果：red_cube=3，blue_cube=2，inference=133.1ms
+[yolo_detector_node-3] [INFO] [1786878723.287244331] [yolo_detector_node]: YOLO检测结果：red_cube=3，blue_cube=2，inference=218.2ms
+[random_scene_camera_node-1] [INFO] [1786878726.875238079] [random_scene_camera_node]: 生成随机场景：scene=46，red=5，blue=0，obstacles=0
+[yolo_detector_node-3] [INFO] [1786878730.683137191] [yolo_detector_node]: YOLO检测结果：red_cube=5，blue_cube=0，inference=212.7ms
+[yolo_detector_node-3] [INFO] [1786878742.022810475] [yolo_detector_node]: YOLO检测结果：red_cube=5，blue_cube=0，inference=152.0ms
+[safety_filter_node-11] [WARN] [1786878745.873400304] [safety_filter_node]: [NO_SCAN] 雷达数据超时，速度强制为零
+[safety_filter_node-11] [INFO] [1786878745.943546612] [safety_filter_node]: [CLEAR] 前方距离3.00米，允许通行
+[random_scene_camera_node-1] [INFO] [1786878756.873550735] [random_scene_camera_node]: 生成随机场景：scene=47，red=0，blue=6，obstacles=1
+[yolo_detector_node-3] [INFO] [1786878761.844435073] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=6，inference=172.3ms
+[yolo_detector_node-3] [INFO] [1786878770.182745769] [yolo_detector_node]: YOLO检测结果：red_cube=0，blue_cube=6，inference=115.4ms
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[mock_navigation_node-9] Traceback (most recent call last):
+[mock_navigation_node-9]   File "/home/ros/robot_ws/install/task_manager/lib/task_manager/mock_navigation_node", line 33, in <module>
+[mock_navigation_node-9]     sys.exit(load_entry_point('task-manager', 'console_scripts', 'mock_navigation_node')())
+[mock_navigation_node-9]   File "/home/ros/robot_ws/build/task_manager/task_manager/mock_navigation_node.py", line 99, in main
+[mock_navigation_node-9]     node.velocity_publisher.publish(
+[mock_navigation_node-9]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/publisher.py", line 70, in publish
+[mock_navigation_node-9]     self.__publisher.publish(msg)
+[mock_navigation_node-9] rclpy._rclpy_pybind11.RCLError: Failed to publish: publisher's context is invalid, at ./src/rcl/publisher.c:389
+[INFO] [detection_fusion_node-4]: process has finished cleanly [pid 4592]
+[INFO] [task_plan_manager_node-8]: process has finished cleanly [pid 4600]
+[INFO] [random_scene_camera_node-1]: process has finished cleanly [pid 4586]
+[INFO] [vision_marker_node-6]: process has finished cleanly [pid 4596]
+[INFO] [homography_localizer_node-5]: process has finished cleanly [pid 4594]
+[ERROR] [mock_navigation_node-9]: process has died [pid 4605, exit code 1, cmd '/home/ros/robot_ws/install/task_manager/lib/task_manager/mock_navigation_node --ros-args -r __node:=mock_navigation_node --params-file /home/ros/robot_ws/install/robot_bringup/share/robot_bringup/config/safety_params.yaml'].
+[INFO] [mock_laser_node-10]: process has finished cleanly [pid 4616]
+[INFO] [safety_filter_node-11]: process has finished cleanly [pid 4619]
+[INFO] [deepseek_task_plan_node-7]: process has finished cleanly [pid 4598]
+[INFO] [red_blue_detector_node-2]: process has finished cleanly [pid 4588]
+[INFO] [yolo_detector_node-3]: process has finished cleanly [pid 4590]

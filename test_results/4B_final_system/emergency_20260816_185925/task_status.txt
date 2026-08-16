@@ -1,0 +1,88 @@
+header:
+  stamp:
+    sec: 1786878016
+    nanosec: 242202579
+  frame_id: task_plan_manager
+state: PARSING
+detail: 任务计划校验成功，共1个步骤，总计3个物块
+current_iteration: 0
+total_iterations: 3
+success: false
+---
+header:
+  stamp:
+    sec: 1786878016
+    nanosec: 242995936
+  frame_id: task_plan_manager
+state: LOCATING_OBJECT
+detail: 开始执行第1/1步：寻找red物块，目标区域A，数量3
+current_iteration: 0
+total_iterations: 3
+success: false
+---
+header:
+  stamp:
+    sec: 1786878016
+    nanosec: 493142247
+  frame_id: task_plan_manager
+state: LOCATING_OBJECT
+detail: 正在寻找red物块，第1次
+current_iteration: 0
+total_iterations: 3
+success: false
+---
+header:
+  stamp:
+    sec: 1786878017
+    nanosec: 490118733
+  frame_id: task_plan_manager
+state: LOCATING_OBJECT
+detail: 正在寻找red物块，第2次
+current_iteration: 0
+total_iterations: 3
+success: false
+---
+header:
+  stamp:
+    sec: 1786878018
+    nanosec: 489899424
+  frame_id: task_plan_manager
+state: LOCATING_OBJECT
+detail: 正在寻找red物块，第3次
+current_iteration: 0
+total_iterations: 3
+success: false
+---
+header:
+  stamp:
+    sec: 1786878019
+    nanosec: 495552368
+  frame_id: task_plan_manager
+state: LOCATING_OBJECT
+detail: 正在寻找red物块，第4次
+current_iteration: 0
+total_iterations: 3
+success: false
+---
+header:
+  stamp:
+    sec: 1786878020
+    nanosec: 490417229
+  frame_id: task_plan_manager
+state: FAILED
+detail: 未找到第1步所需的red物块
+current_iteration: 0
+total_iterations: 3
+success: false
+---
+header:
+  stamp:
+    sec: 1786878075
+    nanosec: 393594458
+  frame_id: task_plan_manager
+state: EMERGENCY_STOP
+detail: 用户要求立即停止当前任务
+current_iteration: 0
+total_iterations: 3
+success: false
+---

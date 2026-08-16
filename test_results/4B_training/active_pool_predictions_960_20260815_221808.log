@@ -1,0 +1,5 @@
+Ultralytics 8.4.120 🚀 Python-3.10.12 torch-2.13.0+cpu CPU (Intel Core Ultra 5 125H)
+YOLO11n summary (fused): 101 layers, 2,582,542 parameters, 0 gradients, 6.4 GFLOPs
+Results saved to [1m/home/ros/robot_ws/datasets/user_cube_dataset/active_pool_590_20260815_221618/predictions/active_pool_predictions_960_20260815_221808[0m
+537 labels saved to /home/ros/robot_ws/datasets/user_cube_dataset/active_pool_590_20260815_221618/predictions/active_pool_predictions_960_20260815_221808/labels
+💡 Learn more at https://docs.ultralytics.com/modes/predict

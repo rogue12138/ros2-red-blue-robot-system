@@ -1,0 +1,29 @@
+header:
+  stamp:
+    sec: 1786877664
+    nanosec: 662438845
+  frame_id: base_link
+detections:
+- class_name: blue_cube
+  confidence: 0.991570234298706
+  x_min: 167
+  y_min: 355
+  x_max: 237
+  y_max: 425
+  has_position: true
+  position:
+    x: 0.525
+    y: 0.235
+    z: 0.0
+- class_name: red_cube
+  confidence: 0.9743335843086243
+  x_min: 231
+  y_min: 208
+  x_max: 313
+  y_max: 290
+  has_position: true
+  position:
+    x: 0.8775
+    y: 0.09499999999999997
+    z: 0.0
+---

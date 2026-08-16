@@ -1,0 +1,18 @@
+header:
+  stamp:
+    sec: 1786769252
+    nanosec: 816372825
+  frame_id: ''
+task_id: 403076f67103
+original_text: 先把蓝色物块搬到A区一次，再把红色物块搬到C区一次
+action: execute
+steps:
+- color: blue
+  destination: A
+  count: 1
+- color: red
+  destination: C
+  count: 1
+total_count: 2
+reason: ''
+---

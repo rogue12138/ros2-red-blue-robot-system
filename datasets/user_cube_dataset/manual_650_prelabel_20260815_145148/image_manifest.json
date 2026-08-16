@@ -1,0 +1,3252 @@
+[
+  {
+    "new_name": "manual_0001_6cb9e5a2.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_165737_056.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0002_59ff0d1e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170602_218.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0003_7976ded0.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170605_158.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0004_fa3686ae.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170605_494.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0005_d024f31d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170605_758.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0006_680225b4.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170606_131.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0007_26a84fe4.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170606_435.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0008_d9e67011.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170606_759.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0009_7801e57e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170607_217.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0010_6eba1853.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170607_519.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0011_4e2aa3e3.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170633_871.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0012_83e0b0e5.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170634_232.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0013_cdeab164.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170634_464.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0014_d2c237a9.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170634_759.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0015_81c1187d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170634_984.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0016_489f1031.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170635_301.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0017_2ad8886c.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170635_567.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0018_ebd2f8fb.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170635_838.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0019_619b3e26.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170636_130.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0020_eba08106.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170636_463.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0021_847729e7.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170652_744.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0022_0ed43e6b.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170653_022.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0023_bb1ddc2f.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170653_438.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0024_ce55c2c6.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170653_772.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0025_5977cfca.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170654_031.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0026_afe155b3.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170654_328.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0027_096f7cda.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170654_636.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0028_eacda717.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170654_954.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0029_2a0c32ad.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170655_270.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0030_5dee4a5e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170655_549.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0031_719cb8d3.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170722_506.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0032_4995afb0.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170722_894.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0033_7956a886.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170723_171.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0034_917291c3.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170723_486.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0035_6332c461.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170723_770.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0036_113ecd22.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170724_047.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0037_70d2241c.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170724_327.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0038_de0fa583.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170724_656.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0039_01953f0c.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170724_927.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0040_9d365b78.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170725_202.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0041_68c982be.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170756_761.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0042_019a3676.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170757_266.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0043_ecdd8c23.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170757_803.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0044_2716547b.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170758_270.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0045_503d557c.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170758_945.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0046_457afc1d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170759_337.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0047_506fca38.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170759_673.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0048_567f3ecb.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170759_945.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0049_22e33c9f.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170800_291.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0050_393a0c10.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_170800_601.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0051_39c4cc07.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_171101_952.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0052_0077ce14.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_171102_281.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0053_39eaae72.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_171102_556.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0054_ea4405c9.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_171102_818.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0055_f4416d0e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_171103_121.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0056_a4940e44.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_171103_384.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0057_60d5773a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_171103_692.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0058_74858e47.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_171103_979.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0059_99d741a3.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_171104_314.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0060_522bd415.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_171104_581.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0061_caac0f47.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_171123_703.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0062_7763db35.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_171123_976.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0063_d0416227.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_171124_249.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0064_21d385af.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_171124_516.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0065_74741669.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_171124_817.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0066_66538ecc.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_171125_070.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0067_afbeb28a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_171125_404.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0068_9137f9e2.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_171125_676.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0069_d85a9c2b.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_171125_960.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0070_a640b5eb.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_171126_228.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0071_242869d0.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173611_637.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0072_f694d3a1.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173611_947.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0073_427dd395.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173612_188.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0074_738a679e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173612_451.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0075_8ba59226.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173612_705.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0076_8105e5d4.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173629_500.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0077_19cf262b.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173629_791.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0078_5f1557e9.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173630_096.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0079_1c6de87a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173630_363.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0080_d15e5b49.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173630_645.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0081_5f6e9020.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173654_442.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0082_0aee7db1.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173654_766.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0083_02243527.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173655_081.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0084_d55b8c61.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173655_411.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0085_6d3b5fed.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173655_726.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0086_72846e90.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173658_466.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0087_f7fbf238.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173658_731.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0088_d0fb411b.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173658_991.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0089_5ae1366c.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173659_253.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0090_cbae4d4d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173659_488.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0091_3ad38848.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173720_169.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0092_e1ad7f1d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173720_526.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0093_7439bb49.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173720_870.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0094_df2d07a8.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173721_173.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0095_59092c51.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173721_543.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0096_2e7cf8f5.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173732_858.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0097_8d4609ca.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173733_177.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0098_eebf6ad4.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173733_503.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0099_b55b219d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173733_818.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0100_9bc3156e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173734_191.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0101_85c8c95c.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173751_810.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0102_5a3f0b58.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173752_114.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0103_7d94f8a9.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173752_383.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0104_edf54c62.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173752_626.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0105_265a1c74.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173752_885.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0106_48d68651.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173753_115.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0107_4734a4ef.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173753_386.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0108_3d7b3288.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173753_669.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0109_ee2b6cfb.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173753_941.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0110_acd5da4f.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173754_227.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0111_710e523d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173823_266.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0112_6e3e33b7.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173823_664.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0113_1168662e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173824_039.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0114_47581b6e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173824_392.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0115_78537260.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173824_692.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0116_84284fcb.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173827_317.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0117_e426ce5f.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173827_586.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0118_262212da.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173827_878.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0119_d72d6486.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173828_135.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0120_d1de9d17.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_173828_397.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0121_c76702e0.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174207_721.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0122_77614e6d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174208_028.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0123_c604f7f3.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174208_341.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0124_c20347e8.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174208_688.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0125_3a111317.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174209_064.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0126_cadcb22d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174209_363.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0127_1b7f4bda.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174209_666.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0128_d1d266d0.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174210_011.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0129_8c5547bb.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174210_320.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0130_48963415.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174210_580.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0131_acaf3c99.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174228_840.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0132_87ceb1d0.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174229_140.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0133_893912f1.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174229_425.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0134_08e58fa3.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174229_711.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0135_dbe11702.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174229_952.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0136_d79e6285.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174230_211.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0137_28d65bf0.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174230_470.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0138_fae6abba.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174230_749.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0139_9cdd0c23.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174231_000.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0140_625e9306.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174231_297.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0141_e596c128.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174241_173.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0142_2cffded7.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174241_483.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0143_bbd1b5dd.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174241_743.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0144_5f2bb256.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174242_048.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0145_c54671f3.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174242_304.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0146_7b268dd9.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174242_530.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0147_e68c27e5.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174242_787.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0148_a4b5e2fe.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174243_077.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0149_cfff7c0d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174243_340.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0150_0d65c0fc.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174243_651.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0151_a928db4f.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174306_718.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0152_45c4e56a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174306_954.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0153_7d727043.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174307_244.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0154_b67b16e9.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174307_512.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0155_d56cc040.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174307_824.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0156_595f48ad.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174308_048.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0157_436b26fa.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174308_288.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0158_0e91ce86.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174308_549.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0159_de3903ab.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174308_822.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0160_c4837256.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174309_114.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0161_c841a921.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174324_021.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0162_7e2b1f29.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174324_266.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0163_b20a8d67.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174324_485.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0164_6bbc9f02.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174324_670.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0165_d45cb7c3.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174324_882.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0166_52605eb1.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174325_108.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0167_7450f273.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174325_328.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0168_22805c38.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174325_522.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0169_e8fab1bc.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174325_738.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0170_093f43dd.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174325_963.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0171_65e33861.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174331_874.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0172_5547d47c.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174332_113.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0173_5bbea794.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174332_306.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0174_f3575125.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174332_517.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0175_ad9d65b1.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174332_691.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0176_8e0aff1f.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174332_888.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0177_65534864.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174333_044.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0178_54887de1.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174333_228.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0179_029bb54b.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174333_408.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0180_92a82b2e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174333_616.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0181_fe0a265d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174341_428.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0182_16d81cad.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174341_627.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0183_c48b7587.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174341_808.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0184_d51b52d0.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174341_985.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0185_0a08b753.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174342_219.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0186_ba5fe89d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174342_434.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0187_84177fed.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174342_643.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0188_9913c75a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174342_818.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0189_bcdb9984.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174343_049.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0190_3649494d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174343_250.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0191_1e8d1320.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174352_690.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0192_f8107eea.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174352_940.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0193_c0ad290a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174353_119.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0194_103d9332.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174353_326.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0195_523d7de7.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174353_540.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0196_23b2b9cf.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174353_761.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0197_52f7abc2.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174354_001.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0198_3e942b66.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174354_239.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0199_a68b708a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174354_488.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0200_f975e49d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174354_695.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0201_0eefe621.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174406_550.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0202_e94fe67f.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174406_820.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0203_144d54f8.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174407_001.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0204_4b42dd0f.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174407_219.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0205_c4a69d62.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174407_410.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0206_c26adc4a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174407_615.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0207_14c1fea2.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174407_865.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0208_c16b41f1.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174408_062.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0209_bf09cd0c.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174408_287.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0210_023fd5c6.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174408_468.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0211_a79d2b05.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174516_914.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0212_f578ab2f.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174517_096.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0213_b4cc61dc.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174517_269.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0214_4ac52b8b.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174517_444.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0215_ea87e9e8.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174517_607.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0216_935bf636.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174517_788.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0217_70361b81.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174517_958.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0218_da7eca3c.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174518_137.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0219_2f3c7439.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174518_298.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0220_b3e8f12f.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174518_481.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0221_3d6d26ff.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174538_191.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0222_93a7ece5.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174538_414.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0223_2819cd1a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174538_642.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0224_fdf980bf.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174538_850.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0225_468f51b2.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174539_060.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0226_73a72fc1.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174539_262.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0227_67494e44.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174539_453.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0228_5f385a3a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174539_610.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0229_6e680430.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174539_822.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0230_9c2b37d2.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174540_088.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0231_b29c36e0.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174834_495.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0232_33b07b25.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174834_773.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0233_dcae5963.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174835_039.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0234_b2db5a17.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174835_311.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0235_434caf6f.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174835_577.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0236_17799832.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174835_842.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0237_bb45700c.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174836_102.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0238_dc98d4d8.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174836_373.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0239_44a610c3.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174836_621.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0240_a7ba5c56.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174838_096.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0241_4b3c8f8a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174845_154.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0242_9c876c32.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174845_398.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0243_06f39058.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174845_665.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0244_969d631b.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174845_903.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0245_4f22dc91.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174846_155.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0246_e6a97e8d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174846_391.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0247_6bf572ba.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174846_649.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0248_15da5666.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174846_857.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0249_41b19814.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174847_135.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0250_4439d96d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174847_336.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0251_f4857181.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174856_300.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0252_6cc49f29.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174856_564.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0253_2fdd057a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174856_783.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0254_9d3753c0.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174856_977.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0255_0335b1df.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174857_162.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0256_6757e835.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174857_336.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0257_2023c396.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174857_551.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0258_da10df9a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174857_736.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0259_831ebf56.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174857_946.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0260_95ea9197.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174858_156.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0261_590ddc87.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174908_386.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0262_73eef795.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174908_582.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0263_e3ac2642.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174908_782.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0264_a805513b.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174909_014.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0265_e5ad238e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174909_223.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0266_f1940cb9.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174909_402.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0267_b9276dc8.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174909_619.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0268_8220a141.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174909_870.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0269_05c1e730.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174910_085.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0270_9750cf12.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174910_283.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0271_14df02a1.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174910_511.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0272_2826e804.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174924_146.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0273_942adf23.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174924_433.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0274_74b5c0ae.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174924_672.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0275_905a9fe6.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174924_892.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0276_98843536.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174925_074.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0277_c50ef8e2.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174925_287.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0278_204e82f1.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174925_524.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0279_095e826e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174925_698.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0280_88c2f7b0.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174925_923.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0281_030c2687.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174926_171.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0282_e3a1cf65.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174936_803.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0283_6106c13b.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174937_078.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0284_d98ce2af.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174937_298.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0285_6ff75de6.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174937_497.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0286_f9e820c6.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174937_693.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0287_c522a0dd.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174937_917.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0288_d0a769c8.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174938_133.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0289_707cd33b.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174938_302.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0290_7a169a33.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174938_521.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0291_47bda67c.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174938_788.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0292_ccced703.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174939_377.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0293_0ea3b1b0.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174939_565.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0294_4733376c.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174939_769.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0295_65849de5.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174939_966.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0296_8964bb5c.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174940_164.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0297_2795355e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174940_350.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0298_ad84d3a0.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174940_574.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0299_836a1281.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174940_813.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0300_7f0a6ecc.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174941_134.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0301_242e712e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174954_205.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0302_0cf015d5.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174954_423.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0303_e257ba2a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174954_609.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0304_6fb34bf7.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174954_876.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0305_5880b279.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174955_182.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0306_f8ecc86a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174955_479.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0307_e49732b7.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174955_707.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0308_2e9a1f5d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174955_946.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0309_6a4818ae.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174956_178.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0310_eec0c7ba.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_174956_393.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0311_6517a78d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175003_036.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0312_d67ddea0.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175003_251.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0313_f5975bc0.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175003_452.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0314_77e9c6fd.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175003_628.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0315_61de2a24.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175003_814.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0316_6b1d5c45.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175003_983.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0317_680de09d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175004_204.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0318_8ddbff03.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175004_411.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0319_85dd92c1.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175004_618.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0320_36d58040.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175004_806.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0321_786554d7.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175005_034.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0322_805cfb64.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175005_259.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0323_d7400db8.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175005_477.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0324_281aec01.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175005_708.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0325_f1148a40.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175005_968.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0326_8ca40a25.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175022_604.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0327_b2d60054.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175022_829.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0328_61a9bab6.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175023_015.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0329_47733e13.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175023_239.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0330_c8827daa.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175023_441.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0331_41faad6c.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175023_632.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0332_f258afd1.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175023_845.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0333_2b70a9df.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175024_068.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0334_2834079a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175024_293.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0335_38e71b7f.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175024_508.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0336_ff0d1510.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175024_728.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0337_a857e62d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175024_912.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0338_c9a0e9ec.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175025_130.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0339_fe966b6a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175025_347.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0340_de5c6812.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175025_664.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0341_03d3503d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175046_744.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0342_f9e3eb23.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175046_965.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0343_134b3f0a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175047_207.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0344_305db5c8.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175047_431.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0345_8bc5062a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175047_653.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0346_79a23c14.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175047_889.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0347_201e9cb2.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175048_126.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0348_989c8533.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175048_376.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0349_09724970.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175048_588.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0350_10534071.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175048_829.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0351_ab065f83.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175058_992.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0352_72e20577.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175059_205.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0353_d1f975cf.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175059_456.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0354_023ece62.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175059_683.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0355_84008b5d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175059_909.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0356_1a39ea8e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175100_109.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0357_6de1775a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175100_312.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0358_91582ef3.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175100_557.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0359_44aaadfb.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175100_741.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0360_f8b95bbd.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175100_961.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0361_60ed469f.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175113_649.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0362_a67f366d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175113_858.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0363_5596ab78.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175114_068.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0364_6b5a0829.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175114_277.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0365_c8fd8333.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175114_505.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0366_0ad8574b.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175114_708.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0367_fe5ca3d8.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175114_951.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0368_70704420.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175115_199.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0369_e70634b5.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175115_455.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0370_8f927914.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175115_708.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0371_9c24868f.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175131_646.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0372_49ac2f65.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175131_921.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0373_55d04108.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175132_152.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0374_2e89b321.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175132_371.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0375_f530cc5f.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175132_586.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0376_0b3a5866.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175132_784.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0377_99daafb6.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175133_000.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0378_0cba0c2a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175133_192.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0379_5b59a3bd.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175133_427.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0380_0c058c03.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175133_635.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0381_0cd80a9a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175146_512.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0382_07fef8cc.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175146_759.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0383_8b9b6b20.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175146_938.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0384_f6aacc3b.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175147_177.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0385_90236b8f.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175147_387.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0386_8e8bf9b6.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175147_601.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0387_177e212d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175147_817.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0388_ba4f97e8.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175148_035.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0389_b015c77d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175148_254.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0390_9374b625.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175148_452.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0391_9a893b34.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175828_805.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0392_f0567f1c.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175829_108.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0393_a3e86bde.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175829_376.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0394_3514a0a6.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175829_726.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0395_24889d8a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175830_040.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0396_302f568d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175830_358.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0397_077f3c1e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175830_690.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0398_f15bd356.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175830_995.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0399_3c64793e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175831_317.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0400_58baa824.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175831_581.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0401_5f6b54b4.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175858_747.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0402_d820add0.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175858_965.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0403_0a8cf109.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175859_183.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0404_f5f43ec5.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175859_361.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0405_f9f78022.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175859_579.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0406_e83f541f.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175859_761.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0407_e8923a09.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175859_979.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0408_d91bcc17.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175900_192.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0409_0ddad35b.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175900_428.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0410_1607b39f.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175900_645.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0411_041cb65d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175918_752.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0412_bfc0da98.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175918_969.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0413_fd2ebac3.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175919_174.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0414_797f3e94.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175919_392.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0415_7fc39c41.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175919_579.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0416_d3613c4b.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175919_780.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0417_75c135ea.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175920_015.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0418_7e8f6a43.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175920_244.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0419_ef3658be.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175920_454.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0420_f9e00a77.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175920_638.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0421_6a13beb4.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175923_990.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0422_1d5ff2b0.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175924_222.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0423_2e14e28e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175924_438.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0424_2eec6842.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175924_623.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0425_3a3b45b9.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175924_814.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0426_f0196752.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175924_994.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0427_bd23c351.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175925_167.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0428_78fbae0e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175925_382.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0429_f34ebd6a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175925_573.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0430_d50067c0.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175925_781.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0431_96703968.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175926_147.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0432_eb0af571.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175926_375.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0433_b23a68cd.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175926_596.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0434_69e5a434.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175926_788.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0435_b86fd6fc.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175926_976.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0436_0a45a58d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175927_178.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0437_640df382.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175927_386.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0438_dea3af23.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175927_616.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0439_25fbb0d9.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175927_794.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0440_b47a7eac.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175928_022.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0441_5d74301d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_175928_243.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0442_9c59df00.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180001_279.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0443_2ce89aa7.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180001_501.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0444_7ae0c783.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180001_708.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0445_5516aacb.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180001_903.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0446_4a9c4b12.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180002_158.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0447_5d6b678a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180002_389.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0448_e0a96aa6.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180002_703.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0449_17f5f97b.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180002_980.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0450_2b5f4c3a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180003_314.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0451_2aa51cca.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180006_626.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0452_1f55c8b7.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180006_787.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0453_0ba7648b.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180006_925.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0454_1a85ac22.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180007_167.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0455_aeb36d09.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180007_348.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0456_b12c0416.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180007_508.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0457_d6a228a4.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180007_661.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0458_4b67c6c9.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180008_013.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0459_6472acf5.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180008_402.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0460_8f98ea0d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180008_735.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0461_6c87543d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180013_520.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0462_1feb43fd.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180013_711.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0463_f0ef17d9.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180013_887.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0464_701a8425.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180014_054.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0465_3de10b59.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180014_238.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0466_6ac0d15b.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180014_716.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0467_71f4354e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180014_969.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0468_3c695897.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180015_169.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0469_0b97bd3b.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180015_402.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0470_8c6ec0d4.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180015_583.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0471_ec14e16c.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180020_633.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0472_689f4415.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180020_838.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0473_c28d33b1.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180021_009.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0474_846fca41.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180021_157.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0475_c020fc17.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180021_385.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0476_e7edab03.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180021_821.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0477_f6519f1b.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180022_186.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0478_d1e09b6c.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180022_406.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0479_14c3bafd.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180022_634.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0480_d6629eb4.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180022_836.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0481_0ec1994e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180034_245.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0482_0dfca676.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180034_455.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0483_cc284350.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180034_623.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0484_390c862e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180034_945.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0485_77a91725.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180035_128.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0486_eb4d2bfb.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180035_315.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0487_71ea2e92.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180035_508.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0488_dae41133.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180035_711.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0489_fc15beee.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180036_113.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0490_c4b23b04.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180049_256.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0491_510cca3f.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180049_401.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0492_ef338988.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180049_827.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0493_734da9b4.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180050_181.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0494_dbd4a9f1.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180050_455.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0495_1713dfbd.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180050_783.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0496_2f6a8d0d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180051_034.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0497_a7b96e08.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180051_239.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0498_daf6988e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180051_617.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0499_3473ff25.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180052_073.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0500_2cc134ab.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180052_931.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0501_af5f9dc5.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180102_768.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0502_d415aa7a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180102_986.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0503_ca3805e3.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180103_204.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0504_40aba587.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180103_374.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0505_59378d69.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180103_564.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0506_16806a44.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180103_945.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0507_bb4332eb.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180104_424.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0508_5130089e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180104_465.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0509_4da37172.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180104_509.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0510_4f439542.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180104_525.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0511_695b428a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180104_561.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0512_1df05a9c.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180104_597.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0513_34f68a17.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180104_630.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0514_d673033b.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180104_650.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0515_f98102fd.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180104_681.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0516_9c312809.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180104_757.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0517_b2fab463.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180302_126.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0518_21d6236c.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180302_395.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0519_c0662de6.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180302_648.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0520_dc0507aa.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180302_871.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0521_74df35ab.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180303_104.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0522_667a754d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180303_372.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0523_68125aec.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180303_598.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0524_9e456f39.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180303_826.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0525_a56899d0.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180304_063.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0526_a43fa8e5.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180304_298.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0527_6a2cd818.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180304_572.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0528_f69c1d3c.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180304_813.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0529_7f234cf7.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180305_127.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0530_4ba5feb0.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180305_363.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0531_7505e9c7.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180318_674.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0532_3cb70482.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180318_882.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0533_aa3f79c9.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180319_031.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0534_b0f34d29.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180319_214.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0535_5e90223a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180319_386.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0536_c39d6b95.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180319_646.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0537_4daac1db.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180319_883.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0538_73ffa1a9.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180320_074.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0539_e5f0ec76.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180320_447.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0540_2fbf2a53.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180321_045.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0541_2ff0302f.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180329_003.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0542_6c999df2.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180329_208.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0543_9dfcc232.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180329_488.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0544_ccd201ae.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180329_715.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0545_03db8342.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180329_933.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0546_74f1993c.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180330_128.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0547_ec680a58.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180330_330.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0548_458e1782.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180330_535.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0549_9c686ba5.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180330_745.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0550_d1f0af61.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180330_994.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0551_04c067fe.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180331_226.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0552_d26c26e5.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180331_441.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0553_afd6f161.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180331_653.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0554_915d060e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180331_849.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0555_801421df.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180332_066.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0556_62c621c5.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180332_256.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0557_ce5ba19e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180332_480.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0558_8e375212.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180332_680.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0559_e98d4fd5.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180332_989.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0560_afd4dd0c.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180333_294.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0561_44602fa1.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180356_150.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0562_582fccbc.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180356_389.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0563_0089299f.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180356_935.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0564_efdc772b.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180357_128.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0565_3adbcba4.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180357_366.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0566_bfbd28b7.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180357_585.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0567_0ae51b3b.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180357_816.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0568_743d2409.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180358_017.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0569_2a42b920.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180358_239.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0570_19039874.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180358_491.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0571_1261488f.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180358_707.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0572_aeefea7e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180358_899.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0573_bc53096c.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180359_062.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0574_c6438584.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180359_475.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0575_fe0bc642.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180359_695.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0576_a8b08033.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180359_981.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0577_6bfca6ca.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180400_229.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0578_c8bf28bf.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180400_456.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0579_55d89bd7.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180400_693.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0580_e0cd0304.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180400_890.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0581_b526bb04.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180401_109.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0582_52be485f.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180416_586.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0583_26c09bff.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180416_768.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0584_5bb25156.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180416_915.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0585_1cea6fd4.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180417_109.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0586_d80d3282.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180417_630.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0587_471e437b.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180417_642.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0588_d8bc0c96.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180417_682.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0589_ddcbcdd8.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180417_699.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0590_7f8a99c6.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180417_734.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0591_67024087.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180417_773.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0592_73011c23.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180417_793.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0593_45e5ad17.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180418_430.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0594_6f127167.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180418_669.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0595_2702edfb.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180418_890.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0596_3116dfb5.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180419_856.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0597_532ede40.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180420_046.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0598_b375c74e.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180420_254.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0599_a53fffd1.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180420_467.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0600_1dc109e2.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180420_680.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0601_f729502f.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180424_328.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0602_ea081443.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180424_633.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0603_354d5bdb.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180424_862.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0604_a478dbfd.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180425_063.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0605_e81dc2f0.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180425_255.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0606_3baf553f.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180425_455.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0607_4d9697e5.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180425_658.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0608_8e874ca2.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180425_847.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0609_83a10019.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180426_015.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0610_7cda93a5.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180426_263.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0611_dc6d7a0a.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180426_485.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0612_617ed6b6.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180426_953.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0613_ef443450.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180427_126.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0614_feb88457.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180427_358.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0615_c2ba15a0.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180427_551.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0616_795178f5.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180517_239.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0617_f5057d7c.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180517_449.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0618_87711037.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180517_629.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0619_85d84585.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180517_812.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0620_75929fb4.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180517_994.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0621_482aeebd.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180518_178.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0622_ed6219fe.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180518_405.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0623_d1f960dc.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180518_561.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0624_ac5b9155.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180518_792.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0625_1cbeef7f.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180519_152.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0626_5481fa14.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180519_624.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0627_5c54be02.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180519_920.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0628_42f35268.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180520_102.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0629_32878b16.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180520_367.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0630_5fc767cf.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180520_667.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0631_e8b50902.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180529_412.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0632_d264b3a8.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180529_625.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0633_ecdf93c9.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180529_764.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0634_f72858ff.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180529_946.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0635_b724a82d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180530_156.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0636_27f858d7.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180530_319.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0637_fac0d0ca.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180530_514.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0638_ff9567f7.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180530_723.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0639_99d26c18.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180530_901.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0640_49ae2b67.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180531_118.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0641_61ad406c.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180531_578.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0642_341a88ad.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180531_795.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0643_99868684.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180544_130.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0644_0ac65bf9.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180544_368.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0645_6e2249b9.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180544_517.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0646_f38984ab.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180544_692.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0647_b292ed02.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180545_203.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0648_0d6c85d7.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180545_258.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0649_c8e7df05.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180545_722.jpg",
+    "storage_method": "hardlink"
+  },
+  {
+    "new_name": "manual_0650_75fcf92d.jpg",
+    "source_path": "/home/ros/robot_ws/datasets/user_cube_dataset/raw/cube_dataset/manual_images/manual_20260806_180546_010.jpg",
+    "storage_method": "hardlink"
+  }
+]

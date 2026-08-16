@@ -1,0 +1,109 @@
+{
+  "base_dataset": "/home/ros/robot_ws/datasets/color_cubes_training/synthetic200_manual60_fixed_20260815_155556",
+  "active_root": "/home/ros/robot_ws/datasets/user_cube_dataset/active_seed_60_20260815_222432",
+  "random_seed": 20260816,
+  "splits": {
+    "train": {
+      "active_images": [
+        "active_016_manual_0611_dc6d7a0a.jpg",
+        "active_008_manual_0569_2a42b920.jpg",
+        "active_041_manual_0031_719cb8d3.jpg",
+        "active_035_manual_0036_113ecd22.jpg",
+        "active_050_manual_0194_103d9332.jpg",
+        "active_029_manual_0033_7956a886.jpg",
+        "active_017_manual_0614_feb88457.jpg",
+        "active_059_manual_0470_8c6ec0d4.jpg",
+        "active_044_manual_0038_de0fa583.jpg",
+        "active_014_manual_0605_e81dc2f0.jpg",
+        "active_042_manual_0499_3473ff25.jpg",
+        "active_033_manual_0230_9c2b37d2.jpg",
+        "active_058_manual_0324_281aec01.jpg",
+        "active_028_manual_0032_4995afb0.jpg",
+        "active_034_manual_0035_6332c461.jpg",
+        "active_040_manual_0183_c48b7587.jpg",
+        "active_020_manual_0649_c8e7df05.jpg",
+        "active_003_manual_0530_4ba5feb0.jpg",
+        "active_007_manual_0566_bfbd28b7.jpg",
+        "active_036_manual_0037_70d2241c.jpg",
+        "active_011_manual_0578_c8bf28bf.jpg",
+        "active_006_manual_0564_efdc772b.jpg",
+        "active_022_manual_0052_0077ce14.jpg",
+        "active_060_manual_0648_0d6c85d7.jpg",
+        "active_002_manual_0527_6a2cd818.jpg",
+        "active_018_manual_0644_0ac65bf9.jpg",
+        "active_047_manual_0197_52f7abc2.jpg",
+        "active_037_manual_0181_fe0a265d.jpg",
+        "active_052_manual_0196_23b2b9cf.jpg",
+        "active_005_manual_0539_e5f0ec76.jpg",
+        "active_039_manual_0182_16d81cad.jpg",
+        "active_027_manual_0311_6517a78d.jpg",
+        "active_053_manual_0497_a7b96e08.jpg",
+        "active_045_manual_0039_01953f0c.jpg",
+        "active_012_manual_0581_b526bb04.jpg",
+        "active_025_manual_0504_40aba587.jpg",
+        "active_009_manual_0572_aeefea7e.jpg",
+        "active_015_manual_0608_8e874ca2.jpg",
+        "active_004_manual_0536_c39d6b95.jpg",
+        "active_013_manual_0585_1cea6fd4.jpg",
+        "active_051_manual_0195_523d7de7.jpg",
+        "active_054_manual_0498_daf6988e.jpg",
+        "active_021_manual_0051_39c4cc07.jpg",
+        "active_032_manual_0229_6e680430.jpg",
+        "active_057_manual_0162_7e2b1f29.jpg",
+        "active_043_manual_0500_2cc134ab.jpg",
+        "active_010_manual_0576_a8b08033.jpg",
+        "active_026_manual_0505_59378d69.jpg"
+      ],
+      "active_class_counts": {
+        "0": 57,
+        "1": 78
+      },
+      "total_class_counts": {
+        "0": 472,
+        "1": 508
+      },
+      "image_count": 256,
+      "label_count": 256
+    },
+    "val": {
+      "active_images": [
+        "active_046_manual_0040_9d365b78.jpg",
+        "active_024_manual_0503_ca3805e3.jpg",
+        "active_048_manual_0198_3e942b66.jpg",
+        "active_001_manual_0517_b2fab463.jpg",
+        "active_019_manual_0646_f38984ab.jpg",
+        "active_030_manual_0227_67494e44.jpg"
+      ],
+      "active_class_counts": {
+        "0": 9,
+        "1": 12
+      },
+      "total_class_counts": {
+        "0": 51,
+        "1": 71
+      },
+      "image_count": 32,
+      "label_count": 32
+    },
+    "test": {
+      "active_images": [
+        "active_055_manual_0640_49ae2b67.jpg",
+        "active_049_manual_0200_f975e49d.jpg",
+        "active_023_manual_0053_39eaae72.jpg",
+        "active_031_manual_0228_5f385a3a.jpg",
+        "active_038_manual_0506_16806a44.jpg",
+        "active_056_manual_0002_59ff0d1e.jpg"
+      ],
+      "active_class_counts": {
+        "0": 12,
+        "1": 12
+      },
+      "total_class_counts": {
+        "0": 63,
+        "1": 60
+      },
+      "image_count": 32,
+      "label_count": 32
+    }
+  }
+}

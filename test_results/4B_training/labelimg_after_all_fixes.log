@@ -1,0 +1,113 @@
+Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+[]
+[]
+[('red_cube', [(586, 447), (655, 447), (655, 503), (586, 503)], None, None, False), ('blue_cube', [(326, 385), (365, 385), (365, 406), (326, 406)], None, None, False), ('blue_cube', [(407, 380), (437, 380), (437, 399), (407, 399)], None, None, False), ('blue_cube', [(90, 375), (124, 375), (124, 396), (90, 396)], None, None, False)]
+[('red_cube', [(440, 458), (516, 458), (516, 522), (440, 522)], None, None, False), ('blue_cube', [(523, 377), (553, 377), (553, 398), (523, 398)], None, None, False), ('blue_cube', [(434, 385), (477, 385), (477, 404), (434, 404)], None, None, False), ('blue_cube', [(287, 376), (304, 376), (304, 385), (287, 385)], None, None, False)]
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_004.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_004.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_005.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_005.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_006.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_006.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_007.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_007.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_008.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_008.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_009.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_009.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_010.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_010.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_011.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_011.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_012.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_012.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_013.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_013.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_014.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_014.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_015.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_015.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_016.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_016.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_017.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_017.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_018.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_018.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_019.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_019.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_020.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_020.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_021.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_021.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_022.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_022.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_023.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_023.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_024.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_024.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_025.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_025.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_026.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_026.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_027.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_027.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_028.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_028.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_029.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_029.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_030.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_030.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_031.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_031.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_032.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_032.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_033.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_033.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_034.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_034.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_035.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_035.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_036.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_036.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_037.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_037.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_038.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_038.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_039.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_039.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_040.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_040.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_041.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_041.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_042.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_042.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_043.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_043.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_044.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_044.txt
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_044.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_044.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_045.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_045.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_046.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_046.txt
+[]
+Cancel creation.
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_047.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_047.txt
+[]
+[]
+[]
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_051.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_051.txt
+[]
+[]
+[]
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_055.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_055.txt
+[]
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_057.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_057.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_058.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_058.txt
+[]
+Image:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_059.jpg -> Annotation:/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245/review/seed_059.txt
+[]

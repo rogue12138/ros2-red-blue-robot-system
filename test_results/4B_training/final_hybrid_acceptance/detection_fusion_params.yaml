@@ -1,0 +1,16 @@
+/detection_fusion_node:
+  ros__parameters:
+    duplicate_iou_threshold: 0.85
+    hsv_topic: /vision/detections
+    keep_unmatched_yolo: true
+    log_every_n_messages: 10
+    match_iou_threshold: 0.05
+    minimum_hsv_confidence: 0.5
+    minimum_yolo_confidence: 0.05
+    output_topic: /vision/fused_detections
+    prefer_hsv_box: true
+    synchronization_queue_size: 200
+    synchronization_slop_sec: 0.2
+    use_sim_time: false
+    yolo_topic: /vision/yolo_detections
+

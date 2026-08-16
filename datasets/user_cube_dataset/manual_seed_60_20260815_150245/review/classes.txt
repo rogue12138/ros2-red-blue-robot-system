@@ -1,0 +1,2 @@
+red_cube
+blue_cube

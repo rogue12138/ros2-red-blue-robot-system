@@ -1,0 +1,2 @@
+/home/ros/robot_ws/src/robot_bringup/config/hybrid_vision_params.yaml:24:    model_path: "/home/ros/robot_ws/models/final/red_blue_yolo11n_manual180_960_best.pt"
+/home/ros/robot_ws/src/vision_detector/vision_detector/dataset_capture_node.py:33:            "~/robot_ws/datasets/"

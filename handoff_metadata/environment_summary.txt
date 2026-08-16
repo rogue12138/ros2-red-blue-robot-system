@@ -1,0 +1,10 @@
+backup_time: 2026-08-16T19:22:53+08:00
+hostname: ros-VirtualBox
+user: ros
+home: /home/ros
+workspace: /home/ros/robot_ws
+os: Ubuntu 22.04.5 LTS
+kernel: 6.8.0-136-generic
+ros_distribution: humble
+system_python: Python 3.10.12
+yolo_python: Python 3.10.12

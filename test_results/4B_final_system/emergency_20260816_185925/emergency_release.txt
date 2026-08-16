@@ -1,0 +1,6 @@
+waiting for service to become available...
+requester: making request: robot_interfaces.srv.EmergencyStop_Request(engage=False, reason='4B验收人工解除')
+
+response:
+robot_interfaces.srv.EmergencyStop_Response(accepted=True, message='急停已人工解除')
+

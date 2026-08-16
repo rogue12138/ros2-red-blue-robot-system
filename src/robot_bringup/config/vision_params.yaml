@@ -1,0 +1,3 @@
+color_detector_node:
+  ros__parameters:
+    minimum_area: 500.0

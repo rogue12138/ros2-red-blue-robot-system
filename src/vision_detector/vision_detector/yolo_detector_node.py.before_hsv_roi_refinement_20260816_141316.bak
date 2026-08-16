@@ -1,0 +1,594 @@
+#!/usr/bin/env python3
+
+import os
+import sys
+import time
+
+from pathlib import Path
+
+
+YOLO_SITE_PACKAGES = os.environ.get(
+    "YOLO_SITE_PACKAGES",
+    str(
+        Path.home()
+        / "robot_ws"
+        / "venvs"
+        / "yolo_cpu"
+        / "lib"
+        / "python3.10"
+        / "site-packages"
+    ),
+)
+
+if (
+    Path(YOLO_SITE_PACKAGES).is_dir()
+    and YOLO_SITE_PACKAGES not in sys.path
+):
+    sys.path.insert(0, YOLO_SITE_PACKAGES)
+
+
+import cv2
+import rclpy
+
+from cv_bridge import CvBridge
+from rclpy.node import Node
+from rclpy.qos import HistoryPolicy
+from rclpy.qos import QoSProfile
+from rclpy.qos import ReliabilityPolicy
+from sensor_msgs.msg import Image
+from ultralytics import YOLO
+
+from robot_interfaces.msg import ObjectDetection
+from robot_interfaces.msg import ObjectDetectionArray
+
+
+ALLOWED_CLASSES = {
+    "red_cube",
+    "blue_cube",
+}
+
+BOX_COLORS = {
+    "red_cube": (0, 0, 255),
+    "blue_cube": (255, 0, 0),
+}
+
+
+class YoloDetectorNode(Node):
+
+    def __init__(self):
+        super().__init__("yolo_detector_node")
+
+        default_model_path = str(
+            Path.home()
+            / "robot_ws"
+            / "models"
+            / "final"
+            / "red_blue_yolo11n_manual180_960_best.pt"
+        )
+
+        self.declare_parameter(
+            "model_path",
+            default_model_path,
+        )
+        self.declare_parameter(
+            "input_topic",
+            "/camera/image_raw",
+        )
+        self.declare_parameter(
+            "detections_topic",
+            "/vision/yolo_detections",
+        )
+        self.declare_parameter(
+            "debug_image_topic",
+            "/vision/yolo_debug_image",
+        )
+        self.declare_parameter(
+            "confidence_threshold",
+            0.05,
+        )
+        self.declare_parameter(
+            "nms_iou_threshold",
+            0.50,
+        )
+        self.declare_parameter(
+            "image_size",
+            960,
+        )
+        self.declare_parameter(
+            "maximum_detections",
+            100,
+        )
+        self.declare_parameter(
+            "device",
+            "cpu",
+        )
+        self.declare_parameter(
+            "log_every_n_frames",
+            20,
+        )
+
+        self.model_path = os.path.expanduser(
+            str(
+                self.get_parameter(
+                    "model_path"
+                ).value
+            )
+        )
+        self.input_topic = str(
+            self.get_parameter(
+                "input_topic"
+            ).value
+        )
+        self.detections_topic = str(
+            self.get_parameter(
+                "detections_topic"
+            ).value
+        )
+        self.debug_image_topic = str(
+            self.get_parameter(
+                "debug_image_topic"
+            ).value
+        )
+        self.confidence_threshold = float(
+            self.get_parameter(
+                "confidence_threshold"
+            ).value
+        )
+        self.nms_iou_threshold = float(
+            self.get_parameter(
+                "nms_iou_threshold"
+            ).value
+        )
+        self.image_size = int(
+            self.get_parameter(
+                "image_size"
+            ).value
+        )
+        self.maximum_detections = int(
+            self.get_parameter(
+                "maximum_detections"
+            ).value
+        )
+        self.device = str(
+            self.get_parameter(
+                "device"
+            ).value
+        )
+        self.log_every_n_frames = int(
+            self.get_parameter(
+                "log_every_n_frames"
+            ).value
+        )
+
+        if not Path(self.model_path).is_file():
+            raise FileNotFoundError(
+                f"YOLO模型不存在：{self.model_path}"
+            )
+
+        if not 0.0 < self.confidence_threshold <= 1.0:
+            raise ValueError(
+                "confidence_threshold必须在0到1之间"
+            )
+
+        if not 0.0 < self.nms_iou_threshold <= 1.0:
+            raise ValueError(
+                "nms_iou_threshold必须在0到1之间"
+            )
+
+        if self.image_size < 32:
+            raise ValueError(
+                "image_size不能小于32"
+            )
+
+        if self.maximum_detections < 1:
+            raise ValueError(
+                "maximum_detections必须大于0"
+            )
+
+        if self.log_every_n_frames < 1:
+            self.log_every_n_frames = 1
+
+        self.bridge = CvBridge()
+        self.frame_count = 0
+        self.last_inference_ms = 0.0
+
+        self.get_logger().info(
+            f"正在加载YOLO模型：{self.model_path}"
+        )
+
+        self.model = YOLO(self.model_path)
+
+        model_classes = {
+            str(class_name)
+            for class_name in self.model.names.values()
+        }
+
+        missing_classes = (
+            ALLOWED_CLASSES - model_classes
+        )
+
+        if missing_classes:
+            raise ValueError(
+                "模型缺少类别："
+                f"{sorted(missing_classes)}"
+            )
+
+        sensor_qos = QoSProfile(
+            history=HistoryPolicy.KEEP_LAST,
+            depth=1,
+            reliability=ReliabilityPolicy.BEST_EFFORT,
+        )
+
+        self.image_subscription = (
+            self.create_subscription(
+                Image,
+                self.input_topic,
+                self.image_callback,
+                sensor_qos,
+            )
+        )
+
+        self.detection_publisher = (
+            self.create_publisher(
+                ObjectDetectionArray,
+                self.detections_topic,
+                10,
+            )
+        )
+
+        self.debug_image_publisher = (
+            self.create_publisher(
+                Image,
+                self.debug_image_topic,
+                10,
+            )
+        )
+
+        self.get_logger().info(
+            "YOLO检测节点已启动："
+            f"input={self.input_topic}，"
+            f"output={self.detections_topic}，"
+            f"imgsz={self.image_size}，"
+            f"conf={self.confidence_threshold}，"
+            f"device={self.device}"
+        )
+
+    def create_detection(
+        self,
+        class_name,
+        confidence,
+        coordinates,
+        detection_id,
+    ):
+        x_min, y_min, x_max, y_max = coordinates
+
+        detection = ObjectDetection()
+
+        detection.class_name = class_name
+        detection.confidence = float(confidence)
+
+        detection.x_min = int(round(x_min))
+        detection.y_min = int(round(y_min))
+        detection.x_max = int(round(x_max))
+        detection.y_max = int(round(y_max))
+
+        detection.has_position = False
+        detection.position.x = 0.0
+        detection.position.y = 0.0
+        detection.position.z = 0.0
+
+        if hasattr(detection, "detection_id"):
+            detection.detection_id = int(
+                detection_id
+            )
+
+        center_x = int(
+            round((x_min + x_max) / 2.0)
+        )
+        center_y = int(
+            round((y_min + y_max) / 2.0)
+        )
+
+        if hasattr(detection, "center_x"):
+            detection.center_x = center_x
+
+        if hasattr(detection, "center_y"):
+            detection.center_y = center_y
+
+        return detection
+
+    def draw_detection(
+        self,
+        image,
+        detection,
+        detection_id,
+    ):
+        color = BOX_COLORS[
+            detection.class_name
+        ]
+
+        cv2.rectangle(
+            image,
+            (
+                detection.x_min,
+                detection.y_min,
+            ),
+            (
+                detection.x_max,
+                detection.y_max,
+            ),
+            color,
+            2,
+        )
+
+        center_x = int(
+            (
+                detection.x_min
+                + detection.x_max
+            )
+            / 2
+        )
+        center_y = int(
+            (
+                detection.y_min
+                + detection.y_max
+            )
+            / 2
+        )
+
+        cv2.drawMarker(
+            image,
+            (center_x, center_y),
+            color,
+            markerType=cv2.MARKER_CROSS,
+            markerSize=12,
+            thickness=2,
+        )
+
+        label = (
+            f"YOLO ID:{detection_id} "
+            f"{detection.class_name} "
+            f"{detection.confidence:.2f}"
+        )
+
+        text_y = max(
+            22,
+            detection.y_min - 8,
+        )
+
+        cv2.putText(
+            image,
+            label,
+            (
+                detection.x_min,
+                text_y,
+            ),
+            cv2.FONT_HERSHEY_SIMPLEX,
+            0.52,
+            color,
+            2,
+            cv2.LINE_AA,
+        )
+
+    def run_inference(self, image):
+        start_time = time.perf_counter()
+
+        results = self.model.predict(
+            source=image,
+            imgsz=self.image_size,
+            conf=self.confidence_threshold,
+            iou=self.nms_iou_threshold,
+            max_det=self.maximum_detections,
+            device=self.device,
+            verbose=False,
+        )
+
+        self.last_inference_ms = (
+            time.perf_counter() - start_time
+        ) * 1000.0
+
+        if not results:
+            return []
+
+        result = results[0]
+
+        if result.boxes is None:
+            return []
+
+        xyxy_values = (
+            result.boxes.xyxy
+            .detach()
+            .cpu()
+            .tolist()
+        )
+        confidence_values = (
+            result.boxes.conf
+            .detach()
+            .cpu()
+            .tolist()
+        )
+        class_values = (
+            result.boxes.cls
+            .detach()
+            .cpu()
+            .tolist()
+        )
+
+        detections = []
+
+        for coordinates, confidence, class_id in zip(
+            xyxy_values,
+            confidence_values,
+            class_values,
+        ):
+            class_id = int(class_id)
+
+            class_name = str(
+                self.model.names.get(
+                    class_id,
+                    "unknown",
+                )
+            )
+
+            if class_name not in ALLOWED_CLASSES:
+                continue
+
+            detections.append(
+                (
+                    class_name,
+                    float(confidence),
+                    coordinates,
+                )
+            )
+
+        detections.sort(
+            key=lambda item: (
+                item[2][0],
+                item[2][1],
+                item[0],
+            )
+        )
+
+        return detections
+
+    def image_callback(self, message):
+        try:
+            image = self.bridge.imgmsg_to_cv2(
+                message,
+                desired_encoding="bgr8",
+            )
+        except Exception as error:
+            self.get_logger().error(
+                f"输入图像转换失败：{error}"
+            )
+            return
+
+        try:
+            raw_detections = self.run_inference(
+                image
+            )
+        except Exception as error:
+            self.get_logger().error(
+                f"YOLO推理失败：{error}"
+            )
+            return
+
+        detection_message = (
+            ObjectDetectionArray()
+        )
+        detection_message.header = (
+            message.header
+        )
+
+        debug_image = image.copy()
+        output_detections = []
+
+        for detection_id, raw_detection in enumerate(
+            raw_detections,
+            start=1,
+        ):
+            (
+                class_name,
+                confidence,
+                coordinates,
+            ) = raw_detection
+
+            detection = self.create_detection(
+                class_name,
+                confidence,
+                coordinates,
+                detection_id,
+            )
+
+            output_detections.append(detection)
+
+            self.draw_detection(
+                debug_image,
+                detection,
+                detection_id,
+            )
+
+        detection_message.detections = (
+            output_detections
+        )
+
+        self.detection_publisher.publish(
+            detection_message
+        )
+
+        try:
+            debug_message = (
+                self.bridge.cv2_to_imgmsg(
+                    debug_image,
+                    encoding="bgr8",
+                )
+            )
+            debug_message.header = message.header
+
+            self.debug_image_publisher.publish(
+                debug_message
+            )
+        except Exception as error:
+            self.get_logger().error(
+                f"YOLO调试图像发布失败：{error}"
+            )
+
+        self.frame_count += 1
+
+        if (
+            self.frame_count
+            % self.log_every_n_frames
+            == 0
+        ):
+            red_count = sum(
+                detection.class_name
+                == "red_cube"
+                for detection
+                in output_detections
+            )
+            blue_count = sum(
+                detection.class_name
+                == "blue_cube"
+                for detection
+                in output_detections
+            )
+
+            self.get_logger().info(
+                "YOLO检测结果："
+                f"red_cube={red_count}，"
+                f"blue_cube={blue_count}，"
+                f"inference={self.last_inference_ms:.1f}ms"
+            )
+
+
+def main(args=None):
+    rclpy.init(args=args)
+
+    node = None
+
+    try:
+        node = YoloDetectorNode()
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        pass
+    except Exception as error:
+        if node is not None:
+            node.get_logger().fatal(
+                f"YOLO节点异常：{error}"
+            )
+        else:
+            print(
+                f"YOLO节点启动失败：{error}",
+                file=sys.stderr,
+            )
+        raise
+    finally:
+        if node is not None:
+            node.destroy_node()
+
+        if rclpy.ok():
+            rclpy.shutdown()
+
+
+if __name__ == "__main__":
+    main()

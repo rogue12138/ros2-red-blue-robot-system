@@ -1,0 +1,23 @@
+model_name: red_blue_yolo11n_manual180_960
+model_file: /home/ros/robot_ws/models/final/red_blue_yolo11n_manual180_960_best.pt
+architecture: YOLO11n
+classes: red_cube, blue_cube
+training_images: 304
+validation_images: 38
+test_images: 38
+manual_test_images: 18
+input_size: 960
+device: CPU
+best_epoch: 15
+training_precision: 0.94125
+training_recall: 0.94298
+training_map50: 0.95728
+training_map50_95: 0.84418
+manual_test_precision: 0.879
+manual_test_recall: 0.852
+manual_test_map50: 0.918
+manual_test_map50_95: 0.661
+red_manual_recall: 0.757
+blue_manual_recall: 0.947
+cpu_inference_ms: 79.2
+deployment_mode: HSV_YOLO_HYBRID

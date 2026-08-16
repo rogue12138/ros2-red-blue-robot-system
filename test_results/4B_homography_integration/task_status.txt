@@ -1,0 +1,132 @@
+header:
+  stamp:
+    sec: 1786769252
+    nanosec: 817516798
+  frame_id: task_plan_manager
+state: PARSING
+detail: 任务计划校验成功，共2个步骤，总计2个物块
+current_iteration: 0
+total_iterations: 2
+success: false
+---
+header:
+  stamp:
+    sec: 1786769252
+    nanosec: 828957222
+  frame_id: task_plan_manager
+state: LOCATING_OBJECT
+detail: 开始执行第1/2步：寻找blue物块，目标区域A，数量1
+current_iteration: 0
+total_iterations: 2
+success: false
+---
+header:
+  stamp:
+    sec: 1786769253
+    nanosec: 769012821
+  frame_id: task_plan_manager
+state: NAVIGATING_TO_OBJECT
+detail: 已找到blue物块，模拟导航到目标
+current_iteration: 0
+total_iterations: 2
+success: false
+---
+header:
+  stamp:
+    sec: 1786769254
+    nanosec: 769167310
+  frame_id: task_plan_manager
+state: GRASPING
+detail: 模拟导航完成，正在抓取blue物块
+current_iteration: 0
+total_iterations: 2
+success: false
+---
+header:
+  stamp:
+    sec: 1786769255
+    nanosec: 768032247
+  frame_id: task_plan_manager
+state: NAVIGATING_TO_ZONE
+detail: 模拟抓取成功，前往A区
+current_iteration: 0
+total_iterations: 2
+success: false
+---
+header:
+  stamp:
+    sec: 1786769256
+    nanosec: 769692520
+  frame_id: task_plan_manager
+state: PLACING
+detail: 已到达A区，正在放置
+current_iteration: 0
+total_iterations: 2
+success: false
+---
+header:
+  stamp:
+    sec: 1786769257
+    nanosec: 770395142
+  frame_id: task_plan_manager
+state: LOCATING_OBJECT
+detail: 开始执行第2/2步：寻找red物块，目标区域C，数量1
+current_iteration: 1
+total_iterations: 2
+success: false
+---
+header:
+  stamp:
+    sec: 1786769258
+    nanosec: 771161904
+  frame_id: task_plan_manager
+state: NAVIGATING_TO_OBJECT
+detail: 已找到red物块，模拟导航到目标
+current_iteration: 1
+total_iterations: 2
+success: false
+---
+header:
+  stamp:
+    sec: 1786769259
+    nanosec: 771701716
+  frame_id: task_plan_manager
+state: GRASPING
+detail: 模拟导航完成，正在抓取red物块
+current_iteration: 1
+total_iterations: 2
+success: false
+---
+header:
+  stamp:
+    sec: 1786769260
+    nanosec: 768290466
+  frame_id: task_plan_manager
+state: NAVIGATING_TO_ZONE
+detail: 模拟抓取成功，前往C区
+current_iteration: 1
+total_iterations: 2
+success: false
+---
+header:
+  stamp:
+    sec: 1786769261
+    nanosec: 770282987
+  frame_id: task_plan_manager
+state: PLACING
+detail: 已到达C区，正在放置
+current_iteration: 1
+total_iterations: 2
+success: false
+---
+header:
+  stamp:
+    sec: 1786769262
+    nanosec: 768974368
+  frame_id: task_plan_manager
+state: FINISHED
+detail: 全部任务步骤执行完成，共完成2个物块
+current_iteration: 2
+total_iterations: 2
+success: true
+---

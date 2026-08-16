@@ -1,0 +1,7 @@
+deepseek_task_plan_node:
+  ros__parameters:
+    api_url: "https://api.deepseek.com/chat/completions"
+    model: "deepseek-v4-flash"
+    timeout_sec: 30.0
+    max_step_count: 8
+    max_total_count: 10

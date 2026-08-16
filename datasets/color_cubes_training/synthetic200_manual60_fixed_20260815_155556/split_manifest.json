@@ -1,0 +1,118 @@
+{
+  "random_seed": 20260815,
+  "synthetic_source": "/home/ros/robot_ws/datasets/color_cubes_training/yolo_200_v1",
+  "manual_source": "/home/ros/robot_ws/datasets/user_cube_dataset/manual_seed_60_20260815_150245",
+  "splits": {
+    "train": {
+      "synthetic_image_count": 160,
+      "manual_images": [
+        "seed_039.jpg",
+        "seed_045.jpg",
+        "seed_056.jpg",
+        "seed_014.jpg",
+        "seed_051.jpg",
+        "seed_022.jpg",
+        "seed_058.jpg",
+        "seed_024.jpg",
+        "seed_016.jpg",
+        "seed_021.jpg",
+        "seed_053.jpg",
+        "seed_008.jpg",
+        "seed_012.jpg",
+        "seed_052.jpg",
+        "seed_047.jpg",
+        "seed_015.jpg",
+        "seed_013.jpg",
+        "seed_030.jpg",
+        "seed_054.jpg",
+        "seed_057.jpg",
+        "seed_031.jpg",
+        "seed_023.jpg",
+        "seed_020.jpg",
+        "seed_037.jpg",
+        "seed_038.jpg",
+        "seed_040.jpg",
+        "seed_018.jpg",
+        "seed_025.jpg",
+        "seed_011.jpg",
+        "seed_059.jpg",
+        "seed_001.jpg",
+        "seed_028.jpg",
+        "seed_009.jpg",
+        "seed_026.jpg",
+        "seed_007.jpg",
+        "seed_042.jpg",
+        "seed_033.jpg",
+        "seed_010.jpg",
+        "seed_004.jpg",
+        "seed_027.jpg",
+        "seed_060.jpg",
+        "seed_035.jpg",
+        "seed_043.jpg",
+        "seed_003.jpg",
+        "seed_050.jpg",
+        "seed_055.jpg",
+        "seed_017.jpg",
+        "seed_041.jpg"
+      ],
+      "synthetic_class_counts": {
+        "0": 364,
+        "1": 368
+      },
+      "manual_class_counts": {
+        "0": 51,
+        "1": 62
+      },
+      "total_class_counts": {
+        "0": 415,
+        "1": 430
+      }
+    },
+    "val": {
+      "synthetic_image_count": 20,
+      "manual_images": [
+        "seed_048.jpg",
+        "seed_044.jpg",
+        "seed_032.jpg",
+        "seed_005.jpg",
+        "seed_019.jpg",
+        "seed_029.jpg"
+      ],
+      "synthetic_class_counts": {
+        "0": 36,
+        "1": 53
+      },
+      "manual_class_counts": {
+        "0": 6,
+        "1": 6
+      },
+      "total_class_counts": {
+        "0": 42,
+        "1": 59
+      }
+    },
+    "test": {
+      "synthetic_image_count": 20,
+      "manual_images": [
+        "seed_036.jpg",
+        "seed_034.jpg",
+        "seed_046.jpg",
+        "seed_049.jpg",
+        "seed_002.jpg",
+        "seed_006.jpg"
+      ],
+      "synthetic_class_counts": {
+        "0": 45,
+        "1": 38
+      },
+      "manual_class_counts": {
+        "0": 6,
+        "1": 10
+      },
+      "total_class_counts": {
+        "0": 51,
+        "1": 48
+      }
+    }
+  }
+}

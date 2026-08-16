@@ -1,0 +1,5 @@
+requester: making request: robot_interfaces.srv.EmergencyStop_Request(engage=True, reason='4B最终急停验收')
+
+response:
+robot_interfaces.srv.EmergencyStop_Response(accepted=True, message='急停已触发：4B最终急停验收')
+

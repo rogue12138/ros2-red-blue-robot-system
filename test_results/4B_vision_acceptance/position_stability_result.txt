@@ -1,0 +1,54 @@
+{
+  "test_environment": "fixed_objects_with_mock_depth",
+  "output_frame": "base_link",
+  "expected_filter_window": 5,
+  "required_samples_per_class": 30,
+  "maximum_allowed_axis_std_m": 0.01,
+  "maximum_allowed_axis_range_m": 0.03,
+  "classes": {
+    "red_cube": {
+      "samples": 30,
+      "mean_position_m": {
+        "x": 1.1998764455292046,
+        "y": 0.359897503836344,
+        "z": 0.6794977525423852
+      },
+      "axis_std_m": {
+        "x": 0.0003922550613844905,
+        "y": 0.00014118906199929224,
+        "z": 7.041760235147985e-05
+      },
+      "axis_range_m": {
+        "x": 0.0017291307449296411,
+        "y": 0.0006223867375708125,
+        "z": 0.00031041343553450673
+      },
+      "maximum_axis_std_m": 0.0003922550613844905,
+      "maximum_axis_range_m": 0.0017291307449296411,
+      "pass": true
+    },
+    "blue_cube": {
+      "samples": 30,
+      "mean_position_m": {
+        "x": 1.2002414007971987,
+        "y": 0.36002886655615424,
+        "z": 0.3366786344766334
+      },
+      "axis_std_m": {
+        "x": 0.0002802702547167968,
+        "y": 0.00010088102937418639,
+        "z": 4.576307347351818e-05
+      },
+      "axis_range_m": {
+        "x": 0.0013310909271224691,
+        "y": 0.00047911549891171967,
+        "z": 0.000217343121050928
+      },
+      "maximum_axis_std_m": 0.0002802702547167968,
+      "maximum_axis_range_m": 0.0013310909271224691,
+      "pass": true
+    }
+  },
+  "overall_result": "PASS"
+}
+---

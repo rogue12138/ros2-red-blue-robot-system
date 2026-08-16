@@ -1,0 +1,51 @@
+[INFO] [1786856559.162288891] [fusion_strict_acceptance_node]: 二维视觉自动验收节点已启动：每类测试10个场景，边缘容差=10px，最低IoU=0.50
+[INFO] [1786856561.334783563] [fusion_strict_acceptance_node]: red_cube验收[1/10]：真实数量=1，检测数量=1，检测=PASS，最大边缘误差=2px
+[INFO] [1786856561.379479134] [fusion_strict_acceptance_node]: red_cube验收[2/10]：真实数量=1，检测数量=1，检测=PASS，最大边缘误差=2px
+[INFO] [1786856564.177584158] [fusion_strict_acceptance_node]: blue_cube验收[1/10]：真实数量=2，检测数量=2，检测=PASS，最大边缘误差=2px
+[INFO] [1786856566.740743380] [fusion_strict_acceptance_node]: red_cube验收[3/10]：真实数量=3，检测数量=3，检测=PASS，最大边缘误差=2px
+[INFO] [1786856566.741040950] [fusion_strict_acceptance_node]: blue_cube验收[2/10]：真实数量=5，检测数量=5，检测=PASS，最大边缘误差=9px
+[INFO] [1786856569.336369851] [fusion_strict_acceptance_node]: red_cube验收[4/10]：真实数量=1，检测数量=1，检测=PASS，最大边缘误差=2px
+[INFO] [1786856569.336696246] [fusion_strict_acceptance_node]: blue_cube验收[3/10]：真实数量=3，检测数量=3，检测=PASS，最大边缘误差=8px
+[INFO] [1786856572.518065052] [fusion_strict_acceptance_node]: red_cube验收[5/10]：真实数量=3，检测数量=3，检测=FAIL，最大边缘误差=15px
+[INFO] [1786856572.518484033] [fusion_strict_acceptance_node]: blue_cube验收[4/10]：真实数量=4，检测数量=4，检测=PASS，最大边缘误差=9px
+[INFO] [1786856573.293298940] [fusion_strict_acceptance_node]: red_cube验收[6/10]：真实数量=2，检测数量=2，检测=PASS，最大边缘误差=50px
+[INFO] [1786856573.305229952] [fusion_strict_acceptance_node]: blue_cube验收[5/10]：真实数量=4，检测数量=4，检测=PASS，最大边缘误差=2px
+[INFO] [1786856573.307533767] [fusion_strict_acceptance_node]: red_cube验收[7/10]：真实数量=3，检测数量=1，检测=FAIL，最大边缘误差=200px
+[INFO] [1786856573.308304878] [fusion_strict_acceptance_node]: blue_cube验收[6/10]：真实数量=4，检测数量=3，检测=FAIL，最大边缘误差=300px
+[INFO] [1786856573.392153639] [fusion_strict_acceptance_node]: red_cube验收[8/10]：真实数量=2，检测数量=2，检测=PASS，最大边缘误差=50px
+[INFO] [1786856573.392415935] [fusion_strict_acceptance_node]: blue_cube验收[7/10]：真实数量=4，检测数量=4，检测=PASS，最大边缘误差=2px
+[INFO] [1786856575.342925035] [fusion_strict_acceptance_node]: red_cube验收[9/10]：真实数量=2，检测数量=2，检测=PASS，最大边缘误差=2px
+[INFO] [1786856578.597244846] [fusion_strict_acceptance_node]: blue_cube验收[8/10]：真实数量=1，检测数量=1，检测=PASS，最大边缘误差=2px
+[INFO] [1786856581.280741915] [fusion_strict_acceptance_node]: red_cube验收[10/10]：真实数量=1，检测数量=1，检测=PASS，最大边缘误差=2px
+[INFO] [1786856581.281161116] [fusion_strict_acceptance_node]: blue_cube验收[9/10]：真实数量=1，检测数量=1，检测=PASS，最大边缘误差=2px
+[INFO] [1786856582.289370795] [fusion_strict_acceptance_node]: blue_cube验收[10/10]：真实数量=1，检测数量=1，检测=PASS，最大边缘误差=2px
+[INFO] [1786856582.290340404] [fusion_strict_acceptance_node]: 视觉自动验收完成：
+{
+  "required_trials_per_class": 10,
+  "minimum_required_rate": 0.95,
+  "minimum_iou": 0.5,
+  "edge_tolerance_pixels": 10,
+  "classes": {
+    "red_cube": {
+      "trials": 10,
+      "detection_successes": 8,
+      "detection_rate": 0.8,
+      "edge_successes": 6,
+      "edge_rate": 0.6,
+      "mean_edge_error_pixels": 12.661764705882353,
+      "maximum_edge_error_pixels": 200,
+      "pass": false
+    },
+    "blue_cube": {
+      "trials": 10,
+      "detection_successes": 9,
+      "detection_rate": 0.9,
+      "edge_successes": 9,
+      "edge_rate": 0.9,
+      "mean_edge_error_pixels": 9.035714285714286,
+      "maximum_edge_error_pixels": 300,
+      "pass": false
+    }
+  },
+  "overall_result": "FAIL"
+}

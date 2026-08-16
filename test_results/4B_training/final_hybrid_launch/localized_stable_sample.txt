@@ -1,0 +1,40 @@
+header:
+  stamp:
+    sec: 1786876816
+    nanosec: 864882311
+  frame_id: base_link
+detections:
+- class_name: red_cube
+  confidence: 0.9824168682098389
+  x_min: 277
+  y_min: 286
+  x_max: 363
+  y_max: 372
+  has_position: true
+  position:
+    x: 0.6775
+    y: -0.0010000000000000009
+    z: 0.0
+- class_name: red_cube
+  confidence: 0.9837942719459534
+  x_min: 483
+  y_min: 240
+  x_max: 574
+  y_max: 331
+  has_position: true
+  position:
+    x: 0.7875
+    y: -0.41700000000000004
+    z: 0.0
+- class_name: red_cube
+  confidence: 0.9575054049491882
+  x_min: 523
+  y_min: 159
+  x_max: 576
+  y_max: 212
+  has_position: true
+  position:
+    x: 1.0375
+    y: -0.4590000000000001
+    z: 0.0
+---

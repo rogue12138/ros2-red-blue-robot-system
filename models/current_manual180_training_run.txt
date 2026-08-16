@@ -1,0 +1,1 @@
+/home/ros/robot_ws/training_runs/manual180_hard_finetune960_20260816_001956

@@ -1,0 +1,27 @@
+FINAL_LAUNCH_AND_CONFIG_FILES
+
+[launch]
+full_mock_system.launch.py
+full_safe_depth_vision_mock.launch.py
+full_safe_homography_vision_mock.launch.py
+full_safe_hybrid_vision_mock.launch.py
+full_safe_mock_system.launch.py
+vision_depth_mock.launch.py
+vision_homography_mock.launch.py
+vision_hybrid_homography_mock.launch.py
+vision_mock.launch.py
+
+[config]
+deepseek_params.yaml
+homography_params.yaml
+hybrid_homography_params.yaml
+hybrid_vision_params.yaml
+safety_params.yaml
+task_plan_params.yaml
+vision_params.yaml
+
+[recommended final launch]
+full_safe_hybrid_vision_mock.launch.py
+
+[recommended vision-only launch]
+vision_hybrid_homography_mock.launch.py

@@ -1,0 +1,2 @@
+data: "{\n  \"required_trials_per_class\": 10,\n  \"minimum_required_rate\": 0.95,\n  \"minimum_iou\": 0.5,\n  \"edge_tolerance_pixels\": 10,\n  \"cl..."
+---

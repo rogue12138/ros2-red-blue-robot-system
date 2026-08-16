@@ -1,0 +1,1 @@
+/home/ros/robot_ws/training_runs/prelabel_base_20260815_140106/weights/best.pt

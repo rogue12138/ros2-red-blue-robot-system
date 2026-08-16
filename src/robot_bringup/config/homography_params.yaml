@@ -1,0 +1,26 @@
+homography_localizer_node:
+  ros__parameters:
+    detections_topic: "/vision/detections"
+    output_topic: "/vision/localized_detections"
+
+    output_frame: "base_link"
+    table_height_m: 0.0
+
+    homography_matrix:
+      - 0.0
+      - -0.0025
+      - 1.5
+      - -0.002
+      - 0.0
+      - 0.639
+      - 0.0
+      - 0.0
+      - 1.0
+
+    minimum_denominator: 0.00000001
+    maximum_coordinate_abs_m: 10.0
+
+    position_filter_window: 5
+    track_match_distance_pixels: 80.0
+    track_timeout_frames: 10
+    log_every_n_frames: 30

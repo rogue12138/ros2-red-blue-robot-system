@@ -1,0 +1,1 @@
+/home/ros/robot_ws/validation_runs/combined_manual_test_960_20260815_221407

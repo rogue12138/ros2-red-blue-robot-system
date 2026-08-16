@@ -1,0 +1,6 @@
+/home/ros/robot_ws/datasets/color_cubes_training/synthetic200_manual60_fixed_20260815_155556/images/test/man_seed_002.jpg
+/home/ros/robot_ws/datasets/color_cubes_training/synthetic200_manual60_fixed_20260815_155556/images/test/man_seed_006.jpg
+/home/ros/robot_ws/datasets/color_cubes_training/synthetic200_manual60_fixed_20260815_155556/images/test/man_seed_034.jpg
+/home/ros/robot_ws/datasets/color_cubes_training/synthetic200_manual60_fixed_20260815_155556/images/test/man_seed_036.jpg
+/home/ros/robot_ws/datasets/color_cubes_training/synthetic200_manual60_fixed_20260815_155556/images/test/man_seed_046.jpg
+/home/ros/robot_ws/datasets/color_cubes_training/synthetic200_manual60_fixed_20260815_155556/images/test/man_seed_049.jpg

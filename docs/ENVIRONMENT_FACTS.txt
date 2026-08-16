@@ -1,0 +1,16 @@
+PROJECT_ENVIRONMENT
+
+Generated: 2026-08-16T19:40:41+08:00
+Operating system: Ubuntu 22.04.5 LTS
+Kernel: 6.8.0-136-generic
+ROS distribution: humble
+System Python: Python 3.10.12
+CPU threads: 4
+
+YOLO environment:
+Python: 3.10.12
+NumPy: 1.26.4
+OpenCV: 4.10.0
+PyTorch: 2.13.0+cpu
+Ultralytics: 8.4.120
+CUDA available: False

@@ -1,0 +1,657 @@
+Ultralytics 8.4.120 🚀 Python-3.10.12 torch-2.13.0+cpu CPU (Intel Core Ultra 5 125H)
+YOLO11n summary (fused): 101 layers, 2,582,542 parameters, 0 gradients, 6.4 GFLOPs
+
+image 1/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0001_6cb9e5a2.jpg: 384x640 (no detections), 37.0ms
+image 2/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0002_59ff0d1e.jpg: 384x640 2 red_cubes, 37.0ms
+image 3/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0003_7976ded0.jpg: 384x640 2 red_cubes, 37.0ms
+image 4/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0004_fa3686ae.jpg: 384x640 2 red_cubes, 37.0ms
+image 5/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0005_d024f31d.jpg: 384x640 2 red_cubes, 37.0ms
+image 6/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0006_680225b4.jpg: 384x640 2 red_cubes, 37.0ms
+image 7/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0007_26a84fe4.jpg: 384x640 2 red_cubes, 37.0ms
+image 8/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0008_d9e67011.jpg: 384x640 2 red_cubes, 37.0ms
+image 9/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0009_7801e57e.jpg: 384x640 2 red_cubes, 29.2ms
+image 10/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0010_6eba1853.jpg: 384x640 2 red_cubes, 29.2ms
+image 11/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0011_4e2aa3e3.jpg: 384x640 3 red_cubes, 1 blue_cube, 29.2ms
+image 12/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0012_83e0b0e5.jpg: 384x640 3 red_cubes, 1 blue_cube, 29.2ms
+image 13/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0013_cdeab164.jpg: 384x640 3 red_cubes, 1 blue_cube, 29.2ms
+image 14/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0014_d2c237a9.jpg: 384x640 3 red_cubes, 1 blue_cube, 29.2ms
+image 15/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0015_81c1187d.jpg: 384x640 3 red_cubes, 1 blue_cube, 29.2ms
+image 16/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0016_489f1031.jpg: 384x640 3 red_cubes, 1 blue_cube, 29.2ms
+image 17/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0017_2ad8886c.jpg: 384x640 3 red_cubes, 1 blue_cube, 28.3ms
+image 18/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0018_ebd2f8fb.jpg: 384x640 3 red_cubes, 1 blue_cube, 28.3ms
+image 19/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0019_619b3e26.jpg: 384x640 3 red_cubes, 1 blue_cube, 28.3ms
+image 20/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0020_eba08106.jpg: 384x640 3 red_cubes, 1 blue_cube, 28.3ms
+image 21/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0021_847729e7.jpg: 384x640 1 red_cube, 28.3ms
+image 22/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0022_0ed43e6b.jpg: 384x640 1 red_cube, 28.3ms
+image 23/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0023_bb1ddc2f.jpg: 384x640 1 red_cube, 28.3ms
+image 24/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0024_ce55c2c6.jpg: 384x640 1 red_cube, 28.3ms
+image 25/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0025_5977cfca.jpg: 384x640 1 red_cube, 28.0ms
+image 26/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0026_afe155b3.jpg: 384x640 1 red_cube, 28.0ms
+image 27/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0027_096f7cda.jpg: 384x640 1 red_cube, 28.0ms
+image 28/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0028_eacda717.jpg: 384x640 1 red_cube, 28.0ms
+image 29/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0029_2a0c32ad.jpg: 384x640 1 red_cube, 28.0ms
+image 30/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0030_5dee4a5e.jpg: 384x640 1 red_cube, 28.0ms
+image 31/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0031_719cb8d3.jpg: 384x640 1 red_cube, 1 blue_cube, 28.0ms
+image 32/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0032_4995afb0.jpg: 384x640 1 red_cube, 28.0ms
+image 33/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0033_7956a886.jpg: 384x640 1 red_cube, 30.1ms
+image 34/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0034_917291c3.jpg: 384x640 1 red_cube, 30.1ms
+image 35/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0035_6332c461.jpg: 384x640 1 red_cube, 30.1ms
+image 36/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0036_113ecd22.jpg: 384x640 1 red_cube, 30.1ms
+image 37/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0037_70d2241c.jpg: 384x640 1 red_cube, 30.1ms
+image 38/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0038_de0fa583.jpg: 384x640 1 red_cube, 30.1ms
+image 39/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0039_01953f0c.jpg: 384x640 1 red_cube, 30.1ms
+image 40/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0040_9d365b78.jpg: 384x640 1 red_cube, 30.1ms
+image 41/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0041_68c982be.jpg: 384x640 1 red_cube, 49.2ms
+image 42/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0042_019a3676.jpg: 384x640 1 red_cube, 49.2ms
+image 43/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0043_ecdd8c23.jpg: 384x640 1 red_cube, 49.2ms
+image 44/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0044_2716547b.jpg: 384x640 1 red_cube, 49.2ms
+image 45/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0045_503d557c.jpg: 384x640 1 red_cube, 49.2ms
+image 46/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0046_457afc1d.jpg: 384x640 1 red_cube, 49.2ms
+image 47/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0047_506fca38.jpg: 384x640 1 red_cube, 49.2ms
+image 48/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0048_567f3ecb.jpg: 384x640 1 red_cube, 49.2ms
+image 49/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0049_22e33c9f.jpg: 384x640 1 red_cube, 56.4ms
+image 50/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0050_393a0c10.jpg: 384x640 1 red_cube, 56.4ms
+image 51/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0051_39c4cc07.jpg: 384x640 1 red_cube, 56.4ms
+image 52/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0052_0077ce14.jpg: 384x640 1 red_cube, 56.4ms
+image 53/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0053_39eaae72.jpg: 384x640 1 red_cube, 56.4ms
+image 54/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0054_ea4405c9.jpg: 384x640 1 red_cube, 56.4ms
+image 55/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0055_f4416d0e.jpg: 384x640 1 red_cube, 56.4ms
+image 56/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0056_a4940e44.jpg: 384x640 1 red_cube, 56.4ms
+image 57/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0057_60d5773a.jpg: 384x640 1 red_cube, 46.9ms
+image 58/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0058_74858e47.jpg: 384x640 1 red_cube, 46.9ms
+image 59/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0059_99d741a3.jpg: 384x640 1 red_cube, 46.9ms
+image 60/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0060_522bd415.jpg: 384x640 1 red_cube, 46.9ms
+image 61/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0061_caac0f47.jpg: 384x640 1 red_cube, 46.9ms
+image 62/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0062_7763db35.jpg: 384x640 1 red_cube, 46.9ms
+image 63/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0063_d0416227.jpg: 384x640 1 red_cube, 46.9ms
+image 64/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0064_21d385af.jpg: 384x640 1 red_cube, 46.9ms
+image 65/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0065_74741669.jpg: 384x640 1 red_cube, 46.0ms
+image 66/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0066_66538ecc.jpg: 384x640 1 red_cube, 46.0ms
+image 67/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0067_afbeb28a.jpg: 384x640 1 red_cube, 46.0ms
+image 68/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0068_9137f9e2.jpg: 384x640 1 red_cube, 46.0ms
+image 69/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0069_d85a9c2b.jpg: 384x640 1 red_cube, 46.0ms
+image 70/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0070_a640b5eb.jpg: 384x640 1 red_cube, 46.0ms
+image 71/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0071_242869d0.jpg: 384x640 1 red_cube, 46.0ms
+image 72/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0072_f694d3a1.jpg: 384x640 1 red_cube, 46.0ms
+image 73/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0073_427dd395.jpg: 384x640 1 red_cube, 45.6ms
+image 74/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0074_738a679e.jpg: 384x640 1 red_cube, 45.6ms
+image 75/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0075_8ba59226.jpg: 384x640 1 red_cube, 45.6ms
+image 76/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0076_8105e5d4.jpg: 384x640 1 red_cube, 45.6ms
+image 77/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0077_19cf262b.jpg: 384x640 1 red_cube, 45.6ms
+image 78/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0078_5f1557e9.jpg: 384x640 1 red_cube, 45.6ms
+image 79/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0079_1c6de87a.jpg: 384x640 1 red_cube, 45.6ms
+image 80/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0080_d15e5b49.jpg: 384x640 1 red_cube, 45.6ms
+image 81/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0081_5f6e9020.jpg: 384x640 (no detections), 56.5ms
+image 82/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0082_0aee7db1.jpg: 384x640 1 red_cube, 56.5ms
+image 83/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0083_02243527.jpg: 384x640 1 red_cube, 56.5ms
+image 84/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0084_d55b8c61.jpg: 384x640 1 red_cube, 56.5ms
+image 85/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0085_6d3b5fed.jpg: 384x640 1 red_cube, 56.5ms
+image 86/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0086_72846e90.jpg: 384x640 1 red_cube, 56.5ms
+image 87/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0087_f7fbf238.jpg: 384x640 1 red_cube, 56.5ms
+image 88/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0088_d0fb411b.jpg: 384x640 1 red_cube, 56.5ms
+image 89/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0089_5ae1366c.jpg: 384x640 1 red_cube, 40.1ms
+image 90/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0090_cbae4d4d.jpg: 384x640 1 red_cube, 40.1ms
+image 91/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0091_3ad38848.jpg: 384x640 1 red_cube, 40.1ms
+image 92/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0092_e1ad7f1d.jpg: 384x640 1 red_cube, 40.1ms
+image 93/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0093_7439bb49.jpg: 384x640 1 red_cube, 40.1ms
+image 94/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0094_df2d07a8.jpg: 384x640 1 red_cube, 40.1ms
+image 95/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0095_59092c51.jpg: 384x640 1 red_cube, 40.1ms
+image 96/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0096_2e7cf8f5.jpg: 384x640 1 red_cube, 40.1ms
+image 97/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0097_8d4609ca.jpg: 384x640 1 red_cube, 53.6ms
+image 98/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0098_eebf6ad4.jpg: 384x640 1 red_cube, 53.6ms
+image 99/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0099_b55b219d.jpg: 384x640 1 red_cube, 53.6ms
+image 100/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0100_9bc3156e.jpg: 384x640 1 red_cube, 53.6ms
+image 101/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0101_85c8c95c.jpg: 384x640 1 red_cube, 53.6ms
+image 102/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0102_5a3f0b58.jpg: 384x640 1 red_cube, 53.6ms
+image 103/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0103_7d94f8a9.jpg: 384x640 1 red_cube, 53.6ms
+image 104/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0104_edf54c62.jpg: 384x640 1 red_cube, 53.6ms
+image 105/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0105_265a1c74.jpg: 384x640 1 red_cube, 50.5ms
+image 106/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0106_48d68651.jpg: 384x640 1 red_cube, 50.5ms
+image 107/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0107_4734a4ef.jpg: 384x640 1 red_cube, 50.5ms
+image 108/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0108_3d7b3288.jpg: 384x640 1 red_cube, 50.5ms
+image 109/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0109_ee2b6cfb.jpg: 384x640 1 red_cube, 50.5ms
+image 110/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0110_acd5da4f.jpg: 384x640 1 red_cube, 50.5ms
+image 111/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0111_710e523d.jpg: 384x640 1 red_cube, 50.5ms
+image 112/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0112_6e3e33b7.jpg: 384x640 1 red_cube, 50.5ms
+image 113/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0113_1168662e.jpg: 384x640 1 red_cube, 35.7ms
+image 114/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0114_47581b6e.jpg: 384x640 1 red_cube, 35.7ms
+image 115/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0115_78537260.jpg: 384x640 1 red_cube, 35.7ms
+image 116/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0116_84284fcb.jpg: 384x640 4 red_cubes, 35.7ms
+image 117/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0117_e426ce5f.jpg: 384x640 4 red_cubes, 35.7ms
+image 118/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0118_262212da.jpg: 384x640 4 red_cubes, 35.7ms
+image 119/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0119_d72d6486.jpg: 384x640 4 red_cubes, 35.7ms
+image 120/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0120_d1de9d17.jpg: 384x640 4 red_cubes, 35.7ms
+image 121/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0121_c76702e0.jpg: 384x640 2 blue_cubes, 42.4ms
+image 122/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0122_77614e6d.jpg: 384x640 2 blue_cubes, 42.4ms
+image 123/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0123_c604f7f3.jpg: 384x640 1 red_cube, 2 blue_cubes, 42.4ms
+image 124/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0124_c20347e8.jpg: 384x640 1 red_cube, 2 blue_cubes, 42.4ms
+image 125/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0125_3a111317.jpg: 384x640 1 red_cube, 2 blue_cubes, 42.4ms
+image 126/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0126_cadcb22d.jpg: 384x640 1 red_cube, 2 blue_cubes, 42.4ms
+image 127/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0127_1b7f4bda.jpg: 384x640 1 red_cube, 2 blue_cubes, 42.4ms
+image 128/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0128_d1d266d0.jpg: 384x640 1 red_cube, 2 blue_cubes, 42.4ms
+image 129/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0129_8c5547bb.jpg: 384x640 1 red_cube, 2 blue_cubes, 44.3ms
+image 130/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0130_48963415.jpg: 384x640 1 red_cube, 2 blue_cubes, 44.3ms
+image 131/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0131_acaf3c99.jpg: 384x640 2 blue_cubes, 44.3ms
+image 132/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0132_87ceb1d0.jpg: 384x640 2 blue_cubes, 44.3ms
+image 133/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0133_893912f1.jpg: 384x640 2 blue_cubes, 44.3ms
+image 134/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0134_08e58fa3.jpg: 384x640 2 blue_cubes, 44.3ms
+image 135/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0135_dbe11702.jpg: 384x640 2 blue_cubes, 44.3ms
+image 136/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0136_d79e6285.jpg: 384x640 2 blue_cubes, 44.3ms
+image 137/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0137_28d65bf0.jpg: 384x640 2 blue_cubes, 35.8ms
+image 138/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0138_fae6abba.jpg: 384x640 2 blue_cubes, 35.8ms
+image 139/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0139_9cdd0c23.jpg: 384x640 2 blue_cubes, 35.8ms
+image 140/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0140_625e9306.jpg: 384x640 2 blue_cubes, 35.8ms
+image 141/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0141_e596c128.jpg: 384x640 1 blue_cube, 35.8ms
+image 142/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0142_2cffded7.jpg: 384x640 1 blue_cube, 35.8ms
+image 143/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0143_bbd1b5dd.jpg: 384x640 1 blue_cube, 35.8ms
+image 144/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0144_5f2bb256.jpg: 384x640 1 blue_cube, 35.8ms
+image 145/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0145_c54671f3.jpg: 384x640 1 blue_cube, 44.3ms
+image 146/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0146_7b268dd9.jpg: 384x640 1 blue_cube, 44.3ms
+image 147/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0147_e68c27e5.jpg: 384x640 2 blue_cubes, 44.3ms
+image 148/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0148_a4b5e2fe.jpg: 384x640 2 blue_cubes, 44.3ms
+image 149/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0149_cfff7c0d.jpg: 384x640 2 blue_cubes, 44.3ms
+image 150/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0150_0d65c0fc.jpg: 384x640 2 blue_cubes, 44.3ms
+image 151/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0151_a928db4f.jpg: 384x640 3 blue_cubes, 44.3ms
+image 152/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0152_45c4e56a.jpg: 384x640 3 blue_cubes, 44.3ms
+image 153/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0153_7d727043.jpg: 384x640 3 blue_cubes, 33.9ms
+image 154/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0154_b67b16e9.jpg: 384x640 3 blue_cubes, 33.9ms
+image 155/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0155_d56cc040.jpg: 384x640 3 blue_cubes, 33.9ms
+image 156/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0156_595f48ad.jpg: 384x640 3 blue_cubes, 33.9ms
+image 157/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0157_436b26fa.jpg: 384x640 3 blue_cubes, 33.9ms
+image 158/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0158_0e91ce86.jpg: 384x640 3 blue_cubes, 33.9ms
+image 159/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0159_de3903ab.jpg: 384x640 3 blue_cubes, 33.9ms
+image 160/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0160_c4837256.jpg: 384x640 3 blue_cubes, 33.9ms
+image 161/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0161_c841a921.jpg: 384x640 2 blue_cubes, 41.4ms
+image 162/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0162_7e2b1f29.jpg: 384x640 2 blue_cubes, 41.4ms
+image 163/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0163_b20a8d67.jpg: 384x640 2 blue_cubes, 41.4ms
+image 164/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0164_6bbc9f02.jpg: 384x640 2 blue_cubes, 41.4ms
+image 165/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0165_d45cb7c3.jpg: 384x640 2 blue_cubes, 41.4ms
+image 166/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0166_52605eb1.jpg: 384x640 2 blue_cubes, 41.4ms
+image 167/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0167_7450f273.jpg: 384x640 2 blue_cubes, 41.4ms
+image 168/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0168_22805c38.jpg: 384x640 2 blue_cubes, 41.4ms
+image 169/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0169_e8fab1bc.jpg: 384x640 2 blue_cubes, 45.0ms
+image 170/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0170_093f43dd.jpg: 384x640 2 blue_cubes, 45.0ms
+image 171/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0171_65e33861.jpg: 384x640 1 blue_cube, 45.0ms
+image 172/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0172_5547d47c.jpg: 384x640 1 blue_cube, 45.0ms
+image 173/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0173_5bbea794.jpg: 384x640 1 blue_cube, 45.0ms
+image 174/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0174_f3575125.jpg: 384x640 1 blue_cube, 45.0ms
+image 175/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0175_ad9d65b1.jpg: 384x640 1 blue_cube, 45.0ms
+image 176/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0176_8e0aff1f.jpg: 384x640 1 blue_cube, 45.0ms
+image 177/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0177_65534864.jpg: 384x640 1 blue_cube, 41.9ms
+image 178/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0178_54887de1.jpg: 384x640 1 blue_cube, 41.9ms
+image 179/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0179_029bb54b.jpg: 384x640 1 blue_cube, 41.9ms
+image 180/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0180_92a82b2e.jpg: 384x640 1 blue_cube, 41.9ms
+image 181/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0181_fe0a265d.jpg: 384x640 1 blue_cube, 41.9ms
+image 182/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0182_16d81cad.jpg: 384x640 1 blue_cube, 41.9ms
+image 183/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0183_c48b7587.jpg: 384x640 1 blue_cube, 41.9ms
+image 184/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0184_d51b52d0.jpg: 384x640 1 blue_cube, 41.9ms
+image 185/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0185_0a08b753.jpg: 384x640 1 blue_cube, 39.9ms
+image 186/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0186_ba5fe89d.jpg: 384x640 1 blue_cube, 39.9ms
+image 187/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0187_84177fed.jpg: 384x640 1 blue_cube, 39.9ms
+image 188/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0188_9913c75a.jpg: 384x640 1 blue_cube, 39.9ms
+image 189/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0189_bcdb9984.jpg: 384x640 1 blue_cube, 39.9ms
+image 190/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0190_3649494d.jpg: 384x640 1 blue_cube, 39.9ms
+image 191/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0191_1e8d1320.jpg: 384x640 1 blue_cube, 39.9ms
+image 192/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0192_f8107eea.jpg: 384x640 1 blue_cube, 39.9ms
+image 193/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0193_c0ad290a.jpg: 384x640 1 blue_cube, 40.9ms
+image 194/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0194_103d9332.jpg: 384x640 1 blue_cube, 40.9ms
+image 195/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0195_523d7de7.jpg: 384x640 1 blue_cube, 40.9ms
+image 196/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0196_23b2b9cf.jpg: 384x640 1 blue_cube, 40.9ms
+image 197/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0197_52f7abc2.jpg: 384x640 1 blue_cube, 40.9ms
+image 198/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0198_3e942b66.jpg: 384x640 1 blue_cube, 40.9ms
+image 199/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0199_a68b708a.jpg: 384x640 1 blue_cube, 40.9ms
+image 200/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0200_f975e49d.jpg: 384x640 1 blue_cube, 40.9ms
+image 201/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0201_0eefe621.jpg: 384x640 1 blue_cube, 31.1ms
+image 202/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0202_e94fe67f.jpg: 384x640 1 blue_cube, 31.1ms
+image 203/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0203_144d54f8.jpg: 384x640 1 blue_cube, 31.1ms
+image 204/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0204_4b42dd0f.jpg: 384x640 1 blue_cube, 31.1ms
+image 205/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0205_c4a69d62.jpg: 384x640 1 blue_cube, 31.1ms
+image 206/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0206_c26adc4a.jpg: 384x640 1 blue_cube, 31.1ms
+image 207/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0207_14c1fea2.jpg: 384x640 1 blue_cube, 31.1ms
+image 208/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0208_c16b41f1.jpg: 384x640 1 blue_cube, 31.1ms
+image 209/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0209_bf09cd0c.jpg: 384x640 1 blue_cube, 33.4ms
+image 210/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0210_023fd5c6.jpg: 384x640 1 blue_cube, 33.4ms
+image 211/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0211_a79d2b05.jpg: 384x640 2 blue_cubes, 33.4ms
+image 212/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0212_f578ab2f.jpg: 384x640 2 blue_cubes, 33.4ms
+image 213/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0213_b4cc61dc.jpg: 384x640 2 blue_cubes, 33.4ms
+image 214/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0214_4ac52b8b.jpg: 384x640 2 blue_cubes, 33.4ms
+image 215/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0215_ea87e9e8.jpg: 384x640 2 blue_cubes, 33.4ms
+image 216/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0216_935bf636.jpg: 384x640 2 blue_cubes, 33.4ms
+image 217/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0217_70361b81.jpg: 384x640 2 blue_cubes, 35.9ms
+image 218/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0218_da7eca3c.jpg: 384x640 2 blue_cubes, 35.9ms
+image 219/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0219_2f3c7439.jpg: 384x640 2 blue_cubes, 35.9ms
+image 220/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0220_b3e8f12f.jpg: 384x640 2 blue_cubes, 35.9ms
+image 221/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0221_3d6d26ff.jpg: 384x640 2 blue_cubes, 35.9ms
+image 222/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0222_93a7ece5.jpg: 384x640 2 blue_cubes, 35.9ms
+image 223/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0223_2819cd1a.jpg: 384x640 2 blue_cubes, 35.9ms
+image 224/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0224_fdf980bf.jpg: 384x640 2 blue_cubes, 35.9ms
+image 225/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0225_468f51b2.jpg: 384x640 2 blue_cubes, 47.2ms
+image 226/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0226_73a72fc1.jpg: 384x640 2 blue_cubes, 47.2ms
+image 227/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0227_67494e44.jpg: 384x640 1 blue_cube, 47.2ms
+image 228/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0228_5f385a3a.jpg: 384x640 1 blue_cube, 47.2ms
+image 229/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0229_6e680430.jpg: 384x640 1 blue_cube, 47.2ms
+image 230/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0230_9c2b37d2.jpg: 384x640 1 blue_cube, 47.2ms
+image 231/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0231_b29c36e0.jpg: 384x640 1 red_cube, 2 blue_cubes, 47.2ms
+image 232/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0232_33b07b25.jpg: 384x640 1 red_cube, 2 blue_cubes, 47.2ms
+image 233/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0233_dcae5963.jpg: 384x640 1 red_cube, 2 blue_cubes, 38.2ms
+image 234/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0234_b2db5a17.jpg: 384x640 1 red_cube, 2 blue_cubes, 38.2ms
+image 235/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0235_434caf6f.jpg: 384x640 1 red_cube, 2 blue_cubes, 38.2ms
+image 236/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0236_17799832.jpg: 384x640 1 red_cube, 2 blue_cubes, 38.2ms
+image 237/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0237_bb45700c.jpg: 384x640 1 red_cube, 2 blue_cubes, 38.2ms
+image 238/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0238_dc98d4d8.jpg: 384x640 1 red_cube, 2 blue_cubes, 38.2ms
+image 239/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0239_44a610c3.jpg: 384x640 1 red_cube, 2 blue_cubes, 38.2ms
+image 240/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0240_a7ba5c56.jpg: 384x640 1 red_cube, 2 blue_cubes, 38.2ms
+image 241/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0241_4b3c8f8a.jpg: 384x640 1 red_cube, 3 blue_cubes, 39.4ms
+image 242/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0242_9c876c32.jpg: 384x640 1 red_cube, 3 blue_cubes, 39.4ms
+image 243/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0243_06f39058.jpg: 384x640 1 red_cube, 3 blue_cubes, 39.4ms
+image 244/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0244_969d631b.jpg: 384x640 1 red_cube, 3 blue_cubes, 39.4ms
+image 245/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0245_4f22dc91.jpg: 384x640 1 red_cube, 3 blue_cubes, 39.4ms
+image 246/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0246_e6a97e8d.jpg: 384x640 1 red_cube, 3 blue_cubes, 39.4ms
+image 247/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0247_6bf572ba.jpg: 384x640 1 red_cube, 3 blue_cubes, 39.4ms
+image 248/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0248_15da5666.jpg: 384x640 1 red_cube, 3 blue_cubes, 39.4ms
+image 249/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0249_41b19814.jpg: 384x640 1 red_cube, 3 blue_cubes, 32.8ms
+image 250/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0250_4439d96d.jpg: 384x640 1 red_cube, 3 blue_cubes, 32.8ms
+image 251/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0251_f4857181.jpg: 384x640 5 red_cubes, 2 blue_cubes, 32.8ms
+image 252/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0252_6cc49f29.jpg: 384x640 5 red_cubes, 2 blue_cubes, 32.8ms
+image 253/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0253_2fdd057a.jpg: 384x640 5 red_cubes, 2 blue_cubes, 32.8ms
+image 254/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0254_9d3753c0.jpg: 384x640 5 red_cubes, 2 blue_cubes, 32.8ms
+image 255/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0255_0335b1df.jpg: 384x640 5 red_cubes, 2 blue_cubes, 32.8ms
+image 256/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0256_6757e835.jpg: 384x640 3 red_cubes, 2 blue_cubes, 32.8ms
+image 257/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0257_2023c396.jpg: 384x640 3 red_cubes, 2 blue_cubes, 40.1ms
+image 258/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0258_da10df9a.jpg: 384x640 4 red_cubes, 2 blue_cubes, 40.1ms
+image 259/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0259_831ebf56.jpg: 384x640 4 red_cubes, 2 blue_cubes, 40.1ms
+image 260/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0260_95ea9197.jpg: 384x640 4 red_cubes, 2 blue_cubes, 40.1ms
+image 261/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0261_590ddc87.jpg: 384x640 1 blue_cube, 40.1ms
+image 262/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0262_73eef795.jpg: 384x640 1 blue_cube, 40.1ms
+image 263/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0263_e3ac2642.jpg: 384x640 1 blue_cube, 40.1ms
+image 264/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0264_a805513b.jpg: 384x640 1 blue_cube, 40.1ms
+image 265/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0265_e5ad238e.jpg: 384x640 1 blue_cube, 41.7ms
+image 266/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0266_f1940cb9.jpg: 384x640 1 blue_cube, 41.7ms
+image 267/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0267_b9276dc8.jpg: 384x640 1 blue_cube, 41.7ms
+image 268/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0268_8220a141.jpg: 384x640 1 blue_cube, 41.7ms
+image 269/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0269_05c1e730.jpg: 384x640 1 blue_cube, 41.7ms
+image 270/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0270_9750cf12.jpg: 384x640 1 blue_cube, 41.7ms
+image 271/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0271_14df02a1.jpg: 384x640 1 blue_cube, 41.7ms
+image 272/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0272_2826e804.jpg: 384x640 1 blue_cube, 41.7ms
+image 273/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0273_942adf23.jpg: 384x640 1 blue_cube, 49.5ms
+image 274/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0274_74b5c0ae.jpg: 384x640 1 blue_cube, 49.5ms
+image 275/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0275_905a9fe6.jpg: 384x640 1 blue_cube, 49.5ms
+image 276/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0276_98843536.jpg: 384x640 1 blue_cube, 49.5ms
+image 277/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0277_c50ef8e2.jpg: 384x640 1 blue_cube, 49.5ms
+image 278/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0278_204e82f1.jpg: 384x640 1 blue_cube, 49.5ms
+image 279/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0279_095e826e.jpg: 384x640 1 blue_cube, 49.5ms
+image 280/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0280_88c2f7b0.jpg: 384x640 1 blue_cube, 49.5ms
+image 281/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0281_030c2687.jpg: 384x640 1 blue_cube, 33.7ms
+image 282/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0282_e3a1cf65.jpg: 384x640 1 blue_cube, 33.7ms
+image 283/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0283_6106c13b.jpg: 384x640 1 blue_cube, 33.7ms
+image 284/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0284_d98ce2af.jpg: 384x640 1 blue_cube, 33.7ms
+image 285/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0285_6ff75de6.jpg: 384x640 1 blue_cube, 33.7ms
+image 286/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0286_f9e820c6.jpg: 384x640 1 blue_cube, 33.7ms
+image 287/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0287_c522a0dd.jpg: 384x640 1 blue_cube, 33.7ms
+image 288/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0288_d0a769c8.jpg: 384x640 1 blue_cube, 33.7ms
+image 289/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0289_707cd33b.jpg: 384x640 1 blue_cube, 34.4ms
+image 290/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0290_7a169a33.jpg: 384x640 1 blue_cube, 34.4ms
+image 291/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0291_47bda67c.jpg: 384x640 1 blue_cube, 34.4ms
+image 292/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0292_ccced703.jpg: 384x640 1 blue_cube, 34.4ms
+image 293/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0293_0ea3b1b0.jpg: 384x640 1 blue_cube, 34.4ms
+image 294/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0294_4733376c.jpg: 384x640 1 blue_cube, 34.4ms
+image 295/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0295_65849de5.jpg: 384x640 1 blue_cube, 34.4ms
+image 296/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0296_8964bb5c.jpg: 384x640 1 blue_cube, 34.4ms
+image 297/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0297_2795355e.jpg: 384x640 1 blue_cube, 41.9ms
+image 298/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0298_ad84d3a0.jpg: 384x640 1 blue_cube, 41.9ms
+image 299/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0299_836a1281.jpg: 384x640 1 blue_cube, 41.9ms
+image 300/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0300_7f0a6ecc.jpg: 384x640 1 blue_cube, 41.9ms
+image 301/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0301_242e712e.jpg: 384x640 2 blue_cubes, 41.9ms
+image 302/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0302_0cf015d5.jpg: 384x640 2 blue_cubes, 41.9ms
+image 303/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0303_e257ba2a.jpg: 384x640 2 blue_cubes, 41.9ms
+image 304/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0304_6fb34bf7.jpg: 384x640 2 blue_cubes, 41.9ms
+image 305/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0305_5880b279.jpg: 384x640 2 blue_cubes, 37.8ms
+image 306/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0306_f8ecc86a.jpg: 384x640 2 blue_cubes, 37.8ms
+image 307/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0307_e49732b7.jpg: 384x640 2 blue_cubes, 37.8ms
+image 308/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0308_2e9a1f5d.jpg: 384x640 2 blue_cubes, 37.8ms
+image 309/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0309_6a4818ae.jpg: 384x640 2 blue_cubes, 37.8ms
+image 310/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0310_eec0c7ba.jpg: 384x640 2 blue_cubes, 37.8ms
+image 311/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0311_6517a78d.jpg: 384x640 2 blue_cubes, 37.8ms
+image 312/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0312_d67ddea0.jpg: 384x640 2 blue_cubes, 37.8ms
+image 313/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0313_f5975bc0.jpg: 384x640 2 blue_cubes, 56.5ms
+image 314/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0314_77e9c6fd.jpg: 384x640 2 blue_cubes, 56.5ms
+image 315/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0315_61de2a24.jpg: 384x640 2 blue_cubes, 56.5ms
+image 316/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0316_6b1d5c45.jpg: 384x640 2 blue_cubes, 56.5ms
+image 317/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0317_680de09d.jpg: 384x640 2 blue_cubes, 56.5ms
+image 318/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0318_8ddbff03.jpg: 384x640 2 blue_cubes, 56.5ms
+image 319/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0319_85dd92c1.jpg: 384x640 2 blue_cubes, 56.5ms
+image 320/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0320_36d58040.jpg: 384x640 2 blue_cubes, 56.5ms
+image 321/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0321_786554d7.jpg: 384x640 2 blue_cubes, 39.1ms
+image 322/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0322_805cfb64.jpg: 384x640 2 blue_cubes, 39.1ms
+image 323/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0323_d7400db8.jpg: 384x640 2 blue_cubes, 39.1ms
+image 324/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0324_281aec01.jpg: 384x640 2 blue_cubes, 39.1ms
+image 325/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0325_f1148a40.jpg: 384x640 2 blue_cubes, 39.1ms
+image 326/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0326_8ca40a25.jpg: 384x640 3 red_cubes, 2 blue_cubes, 39.1ms
+image 327/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0327_b2d60054.jpg: 384x640 3 red_cubes, 2 blue_cubes, 39.1ms
+image 328/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0328_61a9bab6.jpg: 384x640 3 red_cubes, 2 blue_cubes, 39.1ms
+image 329/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0329_47733e13.jpg: 384x640 3 red_cubes, 2 blue_cubes, 30.4ms
+image 330/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0330_c8827daa.jpg: 384x640 3 red_cubes, 2 blue_cubes, 30.4ms
+image 331/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0331_41faad6c.jpg: 384x640 3 red_cubes, 2 blue_cubes, 30.4ms
+image 332/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0332_f258afd1.jpg: 384x640 3 red_cubes, 2 blue_cubes, 30.4ms
+image 333/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0333_2b70a9df.jpg: 384x640 3 red_cubes, 2 blue_cubes, 30.4ms
+image 334/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0334_2834079a.jpg: 384x640 3 red_cubes, 2 blue_cubes, 30.4ms
+image 335/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0335_38e71b7f.jpg: 384x640 3 red_cubes, 2 blue_cubes, 30.4ms
+image 336/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0336_ff0d1510.jpg: 384x640 3 red_cubes, 2 blue_cubes, 30.4ms
+image 337/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0337_a857e62d.jpg: 384x640 3 red_cubes, 2 blue_cubes, 33.8ms
+image 338/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0338_c9a0e9ec.jpg: 384x640 3 red_cubes, 2 blue_cubes, 33.8ms
+image 339/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0339_fe966b6a.jpg: 384x640 3 red_cubes, 2 blue_cubes, 33.8ms
+image 340/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0340_de5c6812.jpg: 384x640 3 red_cubes, 2 blue_cubes, 33.8ms
+image 341/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0341_03d3503d.jpg: 384x640 3 red_cubes, 2 blue_cubes, 33.8ms
+image 342/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0342_f9e3eb23.jpg: 384x640 3 red_cubes, 2 blue_cubes, 33.8ms
+image 343/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0343_134b3f0a.jpg: 384x640 3 red_cubes, 2 blue_cubes, 33.8ms
+image 344/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0344_305db5c8.jpg: 384x640 3 red_cubes, 2 blue_cubes, 33.8ms
+image 345/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0345_8bc5062a.jpg: 384x640 3 red_cubes, 2 blue_cubes, 30.1ms
+image 346/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0346_79a23c14.jpg: 384x640 3 red_cubes, 2 blue_cubes, 30.1ms
+image 347/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0347_201e9cb2.jpg: 384x640 3 red_cubes, 2 blue_cubes, 30.1ms
+image 348/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0348_989c8533.jpg: 384x640 3 red_cubes, 2 blue_cubes, 30.1ms
+image 349/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0349_09724970.jpg: 384x640 3 red_cubes, 2 blue_cubes, 30.1ms
+image 350/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0350_10534071.jpg: 384x640 3 red_cubes, 2 blue_cubes, 30.1ms
+image 351/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0351_ab065f83.jpg: 384x640 2 blue_cubes, 30.1ms
+image 352/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0352_72e20577.jpg: 384x640 2 blue_cubes, 30.1ms
+image 353/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0353_d1f975cf.jpg: 384x640 2 blue_cubes, 31.9ms
+image 354/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0354_023ece62.jpg: 384x640 2 blue_cubes, 31.9ms
+image 355/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0355_84008b5d.jpg: 384x640 2 blue_cubes, 31.9ms
+image 356/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0356_1a39ea8e.jpg: 384x640 2 blue_cubes, 31.9ms
+image 357/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0357_6de1775a.jpg: 384x640 2 blue_cubes, 31.9ms
+image 358/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0358_91582ef3.jpg: 384x640 2 blue_cubes, 31.9ms
+image 359/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0359_44aaadfb.jpg: 384x640 2 blue_cubes, 31.9ms
+image 360/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0360_f8b95bbd.jpg: 384x640 2 blue_cubes, 31.9ms
+image 361/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0361_60ed469f.jpg: 384x640 2 blue_cubes, 32.9ms
+image 362/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0362_a67f366d.jpg: 384x640 2 blue_cubes, 32.9ms
+image 363/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0363_5596ab78.jpg: 384x640 2 blue_cubes, 32.9ms
+image 364/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0364_6b5a0829.jpg: 384x640 2 blue_cubes, 32.9ms
+image 365/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0365_c8fd8333.jpg: 384x640 2 blue_cubes, 32.9ms
+image 366/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0366_0ad8574b.jpg: 384x640 2 blue_cubes, 32.9ms
+image 367/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0367_fe5ca3d8.jpg: 384x640 2 blue_cubes, 32.9ms
+image 368/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0368_70704420.jpg: 384x640 2 blue_cubes, 32.9ms
+image 369/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0369_e70634b5.jpg: 384x640 2 blue_cubes, 44.6ms
+image 370/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0370_8f927914.jpg: 384x640 2 blue_cubes, 44.6ms
+image 371/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0371_9c24868f.jpg: 384x640 1 red_cube, 44.6ms
+image 372/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0372_49ac2f65.jpg: 384x640 1 red_cube, 44.6ms
+image 373/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0373_55d04108.jpg: 384x640 1 red_cube, 44.6ms
+image 374/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0374_2e89b321.jpg: 384x640 1 red_cube, 44.6ms
+image 375/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0375_f530cc5f.jpg: 384x640 1 red_cube, 44.6ms
+image 376/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0376_0b3a5866.jpg: 384x640 1 red_cube, 44.6ms
+image 377/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0377_99daafb6.jpg: 384x640 1 red_cube, 40.7ms
+image 378/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0378_0cba0c2a.jpg: 384x640 1 red_cube, 40.7ms
+image 379/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0379_5b59a3bd.jpg: 384x640 1 red_cube, 40.7ms
+image 380/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0380_0c058c03.jpg: 384x640 1 red_cube, 40.7ms
+image 381/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0381_0cd80a9a.jpg: 384x640 1 red_cube, 40.7ms
+image 382/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0382_07fef8cc.jpg: 384x640 1 red_cube, 40.7ms
+image 383/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0383_8b9b6b20.jpg: 384x640 1 red_cube, 40.7ms
+image 384/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0384_f6aacc3b.jpg: 384x640 1 red_cube, 40.7ms
+image 385/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0385_90236b8f.jpg: 384x640 1 red_cube, 27.0ms
+image 386/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0386_8e8bf9b6.jpg: 384x640 1 red_cube, 27.0ms
+image 387/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0387_177e212d.jpg: 384x640 1 red_cube, 27.0ms
+image 388/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0388_ba4f97e8.jpg: 384x640 1 red_cube, 27.0ms
+image 389/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0389_b015c77d.jpg: 384x640 1 red_cube, 27.0ms
+image 390/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0390_9374b625.jpg: 384x640 1 red_cube, 27.0ms
+image 391/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0391_9a893b34.jpg: 384x640 1 red_cube, 27.0ms
+image 392/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0392_f0567f1c.jpg: 384x640 1 red_cube, 27.0ms
+image 393/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0393_a3e86bde.jpg: 384x640 1 red_cube, 44.0ms
+image 394/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0394_3514a0a6.jpg: 384x640 1 red_cube, 44.0ms
+image 395/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0395_24889d8a.jpg: 384x640 2 red_cubes, 44.0ms
+image 396/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0396_302f568d.jpg: 384x640 2 red_cubes, 44.0ms
+image 397/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0397_077f3c1e.jpg: 384x640 2 red_cubes, 44.0ms
+image 398/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0398_f15bd356.jpg: 384x640 2 red_cubes, 44.0ms
+image 399/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0399_3c64793e.jpg: 384x640 2 red_cubes, 44.0ms
+image 400/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0400_58baa824.jpg: 384x640 2 red_cubes, 44.0ms
+image 401/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0401_5f6b54b4.jpg: 384x640 3 red_cubes, 47.4ms
+image 402/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0402_d820add0.jpg: 384x640 3 red_cubes, 47.4ms
+image 403/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0403_0a8cf109.jpg: 384x640 3 red_cubes, 47.4ms
+image 404/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0404_f5f43ec5.jpg: 384x640 3 red_cubes, 47.4ms
+image 405/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0405_f9f78022.jpg: 384x640 3 red_cubes, 47.4ms
+image 406/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0406_e83f541f.jpg: 384x640 3 red_cubes, 47.4ms
+image 407/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0407_e8923a09.jpg: 384x640 3 red_cubes, 47.4ms
+image 408/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0408_d91bcc17.jpg: 384x640 3 red_cubes, 47.4ms
+image 409/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0409_0ddad35b.jpg: 384x640 3 red_cubes, 36.6ms
+image 410/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0410_1607b39f.jpg: 384x640 3 red_cubes, 36.6ms
+image 411/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0411_041cb65d.jpg: 384x640 2 red_cubes, 36.6ms
+image 412/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0412_bfc0da98.jpg: 384x640 2 red_cubes, 36.6ms
+image 413/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0413_fd2ebac3.jpg: 384x640 2 red_cubes, 36.6ms
+image 414/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0414_797f3e94.jpg: 384x640 2 red_cubes, 36.6ms
+image 415/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0415_7fc39c41.jpg: 384x640 2 red_cubes, 36.6ms
+image 416/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0416_d3613c4b.jpg: 384x640 2 red_cubes, 36.6ms
+image 417/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0417_75c135ea.jpg: 384x640 2 red_cubes, 31.8ms
+image 418/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0418_7e8f6a43.jpg: 384x640 2 red_cubes, 31.8ms
+image 419/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0419_ef3658be.jpg: 384x640 2 red_cubes, 31.8ms
+image 420/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0420_f9e00a77.jpg: 384x640 1 red_cube, 31.8ms
+image 421/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0421_6a13beb4.jpg: 384x640 3 red_cubes, 31.8ms
+image 422/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0422_1d5ff2b0.jpg: 384x640 3 red_cubes, 31.8ms
+image 423/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0423_2e14e28e.jpg: 384x640 3 red_cubes, 31.8ms
+image 424/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0424_2eec6842.jpg: 384x640 3 red_cubes, 31.8ms
+image 425/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0425_3a3b45b9.jpg: 384x640 3 red_cubes, 45.8ms
+image 426/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0426_f0196752.jpg: 384x640 3 red_cubes, 45.8ms
+image 427/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0427_bd23c351.jpg: 384x640 3 red_cubes, 45.8ms
+image 428/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0428_78fbae0e.jpg: 384x640 3 red_cubes, 45.8ms
+image 429/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0429_f34ebd6a.jpg: 384x640 3 red_cubes, 45.8ms
+image 430/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0430_d50067c0.jpg: 384x640 3 red_cubes, 45.8ms
+image 431/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0431_96703968.jpg: 384x640 3 red_cubes, 45.8ms
+image 432/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0432_eb0af571.jpg: 384x640 3 red_cubes, 45.8ms
+image 433/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0433_b23a68cd.jpg: 384x640 3 red_cubes, 42.9ms
+image 434/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0434_69e5a434.jpg: 384x640 3 red_cubes, 42.9ms
+image 435/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0435_b86fd6fc.jpg: 384x640 3 red_cubes, 42.9ms
+image 436/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0436_0a45a58d.jpg: 384x640 3 red_cubes, 42.9ms
+image 437/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0437_640df382.jpg: 384x640 3 red_cubes, 42.9ms
+image 438/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0438_dea3af23.jpg: 384x640 3 red_cubes, 42.9ms
+image 439/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0439_25fbb0d9.jpg: 384x640 3 red_cubes, 42.9ms
+image 440/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0440_b47a7eac.jpg: 384x640 3 red_cubes, 42.9ms
+image 441/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0441_5d74301d.jpg: 384x640 3 red_cubes, 34.7ms
+image 442/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0442_9c59df00.jpg: 384x640 1 red_cube, 34.7ms
+image 443/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0443_2ce89aa7.jpg: 384x640 1 red_cube, 34.7ms
+image 444/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0444_7ae0c783.jpg: 384x640 1 red_cube, 34.7ms
+image 445/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0445_5516aacb.jpg: 384x640 1 red_cube, 34.7ms
+image 446/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0446_4a9c4b12.jpg: 384x640 1 red_cube, 34.7ms
+image 447/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0447_5d6b678a.jpg: 384x640 1 red_cube, 34.7ms
+image 448/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0448_e0a96aa6.jpg: 384x640 1 red_cube, 34.7ms
+image 449/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0449_17f5f97b.jpg: 384x640 1 red_cube, 43.4ms
+image 450/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0450_2b5f4c3a.jpg: 384x640 1 red_cube, 43.4ms
+image 451/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0451_2aa51cca.jpg: 384x640 1 red_cube, 43.4ms
+image 452/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0452_1f55c8b7.jpg: 384x640 1 red_cube, 43.4ms
+image 453/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0453_0ba7648b.jpg: 384x640 1 red_cube, 43.4ms
+image 454/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0454_1a85ac22.jpg: 384x640 1 red_cube, 43.4ms
+image 455/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0455_aeb36d09.jpg: 384x640 1 red_cube, 43.4ms
+image 456/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0456_b12c0416.jpg: 384x640 1 red_cube, 43.4ms
+image 457/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0457_d6a228a4.jpg: 384x640 1 red_cube, 31.5ms
+image 458/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0458_4b67c6c9.jpg: 384x640 1 red_cube, 31.5ms
+image 459/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0459_6472acf5.jpg: 384x640 1 red_cube, 31.5ms
+image 460/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0460_8f98ea0d.jpg: 384x640 1 red_cube, 31.5ms
+image 461/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0461_6c87543d.jpg: 384x640 2 red_cubes, 31.5ms
+image 462/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0462_1feb43fd.jpg: 384x640 2 red_cubes, 31.5ms
+image 463/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0463_f0ef17d9.jpg: 384x640 2 red_cubes, 31.5ms
+image 464/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0464_701a8425.jpg: 384x640 2 red_cubes, 31.5ms
+image 465/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0465_3de10b59.jpg: 384x640 2 red_cubes, 30.2ms
+image 466/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0466_6ac0d15b.jpg: 384x640 2 red_cubes, 30.2ms
+image 467/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0467_71f4354e.jpg: 384x640 2 red_cubes, 30.2ms
+image 468/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0468_3c695897.jpg: 384x640 2 red_cubes, 30.2ms
+image 469/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0469_0b97bd3b.jpg: 384x640 2 red_cubes, 30.2ms
+image 470/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0470_8c6ec0d4.jpg: 384x640 2 red_cubes, 30.2ms
+image 471/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0471_ec14e16c.jpg: 384x640 1 red_cube, 30.2ms
+image 472/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0472_689f4415.jpg: 384x640 1 red_cube, 30.2ms
+image 473/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0473_c28d33b1.jpg: 384x640 1 red_cube, 36.4ms
+image 474/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0474_846fca41.jpg: 384x640 1 red_cube, 36.4ms
+image 475/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0475_c020fc17.jpg: 384x640 1 red_cube, 36.4ms
+image 476/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0476_e7edab03.jpg: 384x640 1 red_cube, 36.4ms
+image 477/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0477_f6519f1b.jpg: 384x640 1 red_cube, 36.4ms
+image 478/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0478_d1e09b6c.jpg: 384x640 1 red_cube, 36.4ms
+image 479/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0479_14c3bafd.jpg: 384x640 1 red_cube, 36.4ms
+image 480/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0480_d6629eb4.jpg: 384x640 1 red_cube, 36.4ms
+image 481/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0481_0ec1994e.jpg: 384x640 1 red_cube, 39.1ms
+image 482/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0482_0dfca676.jpg: 384x640 1 red_cube, 39.1ms
+image 483/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0483_cc284350.jpg: 384x640 1 red_cube, 39.1ms
+image 484/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0484_390c862e.jpg: 384x640 1 red_cube, 39.1ms
+image 485/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0485_77a91725.jpg: 384x640 1 red_cube, 39.1ms
+image 486/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0486_eb4d2bfb.jpg: 384x640 1 red_cube, 39.1ms
+image 487/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0487_71ea2e92.jpg: 384x640 1 red_cube, 39.1ms
+image 488/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0488_dae41133.jpg: 384x640 1 red_cube, 39.1ms
+image 489/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0489_fc15beee.jpg: 384x640 1 red_cube, 41.0ms
+image 490/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0490_c4b23b04.jpg: 384x640 1 red_cube, 41.0ms
+image 491/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0491_510cca3f.jpg: 384x640 1 red_cube, 41.0ms
+image 492/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0492_ef338988.jpg: 384x640 1 red_cube, 41.0ms
+image 493/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0493_734da9b4.jpg: 384x640 1 red_cube, 41.0ms
+image 494/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0494_dbd4a9f1.jpg: 384x640 1 red_cube, 41.0ms
+image 495/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0495_1713dfbd.jpg: 384x640 1 red_cube, 41.0ms
+image 496/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0496_2f6a8d0d.jpg: 384x640 1 red_cube, 41.0ms
+image 497/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0497_a7b96e08.jpg: 384x640 1 red_cube, 38.1ms
+image 498/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0498_daf6988e.jpg: 384x640 1 red_cube, 38.1ms
+image 499/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0499_3473ff25.jpg: 384x640 1 red_cube, 38.1ms
+image 500/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0500_2cc134ab.jpg: 384x640 1 red_cube, 38.1ms
+image 501/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0501_af5f9dc5.jpg: 384x640 1 red_cube, 38.1ms
+image 502/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0502_d415aa7a.jpg: 384x640 1 red_cube, 38.1ms
+image 503/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0503_ca3805e3.jpg: 384x640 1 red_cube, 38.1ms
+image 504/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0504_40aba587.jpg: 384x640 1 red_cube, 38.1ms
+image 505/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0505_59378d69.jpg: 384x640 1 red_cube, 32.6ms
+image 506/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0506_16806a44.jpg: 384x640 1 red_cube, 32.6ms
+image 507/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0507_bb4332eb.jpg: 384x640 1 red_cube, 32.6ms
+image 508/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0508_5130089e.jpg: 384x640 1 red_cube, 32.6ms
+image 509/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0509_4da37172.jpg: 384x640 1 red_cube, 32.6ms
+image 510/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0510_4f439542.jpg: 384x640 1 red_cube, 32.6ms
+image 511/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0511_695b428a.jpg: 384x640 1 red_cube, 32.6ms
+image 512/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0512_1df05a9c.jpg: 384x640 1 red_cube, 32.6ms
+image 513/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0513_34f68a17.jpg: 384x640 1 red_cube, 29.3ms
+image 514/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0514_d673033b.jpg: 384x640 1 red_cube, 29.3ms
+image 515/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0515_f98102fd.jpg: 384x640 1 red_cube, 29.3ms
+image 516/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0516_9c312809.jpg: 384x640 1 red_cube, 29.3ms
+image 517/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0517_b2fab463.jpg: 384x640 1 red_cube, 29.3ms
+image 518/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0518_21d6236c.jpg: 384x640 (no detections), 29.3ms
+image 519/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0519_c0662de6.jpg: 384x640 (no detections), 29.3ms
+image 520/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0520_dc0507aa.jpg: 384x640 (no detections), 29.3ms
+image 521/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0521_74df35ab.jpg: 384x640 (no detections), 41.7ms
+image 522/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0522_667a754d.jpg: 384x640 (no detections), 41.7ms
+image 523/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0523_68125aec.jpg: 384x640 (no detections), 41.7ms
+image 524/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0524_9e456f39.jpg: 384x640 (no detections), 41.7ms
+image 525/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0525_a56899d0.jpg: 384x640 (no detections), 41.7ms
+image 526/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0526_a43fa8e5.jpg: 384x640 (no detections), 41.7ms
+image 527/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0527_6a2cd818.jpg: 384x640 (no detections), 41.7ms
+image 528/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0528_f69c1d3c.jpg: 384x640 (no detections), 41.7ms
+image 529/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0529_7f234cf7.jpg: 384x640 (no detections), 48.4ms
+image 530/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0530_4ba5feb0.jpg: 384x640 (no detections), 48.4ms
+image 531/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0531_7505e9c7.jpg: 384x640 (no detections), 48.4ms
+image 532/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0532_3cb70482.jpg: 384x640 (no detections), 48.4ms
+image 533/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0533_aa3f79c9.jpg: 384x640 (no detections), 48.4ms
+image 534/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0534_b0f34d29.jpg: 384x640 (no detections), 48.4ms
+image 535/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0535_5e90223a.jpg: 384x640 (no detections), 48.4ms
+image 536/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0536_c39d6b95.jpg: 384x640 (no detections), 48.4ms
+image 537/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0537_4daac1db.jpg: 384x640 (no detections), 50.5ms
+image 538/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0538_73ffa1a9.jpg: 384x640 (no detections), 50.5ms
+image 539/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0539_e5f0ec76.jpg: 384x640 (no detections), 50.5ms
+image 540/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0540_2fbf2a53.jpg: 384x640 (no detections), 50.5ms
+image 541/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0541_2ff0302f.jpg: 384x640 (no detections), 50.5ms
+image 542/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0542_6c999df2.jpg: 384x640 (no detections), 50.5ms
+image 543/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0543_9dfcc232.jpg: 384x640 (no detections), 50.5ms
+image 544/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0544_ccd201ae.jpg: 384x640 (no detections), 50.5ms
+image 545/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0545_03db8342.jpg: 384x640 (no detections), 33.8ms
+image 546/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0546_74f1993c.jpg: 384x640 (no detections), 33.8ms
+image 547/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0547_ec680a58.jpg: 384x640 (no detections), 33.8ms
+image 548/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0548_458e1782.jpg: 384x640 (no detections), 33.8ms
+image 549/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0549_9c686ba5.jpg: 384x640 (no detections), 33.8ms
+image 550/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0550_d1f0af61.jpg: 384x640 (no detections), 33.8ms
+image 551/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0551_04c067fe.jpg: 384x640 (no detections), 33.8ms
+image 552/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0552_d26c26e5.jpg: 384x640 (no detections), 33.8ms
+image 553/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0553_afd6f161.jpg: 384x640 (no detections), 34.1ms
+image 554/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0554_915d060e.jpg: 384x640 (no detections), 34.1ms
+image 555/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0555_801421df.jpg: 384x640 (no detections), 34.1ms
+image 556/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0556_62c621c5.jpg: 384x640 (no detections), 34.1ms
+image 557/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0557_ce5ba19e.jpg: 384x640 (no detections), 34.1ms
+image 558/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0558_8e375212.jpg: 384x640 (no detections), 34.1ms
+image 559/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0559_e98d4fd5.jpg: 384x640 (no detections), 34.1ms
+image 560/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0560_afd4dd0c.jpg: 384x640 (no detections), 34.1ms
+image 561/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0561_44602fa1.jpg: 384x640 1 red_cube, 42.5ms
+image 562/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0562_582fccbc.jpg: 384x640 1 red_cube, 42.5ms
+image 563/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0563_0089299f.jpg: 384x640 1 red_cube, 42.5ms
+image 564/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0564_efdc772b.jpg: 384x640 1 red_cube, 42.5ms
+image 565/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0565_3adbcba4.jpg: 384x640 1 red_cube, 42.5ms
+image 566/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0566_bfbd28b7.jpg: 384x640 1 red_cube, 42.5ms
+image 567/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0567_0ae51b3b.jpg: 384x640 1 red_cube, 42.5ms
+image 568/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0568_743d2409.jpg: 384x640 1 red_cube, 42.5ms
+image 569/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0569_2a42b920.jpg: 384x640 1 red_cube, 56.2ms
+image 570/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0570_19039874.jpg: 384x640 1 red_cube, 56.2ms
+image 571/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0571_1261488f.jpg: 384x640 1 red_cube, 56.2ms
+image 572/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0572_aeefea7e.jpg: 384x640 1 red_cube, 56.2ms
+image 573/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0573_bc53096c.jpg: 384x640 1 red_cube, 56.2ms
+image 574/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0574_c6438584.jpg: 384x640 1 red_cube, 56.2ms
+image 575/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0575_fe0bc642.jpg: 384x640 1 red_cube, 56.2ms
+image 576/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0576_a8b08033.jpg: 384x640 1 red_cube, 56.2ms
+image 577/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0577_6bfca6ca.jpg: 384x640 1 red_cube, 28.2ms
+image 578/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0578_c8bf28bf.jpg: 384x640 1 red_cube, 28.2ms
+image 579/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0579_55d89bd7.jpg: 384x640 1 red_cube, 28.2ms
+image 580/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0580_e0cd0304.jpg: 384x640 1 red_cube, 28.2ms
+image 581/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0581_b526bb04.jpg: 384x640 1 red_cube, 28.2ms
+image 582/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0582_52be485f.jpg: 384x640 (no detections), 28.2ms
+image 583/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0583_26c09bff.jpg: 384x640 (no detections), 28.2ms
+image 584/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0584_5bb25156.jpg: 384x640 (no detections), 28.2ms
+image 585/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0585_1cea6fd4.jpg: 384x640 (no detections), 49.1ms
+image 586/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0586_d80d3282.jpg: 384x640 (no detections), 49.1ms
+image 587/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0587_471e437b.jpg: 384x640 (no detections), 49.1ms
+image 588/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0588_d8bc0c96.jpg: 384x640 (no detections), 49.1ms
+image 589/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0589_ddcbcdd8.jpg: 384x640 (no detections), 49.1ms
+image 590/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0590_7f8a99c6.jpg: 384x640 (no detections), 49.1ms
+image 591/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0591_67024087.jpg: 384x640 (no detections), 49.1ms
+image 592/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0592_73011c23.jpg: 384x640 (no detections), 49.1ms
+image 593/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0593_45e5ad17.jpg: 384x640 (no detections), 46.6ms
+image 594/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0594_6f127167.jpg: 384x640 (no detections), 46.6ms
+image 595/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0595_2702edfb.jpg: 384x640 (no detections), 46.6ms
+image 596/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0596_3116dfb5.jpg: 384x640 (no detections), 46.6ms
+image 597/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0597_532ede40.jpg: 384x640 (no detections), 46.6ms
+image 598/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0598_b375c74e.jpg: 384x640 (no detections), 46.6ms
+image 599/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0599_a53fffd1.jpg: 384x640 (no detections), 46.6ms
+image 600/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0600_1dc109e2.jpg: 384x640 (no detections), 46.6ms
+image 601/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0601_f729502f.jpg: 384x640 (no detections), 56.6ms
+image 602/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0602_ea081443.jpg: 384x640 (no detections), 56.6ms
+image 603/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0603_354d5bdb.jpg: 384x640 (no detections), 56.6ms
+image 604/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0604_a478dbfd.jpg: 384x640 (no detections), 56.6ms
+image 605/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0605_e81dc2f0.jpg: 384x640 (no detections), 56.6ms
+image 606/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0606_3baf553f.jpg: 384x640 (no detections), 56.6ms
+image 607/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0607_4d9697e5.jpg: 384x640 (no detections), 56.6ms
+image 608/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0608_8e874ca2.jpg: 384x640 (no detections), 56.6ms
+image 609/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0609_83a10019.jpg: 384x640 (no detections), 52.4ms
+image 610/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0610_7cda93a5.jpg: 384x640 (no detections), 52.4ms
+image 611/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0611_dc6d7a0a.jpg: 384x640 (no detections), 52.4ms
+image 612/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0612_617ed6b6.jpg: 384x640 (no detections), 52.4ms
+image 613/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0613_ef443450.jpg: 384x640 (no detections), 52.4ms
+image 614/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0614_feb88457.jpg: 384x640 (no detections), 52.4ms
+image 615/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0615_c2ba15a0.jpg: 384x640 (no detections), 52.4ms
+image 616/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0616_795178f5.jpg: 384x640 (no detections), 52.4ms
+image 617/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0617_f5057d7c.jpg: 384x640 (no detections), 59.5ms
+image 618/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0618_87711037.jpg: 384x640 (no detections), 59.5ms
+image 619/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0619_85d84585.jpg: 384x640 (no detections), 59.5ms
+image 620/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0620_75929fb4.jpg: 384x640 (no detections), 59.5ms
+image 621/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0621_482aeebd.jpg: 384x640 (no detections), 59.5ms
+image 622/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0622_ed6219fe.jpg: 384x640 (no detections), 59.5ms
+image 623/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0623_d1f960dc.jpg: 384x640 (no detections), 59.5ms
+image 624/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0624_ac5b9155.jpg: 384x640 (no detections), 59.5ms
+image 625/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0625_1cbeef7f.jpg: 384x640 (no detections), 42.6ms
+image 626/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0626_5481fa14.jpg: 384x640 (no detections), 42.6ms
+image 627/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0627_5c54be02.jpg: 384x640 (no detections), 42.6ms
+image 628/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0628_42f35268.jpg: 384x640 (no detections), 42.6ms
+image 629/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0629_32878b16.jpg: 384x640 (no detections), 42.6ms
+image 630/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0630_5fc767cf.jpg: 384x640 (no detections), 42.6ms
+image 631/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0631_e8b50902.jpg: 384x640 (no detections), 42.6ms
+image 632/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0632_d264b3a8.jpg: 384x640 (no detections), 42.6ms
+image 633/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0633_ecdf93c9.jpg: 384x640 (no detections), 38.8ms
+image 634/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0634_f72858ff.jpg: 384x640 (no detections), 38.8ms
+image 635/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0635_b724a82d.jpg: 384x640 (no detections), 38.8ms
+image 636/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0636_27f858d7.jpg: 384x640 (no detections), 38.8ms
+image 637/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0637_fac0d0ca.jpg: 384x640 (no detections), 38.8ms
+image 638/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0638_ff9567f7.jpg: 384x640 (no detections), 38.8ms
+image 639/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0639_99d26c18.jpg: 384x640 (no detections), 38.8ms
+image 640/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0640_49ae2b67.jpg: 384x640 (no detections), 38.8ms
+image 641/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0641_61ad406c.jpg: 384x640 (no detections), 37.7ms
+image 642/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0642_341a88ad.jpg: 384x640 (no detections), 37.7ms
+image 643/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0643_99868684.jpg: 384x640 (no detections), 37.7ms
+image 644/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0644_0ac65bf9.jpg: 384x640 (no detections), 37.7ms
+image 645/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0645_6e2249b9.jpg: 384x640 (no detections), 37.7ms
+image 646/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0646_f38984ab.jpg: 384x640 (no detections), 37.7ms
+image 647/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0647_b292ed02.jpg: 384x640 (no detections), 37.7ms
+image 648/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0648_0d6c85d7.jpg: 384x640 (no detections), 37.7ms
+image 649/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0649_c8e7df05.jpg: 384x640 (no detections), 77.7ms
+image 650/650 /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/images/all/manual_0650_75fcf92d.jpg: 384x640 (no detections), 77.7ms
+Speed: 1.3ms preprocess, 40.5ms inference, 0.3ms postprocess per image at shape (8, 3, 384, 640)
+Results saved to [1m/home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/prediction_output[0m
+536 labels saved to /home/ros/robot_ws/datasets/user_cube_dataset/manual_650_prelabel_20260815_145148/prediction_output/labels
+💡 Learn more at https://docs.ultralytics.com/modes/predict

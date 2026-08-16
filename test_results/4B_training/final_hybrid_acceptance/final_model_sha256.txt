@@ -1,0 +1,1 @@
+fbb67587228a1ca5cf8617422792f07a20de8c4ba3369e96a4300d1cec4024b6  /home/ros/robot_ws/models/final/red_blue_yolo11n_manual180_960_best.pt

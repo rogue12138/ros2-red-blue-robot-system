@@ -1,0 +1,13 @@
+std_msgs/Header header
+string task_id
+string state
+string detail
+int32 current_step
+int32 total_steps
+string current_color
+string current_destination
+int32 step_completed
+int32 step_total
+int32 total_completed
+int32 total_target
+bool success

@@ -1,0 +1,62 @@
+header:
+  stamp:
+    sec: 1786880327
+    nanosec: 565478034
+  frame_id: camera_color_optical_frame
+detections:
+- class_name: blue_cube
+  confidence: 0.9892058372497559
+  x_min: 61
+  y_min: 177
+  x_max: 153
+  y_max: 269
+  has_position: false
+  position:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+- class_name: blue_cube
+  confidence: 0.9876564741134644
+  x_min: 179
+  y_min: 243
+  x_max: 270
+  y_max: 334
+  has_position: false
+  position:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+- class_name: blue_cube
+  confidence: 0.9814850091934204
+  x_min: 220
+  y_min: 402
+  x_max: 277
+  y_max: 459
+  has_position: false
+  position:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+- class_name: blue_cube
+  confidence: 0.9895510077476501
+  x_min: 273
+  y_min: 337
+  x_max: 360
+  y_max: 424
+  has_position: false
+  position:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+- class_name: blue_cube
+  confidence: 0.9838712215423584
+  x_min: 409
+  y_min: 351
+  x_max: 493
+  y_max: 435
+  has_position: false
+  position:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+---
